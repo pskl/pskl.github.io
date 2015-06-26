@@ -75,7 +75,7 @@ server {
 {% endhighlight %}
 
 
-{% highlight bash}
+{% highlight bash %}
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -150,7 +150,7 @@ case $1 in
     ;;
 esac
 
-{% endhighlight }
+{% endhighlight %}
 
 Article heavily inspired by [a tutorial from Digital Ocean][do-tutorial]
 
