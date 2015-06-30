@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Migrating from AWS ElasticBeanstalk to Digital Ocean droplets"
+date:   2015-06-26 15:15:26
+categories: jekyll update
+---
+Start from scratch : work your way up
