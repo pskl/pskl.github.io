@@ -1,6 +1,5 @@
 # Site settings
 title: Devblog
-email: pascal.lamouric@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Tech stuff and others
 baseurl: "" # the subpath of your site, e.g. /blog/
