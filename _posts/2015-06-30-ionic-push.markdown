@@ -16,9 +16,12 @@ The documentation is fine but for some reason I coudln't get any device to regis
 
 #[Urban Airship][urban-airship]
 
-This one is one of the competitors to pushwoosh.
+This one is one of the biggest competitors to pushwoosh. Their documentation seemed to be torough but the implementation implied a lot of reading and a bit too much code. I gave up on this one because I wanted a more lightweight solution.
 
 #[Parse][parse]
+Parse belongs to Facebook and aims at replacing your backend needs by their lightweight service.
+
+Pros and cons
 
 - :white_check_mark: Ultra easy
 - :white_check_mark: lightweight as fuck
@@ -30,6 +33,7 @@ You can find the cordova plugin [here][cordova_plugin]
 You can find the full Parse JS SDK [here][js_sdk]
 
 So you need both libraries in your project in order to have a fully functioning app with pushes.
+The implementation of those libraries is virtually effortless.
 
 
 {% highlight coffeescript %}
