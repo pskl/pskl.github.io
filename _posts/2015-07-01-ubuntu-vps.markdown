@@ -18,7 +18,7 @@ In this quick guide I'll give you some basic instructions to prepare the environ
 - `exit`
 
 - before installing new software on this brand new shining Ubuntu let's update our package index : `sudo apt-get update`
-- install RVM to install your Ruby environment : 
+- install RVM to install your Ruby environment :
   - `gpg --keyserver hkp://keys.gnupg.net --recv-keys 409B6B1796C275462A1703113804BB82D39DC0E3`
   - `\curl -sSL https://get.rvm.io | bash -s stable`
 
