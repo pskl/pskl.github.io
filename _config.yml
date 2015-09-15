@@ -2,7 +2,7 @@
 title: "Bananas and potatoes"
 description: > # this means to ignore newlines until "baseurl:"
   mostly tech schnaps
-baseurl: /blog/ # the subpath of your site, e.g. /blog/
+baseurl: "/blog" # the subpath of your site, e.g. /blog/
 url: http://pascal.cc # the base hostname & protocol for your site
 twitter_username: fullstache
 github_username:  pskl
