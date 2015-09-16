@@ -36,7 +36,7 @@ So you need both libraries in your project in order to have a fully functioning 
 The implementation of those libraries is virtually effortless.
 
 
-{% highlight coffeescript %}
+{% highlight coffeescript  linenos %}
 class Parsepush extends Service
 
   constructor: ($q, raccoonConfig, $rootScope, rapitalksService) ->

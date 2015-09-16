@@ -37,7 +37,7 @@ In this quick guide I'll give you some basic instructions to prepare the environ
 
 Nginx config file :
 
-{% highlight c %}
+{% highlight nginx %}
 
 upstream app {
     # Path to Unicorn SOCK file, as defined previously
