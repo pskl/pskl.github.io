@@ -1,16 +1,15 @@
 # Site settings
-title: "Bananas and potatoes"
-description: mostly tech schnaps
+title: Mint
+description: "mostly tech schnaps"
 baseurl: "/blog"
-url: http://pascal.cc
+url: "http://pascal.cc"
 twitter_username: fullstache
 github_username:  pskl
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
+highlighter: pygments
 
 # Ruby gems
 gems:
   - jemoji
-  - rouge
