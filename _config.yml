@@ -1,7 +1,7 @@
 # Site settings
-title: Mint
-description: "mostly tech schnaps"
-baseurl: "/blog"
+title: "PSKL"
+description: "stuff"
+baseurl: ""
 url: "http://pascal.cc"
 twitter_username: fullstache
 github_username:  pskl
