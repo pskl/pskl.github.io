@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Migrating a Rails app from AWS ElasticBeanstalk to Digital Ocean droplets"
-date:   2015-06-26 15:15:26
+date:   2015-06-27 15:15:26
 categories: jekyll update
 ---
 

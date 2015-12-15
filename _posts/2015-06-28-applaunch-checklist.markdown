@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Ionic app launch checklist"
-date:   2015-06-26 15:15:26
+date:   2015-06-25 15:15:26
 categories: jekyll update
 ---
 
