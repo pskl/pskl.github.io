@@ -3,7 +3,6 @@
     .site-header {
         min-height: 450px;
         background-color: $brand-color;
-        background-image: url('../assets/img/dune.jpg');
         background-size: cover;
         background-position: center -170px;
         background-attachment: fixed;
@@ -12,6 +11,11 @@
             min-height: 250px;
             background-position: center -250px;
         }
+    }
+
+    .visualisation {
+        max-height: 450px;
+        width: 100%;
     }
 
     .site-header a, a h1:hover {color: #FFF};
@@ -25,7 +29,10 @@
         padding-top: 20px;
         clear: both;
         text-transform: uppercase;
-        font-family: 'Open Sans';
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 10%;
 
         @include media-query($on-palm) {
             font-size:60px !important;
@@ -38,6 +45,7 @@
         padding: 0.3em 0.5em;
         margin: 10px 20px;
         display: inline-block;
+        z-index: 2;
 
         @include media-query($on-palm) {
             margin: 10px 10px;
@@ -50,6 +58,8 @@
         line-height: 56px;
         margin-right: 25px;
         padding-bottom: 100px;
+        position: absolute;
+        right: 0;
 
         .page-link {
             line-height: $base-line-height;
