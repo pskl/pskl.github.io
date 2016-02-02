@@ -10,15 +10,18 @@ So we decided to go with Ionic and started to look for solutions to implement pu
 
 So a quick look on Google gave me a few options.
 
-#[Pushwoosh Experience][pw]
+[Pushwoosh][pw]
+-
 
 The documentation is fine but for some reason I coudln't get any device to register even though the procedure is fairly basic.
 
-#[Urban Airship][urban-airship]
+[Urban Airship][urban-airship]
+-
 
 This one is one of the biggest competitors to pushwoosh. Their documentation seemed to be torough but the implementation implied a lot of reading and a bit too much code. I gave up on this one because I wanted a more lightweight solution.
 
-#[Parse][parse]
+[Parse][parse]
+-
 Parse belongs to Facebook and aims at replacing your backend needs by their lightweight service.
 
 Pros and cons
@@ -36,12 +39,14 @@ So you need both libraries in your project in order to have a fully functioning 
 The implementation of those libraries is virtually effortless.
 
 
-{% highlight coffeescript  linenos %}
+``` coffeescript
+
 class Parsepush extends Service
 
   constructor: ($q, raccoonConfig, $rootScope, rapitalksService) ->
-    # Parse JS SDK doesnt handle push receiving so
-    # we use a cordova plugin for that
+
+    # Parse JS SDK doesnt handle push receiving (yet)
+    # Hence the use of a cordova plugin for that matter
 
     @init = ->
       @initCordovaPlugin().then( =>
@@ -91,10 +96,11 @@ class Parsepush extends Service
           reject console.log 'error'
           return
 
-{% endhighlight %}
+```
 
 :raised_hands:
 
+And now a quick note on push notifications in general :
 
 > Indeed, far from being useful, many (if not most), push notifications actually harm us, hooking us on our own dopamine and making us less present and aware of the moments of life passing us by. [Source][apple-watch]
 
