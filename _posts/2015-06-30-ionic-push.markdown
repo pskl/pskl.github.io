@@ -104,6 +104,8 @@ And now a quick note on push notifications in general :
 
 > Indeed, far from being useful, many (if not most), push notifications actually harm us, hooking us on our own dopamine and making us less present and aware of the moments of life passing us by. [Source][apple-watch]
 
+UPDATE: as of February 2016 it seems Parse has stopped its services but you can bounce back on good alternatives either by using [Firebase][firebase] or hosting your own [Parse server][parse-server], courtesy of the Parse team.
+
 [urban-airship]: http://urbanairship.com/
 [apple-watch]: http://techcrunch.com/2015/04/25/the-apple-watch-can-be-a-sixth-sense/?ncid=rss#.6pznpr:euWA
 [parse]: https://www.parse.com/
@@ -111,3 +113,5 @@ And now a quick note on push notifications in general :
 [cordova_plugin]: https://github.com/benjie/phonegap-parse-plugin
 [js_sdk]: https://parse.com/docs/js/guide
 [achieved]: https://achieved.co
+[firebase]: https://www.producthunt.com/tech/firebase-batch
+[parse-server]:https://github.com/ParsePlatform/parse-server?ref=producthunt
