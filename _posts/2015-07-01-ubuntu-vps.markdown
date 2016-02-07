@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How to set up Ubuntu VPS for a Rails app using Unicorn and Nginx ?"
+title:  "How to set up Ubuntu VPS for a Rails app using Unicorn and Nginx?"
 date:   2015-06-15 15:15:26
 categories: jekyll update
 ---
@@ -37,7 +37,7 @@ In this quick guide I'll give you some basic instructions to prepare the environ
 
 Nginx config file :
 
-{% highlight nginx %}
+``` nginx
 
 upstream app {
     # Path to Unicorn SOCK file, as defined previously
@@ -81,7 +81,7 @@ server {
       keepalive_timeout 10;
 }
 
-{% endhighlight %}
+```
 
 
 In order to automate the launch of Unicorn when your droplet boots up, we need to create a script that will take care of that :
@@ -89,7 +89,7 @@ In order to automate the launch of Unicorn when your droplet boots up, we need t
 - `sudo vi /etc/init.d/unicorn_appname`
 - copy and paste the following piece of code
 
-{% highlight bash %}
+``` bash
 #!/bin/sh
 
 ### BEGIN INIT INFO
@@ -98,7 +98,7 @@ In order to automate the launch of Unicorn when your droplet boots up, we need t
 # Required-Stop:     $all
 # Default-Start:     2 3 4 5
 # Default-Stop:      0 1 6
-# Short-Description: starts the unicorn app server
+# Short-Descripti on: starts the unicorn app server
 # Description:       starts unicorn using start-stop-daemon
 ### END INIT INFO
 
@@ -164,7 +164,7 @@ case $1 in
     ;;
 esac
 
-{% endhighlight %}
+```
 
 Update the script permission so as to allow Unicorn to be launched on startup :
 
@@ -176,6 +176,8 @@ Update the script permission so as to allow Unicorn to be launched on startup :
 
 Congratulations :dart:, that was it ! Now if you need to have a development server alongside your production server you can just clone the whole droplet by making a snapshot of your system in the Digital Ocean panel and then create a new droplet using said snapshot.
 
+One thing I realized after spending some time setting this up manually is that you can also use automation tools like [Ansible][ansible] or [Chef][chef].
+
 Article heavily inspired by [a tutorial from Digital Ocean][do-tutorial]
 
 [jekyll]:      http://jekyllrb.com
@@ -184,3 +186,5 @@ Article heavily inspired by [a tutorial from Digital Ocean][do-tutorial]
 [jekyll-help]: https://github.com/jekyll/jekyll-help
 [do-tutorial]: https://www.digitalocean.com/community/tutorials/how-to-deploy-a-rails-app-with-unicorn-and-nginx-on-ubuntu-14-04
 [ssh]: https://help.github.com/articles/generating-ssh-keys/
+[ansible]: http://www.ansible.com/
+[chef]: https://www.chef.io/chef/

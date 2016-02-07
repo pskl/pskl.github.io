@@ -18,11 +18,22 @@
         width: 100%;
     }
 
-    .site-header a, a h1:hover {color: #FFF};
+    a.site-title {
+      color: rgba(248, 201, 255, 0.5);
+    }
+
+    // .site-header a, a h1:hover {
+    //   color: rgba(255, 255, 255, 1);
+    // }
+
+    a.page-link {
+      color: rgba(255, 255, 255, 1);
+    }
+
 
     .site-header h1 {
         display: block;
-        font-size: 80px !important;
+        font-size: 120px !important;
         line-height: 80px;
         letter-spacing: 3px;
         text-align: center;
@@ -31,8 +42,8 @@
         text-transform: uppercase;
         position: absolute;
         left: 0;
-        right: 0;
-        top: 10%;
+        top: 0;
+        color: rgba(248, 201, 255, 0.5);
 
         @include media-query($on-palm) {
             font-size:60px !important;
@@ -40,8 +51,16 @@
         }
     }
 
+    .site-header h1:after {
+    	content: "PSKL";
+    	position: absolute;
+      left: 70px;
+      top: 60px;
+    	color: rgba(255,255,255,1);
+    }
+
     .site-header span {
-        border: 10px solid #FFF;
+        // border: 10px solid #FFF;
         padding: 0.3em 0.5em;
         margin: 10px 20px;
         display: inline-block;
@@ -132,7 +151,7 @@
 
     .post-meta {
         font-size: $small-font-size;
-        color: $grey-color-light;
+        color: $brand-color;
         text-transform: uppercase;
         display: inline-block;
     }
