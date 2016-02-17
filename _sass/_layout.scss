@@ -10,6 +10,7 @@
         @include media-query($on-palm) {
             min-height: 250px;
             background-position: center -250px;
+            display: none;
         }
     }
 
@@ -20,16 +21,12 @@
 
     a.site-title {
       color: rgba(248, 201, 255, 0.5);
+      z-index: 99;
     }
-
-    // .site-header a, a h1:hover {
-    //   color: rgba(255, 255, 255, 1);
-    // }
 
     a.page-link {
       color: rgba(255, 255, 255, 1);
     }
-
 
     .site-header h1 {
         display: block;
@@ -51,16 +48,16 @@
         }
     }
 
-    .site-header h1:after {
-    	content: "PSKL";
-    	position: absolute;
-      left: 70px;
-      top: 60px;
-    	color: rgba(255,255,255,1);
-    }
+      .site-header a:after {
+      	content: "PSKL";
+      	position: absolute;
+        left: 70px;
+        top: 60px;
+      	color: rgba(255,255,255,1);
+        z-index: 0;
+      }
 
     .site-header span {
-        // border: 10px solid #FFF;
         padding: 0.3em 0.5em;
         margin: 10px 20px;
         display: inline-block;
