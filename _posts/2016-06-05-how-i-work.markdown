@@ -1,0 +1,106 @@
+---
+layout: post
+title:  "Tools and workflow"
+date:   2016-06-05 15:15:26
+categories: jekyll update
+---
+# Tools and workflow
+
+In this article I will try to detail a bit the choices I made in terms of work tools and procedures. Those apply to either a pro activity or hobby. Every opinion expressed here is just an opinion, don't go on a crusade for that. Any valuable input is greatly appreciated
+
+## Text editor
+
+The battle for editor is still raging and many of the contestants have some very strong arguments. Here is an overview of the editors I tried so far:
+
+ - VIM
+
+the oldschool choice for purists and minimalists. It offers the best typing experience one can ask for. This editor is ubiquitous, it's installed natively on most Linux/UNIX based servers/personal computers thus making it a really safe choice. It requires dedication over time and a willingness to lose productivity temporarily. Also it is the opposite of an [Omakase]() editor: it comes out barebones and one needs to furnish it with a shit-ton of plugins to do even the simple things. One could say its like the [npm] of text editors but that would be quite a stretch.
+
+:white_check_mark: Nerd cred ++, powerfullest, everywhere
+
+:no_entry_sign: Balls hard to master, kinda weird
+
+- Emacs
+
+is a sibling of VIM. Has a lot of similar good sides but is not as ubiquitous as far as I know.
+
+:no_entry_sign: Not ubiquitous
+
+- Nano
+
+is a noob-friendly barebones editor which comes with many UNIX systems.
+
+:white_check_mark: Neat name
+
+:no_entry_sign: Feature set very limited
+
+- Sublime Text
+
+used to be the gold standard of user-friendly text editors because it offers right out of the box a very good typing experience with helpful shortcuts and a clean UI.
+Sublime Text is written in C++ which makes it pretty fast and reliable. Think of this editor as the father of Atom. The Sublime ecosystem is mature and has a lot of good plugins. It is not as customizable as Atom though.
+
+:white_check_mark: Fast, simple, kinda noob friendly
+
+:no_entry_sign: Not free
+
+- Atom
+
+the latest contestant on the market and the brainchild of Github. It took all the right elements of Sublime Text and improved some of those. It feels fresher, comes with a lot of good plugins right-out-the-box and is fully customizable. Keep in mind that Atom is a bit slow on older hardware and can choke like a bitch on large files.
+
+:white_check_mark: Noob friendly, cool, slick, free
+
+:no_entry_sign: Sometimes slow
+
+Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
+
+## Color scheme
+
+I use solarized wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that the majority of developers find that dark themes are better for long term use of a computer screen. In addition to that I use [F.lux]() a color adjusting software that changes the temperature of the display over the course of a day.
+
+## Terminal
+
+How good is the default Terminal.app from OSX ?
+Well pretty good but iTerm is definitely better on the following aspects :
+- ability to split panes as much as you want
+- text search within the Terminal
+
+## Shell
+
+The most ubiquitous shell is obviously Bash. It's everywhere and offers a lot of things right out of the box.
+But the thing is that Bash is pretty outdated technology and is missing a lot of improvements compared to his cousins like zsh, fish, etc...
+
+To me the best alternative to Bash right now is Zsh which stays close to Bash but brings a lot of improvements.
+
+To further bring out the good sides and have a good out-of-the-box experience I highly suggest using [Oh-my-zsh]() which brings UI improvements and easy customization. (see [my .zshrc]()).
+
+[This is]({{ site.url}}/assets/screen-view.png) what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells is convenient.
+
+## Lean approach
+
+I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Just fucking make it and then adjust your shot.
+
+This is how 99% of side projects die in the wilderness:
+- you're talking with a friend at a coffeeshop :coffee: or in a bar :beer:
+- you have a great idea
+- you get excited :tada:
+- you start seeing in your mind how great it could become
+- you start making sketches
+- you start planning features
+- you see the insane potential of this things
+- you start thinking too big and too distant :telescope:
+- you leave the coffeeshop the mind full of stars and extremely pumped (same for your buddy) :star:
+- life goes on :walking:
+- the thing you planned is too complicated even on first step
+- you never do it or postpone so called 'project sessions'
+- you don't see results hence the willingness to achieve it dies off
+- your friend experiences the same feelings and gets bored
+- 1 month passes
+- project status: :skull:
+
+Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away.
+
+## Conclusion
+
+Use VIM if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most projects. Get your hands dirty, fucking do it. Don't think too much. Do whatever the fuck you wanna do.
+
+# PS: Use linters and specs, ty :hear_no_evil:
