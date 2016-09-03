@@ -1,6 +1,0 @@
----
-layout: post
-title:  "Wot is 'Internet Domains'"
-date:   2015-06-15 15:15:26
-categories: jekyll update
----
