@@ -2,6 +2,7 @@
 layout: post
 title:  "Tools and workflow"
 date:   2016-06-05 15:15:26
+published: true
 categories: jekyll update
 ---
 # Tools and workflow

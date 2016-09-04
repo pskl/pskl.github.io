@@ -2,6 +2,7 @@
 layout: post
 title:  "Easiest way to set up push notifications in an Ionic app"
 date:   2015-06-20 15:15:26
+published: true
 categories: jekyll update
 ---
 Whenever you want to implement push notifications in your app there are multiple solutions.

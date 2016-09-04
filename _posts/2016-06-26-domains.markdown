@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "Domains and DNS"
+date:   2015-06-26 15:15:26
+published: false
+categories: jekyll update
+---

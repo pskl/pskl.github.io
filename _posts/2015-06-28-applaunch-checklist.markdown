@@ -2,6 +2,7 @@
 layout: post
 title:  "Ionic app launch checklist"
 date:   2015-06-25 15:15:26
+published: true
 categories: jekyll update
 ---
 
@@ -54,7 +55,3 @@ And that's it overall, now next time you need to upload a new build start over f
 [tsa-flag]: http://stackoverflow.com/questions/21695520/tsa-or-tsacert-timestamp-for-applet-jar-self-signed
 [ionic]: http://ionicframework.com/docs/guide/publishing.html
 [brunch]: http://brunch.io
-
-
-
-
