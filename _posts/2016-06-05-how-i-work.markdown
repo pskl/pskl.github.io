@@ -10,9 +10,9 @@ In this article I will try to detail a bit the choices I made in terms of work t
 
 ## Text editor
 
-The battle for editor is still raging and many of the contestants have some very strong arguments. Here is an overview of the editors I tried so far:
+The battle for the best editor is still raging and many of the contestants have some very strong arguments. Here is an overview of the editors I tried so far:
 
- - [VIM](http://www.vim.org/)
+ - **[VIM](http://www.vim.org/)**
 
 >the oldschool choice for purists and minimalists. It offers the best typing experience one can ask for. This editor is ubiquitous, it's installed natively on most Linux/UNIX based servers/personal computers thus making it a really safe choice. It requires dedication over time and a willingness to lose productivity temporarily. Also it is the opposite of an [Omakase](https://en.wikipedia.org/wiki/Omakase) editor: it comes out barebones and one needs to furnish it with a shit-ton of plugins to do even the simple things. One could say its like the [npm](https://www.npmjs.com/) of text editors but that would be quite a stretch.
 
@@ -20,13 +20,13 @@ The battle for editor is still raging and many of the contestants have some very
 
 :no_entry_sign: Balls hard to master, kinda weird, [RSI](https://en.wikipedia.org/wiki/Repetitive_strain_injury)
 
-- [Emacs](https://www.gnu.org/software/emacs/)
+- **[Emacs](https://www.gnu.org/software/emacs/)**
 
 >is a sibling of VIM. Has a lot of similar good sides but is not as ubiquitous as far as I know.
 
 :no_entry_sign: Not ubiquitous
 
-- [Nano](https://www.nano-editor.org/)
+- **[Nano](https://www.nano-editor.org/)**
 
 >is a noob-friendly barebones editor which comes with many UNIX systems.
 
@@ -34,7 +34,7 @@ The battle for editor is still raging and many of the contestants have some very
 
 :no_entry_sign: Feature set very limited, cool factor ~ 0 %
 
-- [Sublime Text](https://www.sublimetext.com/)
+- **[Sublime Text](https://www.sublimetext.com/)**
 
 >used to be the gold standard of user-friendly text editors because it offers right out of the box a very good typing experience with helpful shortcuts and a clean UI.
 Sublime Text is written in C++ which makes it pretty fast and reliable. Think of this editor as the father of Atom. The Sublime ecosystem is mature and has a lot of good plugins. It is not as customizable as Atom though.
@@ -43,7 +43,7 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 :no_entry_sign: Not free
 
-- [Atom](https://atom.io/)
+- **[Atom](https://atom.io/)**
 
 >the latest contestant on the market and the brainchild of the infamous [Github](https://github.com). It took all the right elements of Sublime Text and improved some of those. It feels fresher, comes with a lot of good plugins right-out-the-box and is fully customizable. Keep in mind that Atom is a bit slow on older hardware and can choke like a bitch on large files.
 
@@ -74,15 +74,15 @@ To me the best alternative to Bash right now is Zsh which stays close to Bash bu
 
 To further bring out the good sides and have a good out-of-the-box experience I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
 
-[This is]({{ site.url}}/assets/screen-view.png) what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells is convenient.
+[This is]({{ site.url}}/assets/screen-view.png) what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
 
 ## 'Lean' project management
 
-I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Just fucking make it and then adjust your shot.
+I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Just make the first iteration and then adjust your shot.
 
-This is how 99% of side projects die in the wilderness:
+This is how 99,99% of side projects die in the wilderness:
 
-* you're talking with a friend, drinking :coffee: || :beer:
+* you're talking with a friend, drinking :coffee: or :beer:
 * you have a great idea
 * you get excited :tada:
 * you start seeing in your mind how great it could become
@@ -112,4 +112,4 @@ Any change (even the smallest) to your codebase as the potential to wreck the wh
 
 ## Conclusion
 
-Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't think too much.
+Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't think too much. Don't overthink. What matters is what's there and how much of it actually works.
