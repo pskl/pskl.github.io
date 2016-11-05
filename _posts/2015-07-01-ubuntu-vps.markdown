@@ -3,6 +3,7 @@ layout: post
 title:  "How to set up Ubuntu VPS for a Rails app using Unicorn and Nginx?"
 date:   2015-06-15 15:15:26
 categories: jekyll update
+published: false
 ---
 In this quick guide I'll give you some basic instructions to prepare the environment for a Rails app hosted on Ubuntu. A very intuitive tool to automate deployment on remote machines is [Capistrano][capi].
 
