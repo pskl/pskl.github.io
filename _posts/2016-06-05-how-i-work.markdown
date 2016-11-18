@@ -78,7 +78,7 @@ To further bring out the good sides and have a good out-of-the-box experience I 
 
 ## 'Lean' project management
 
-I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Just make the first iteration and then adjust your shot.
+I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Now don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really.
 
 This is how 99,99% of side projects die in the wilderness:
 

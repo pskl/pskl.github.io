@@ -19,10 +19,16 @@ categories: jekyll update
 ## What is glitch art ?
 Is it an aesthetic or a process ?
 
-Here is how I would express my definition of glitch art.
+Restricting glitch art to an aesthetic is way more convenient for categorization purposes, here is a Reddit
+[thread](https://www.reddit.com/r/glitch_art/comments/3cgwik/discussion_is_deep_dream_glitch_art/) discussing that issue.
+Considering glitch art as a process is way more interesting and rich.
 
+Here is how I would express my definition of glitch art. For the sake of simplicity I limit myself to visual glitch art.
+Unexpected visual results
+Error inducing processes resulting in altered visuals.
 
-[Here is a reddit thread discussing that issue](https://www.reddit.com/r/glitch_art/comments/3cgwik/discussion_is_deep_dream_glitch_art/)
+The notion of error is a the core of this definition. For a glitch to exist there has to be a fuck-up somewhere even though that fuck-up can be on purpose.
+
 
 So following those two definitions the notion of glitch encapsulates the notion of databending and adds the time dimension to it. The essence of all of it is data corruption. Now the scope of data corruption is extremely wide and most of it is boring so I will narrow it down to visual uses of data corruption. Since data corruption is clunky and awkward to say I tend to prefer the use of the word `glitch` which sounds squishier and slick.
 
