@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Finance"
+date:   2015-06-30 15:15:26
+published: false
+categories: jekyll update
+---
+One basic asumption to make before diving into more details: the stock market is complex and influenced by an extremely wide array of external and internal factors which basically makes it one big computational problem. It is by design extremely difficult to intuitively anticipate market movements. Thus most human-made investment decisions will be relatively poorly made in regard to their robot counterparts.
+
+A fund is essentially just money from several individuals pooled together in order to generate returns collectively.
+
+| Fund Type      | Category         | Description  |
+| ------------- |:-------------:| :-----:|
+| Mutual    | active | Wealth manager actively invests the money. |
+| Indexed    | passive      | Money is automatically following a market index. |
+
+** Index **
+
+Is a measurement of the value of a section of a market. It is meant to represent the overall trend of an aggregate of companies. For example the [S&P 500](https://en.wikipedia.org/wiki/S%26P_500_Index). Historical evidence shows that very few active fund managers can outperform indexes.
+
+** ETF **
+
+ETF are essentially supercharged Indexed Funds. They are relatively new investment products, incredibly popular because they can offer some convenience to investors in some cases.
+
+** Conclusion **
+
+Only invest in ETF or Indexed Funds. Invest early, hold, reap the fruits later.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tools and workflow"
+title:  "Work"
 date:   2016-06-05 15:15:26
 published: true
 categories: jekyll update
