@@ -1,41 +1,41 @@
 ---
 layout: post
-title:  "Glitch"
-date:   2015-11-15 15:15:26
-published: false
+title:  "Glitches"
+date:   2017-01-21 15:15:26
+published: true
 categories: jekyll update
 ---
- Recently I've become fascinated by data corruption mechanisms and their visual representations.
- The so called universe of glitches is vast, complex and full of misconceptions. Just the same way as there used to be artifacts in analog media, altering the data of new digital material is just as exciting and cool.
+**Glitch**
 
- In this article I tried for myself to flatten out and simplify these notions so as to see clearer.
+> A glitch is a short-lived fault in a system. It is often used to describe a transient fault that corrects itself, and is therefore difficult to troubleshoot. The term is particularly common in the computing and electronics industries, in circuit bending, as well as among players of video games, although it is applied to all types of systems, including human organizations and nature.
 
- First off, a few definitions from wikipedia :
+[Source](https://en.wikipedia.org/wiki/Glitch)
 
-** Glitch **
- > A glitch is a short-lived fault in a system. It is often used to describe a transient fault that corrects itself, and is therefore difficult to troubleshoot. The term is particularly common in the computing and electronics industries, in circuit bending, as well as among players of video games, although it is applied to all types of systems, including human organizations and nature.
- [Source][https://en.wikipedia.org/wiki/Glitch]
+**Databending**
 
-** Databending **
-> Databending (or data bending) is the process of manipulating a media file of a certain format, using software designed to edit files of another format. Distortions in the medium typically occur as a result, and the process either falls under a broader category of, or is frequently employed in glitch art. [Source][https://en.wikipedia.org/wiki/Databending]
+>Databending (or data bending) is the process of manipulating a media file of a certain format, using software designed to edit files of another format. Distortions in the medium typically occur as a result, and the process either falls under a broader category of, or is frequently employed in glitch art.
 
-## Glitch art: aesthetic or process ?
+[Source](https://en.wikipedia.org/wiki/Databending)
 
-Restricting glitch art to an aesthetic is way more convenient for categorization purposes, here is a Reddit
-[thread](https://www.reddit.com/r/glitch_art/comments/3cgwik/discussion_is_deep_dream_glitch_art/) discussing that issue.
-To me considering glitch art as a process rather than an aesthetic is more interesting and rich.
+ Data corruption mechanisms and their visual representations are fascinating phenomenons creating an endless array of results. The universe of glitches is vast, complex and full of misconceptions. Just the same way there used to be artefacts in analog media, altering the data of new digital material is just as exciting, cool and authentic. What follows is a list of the different effects and tools available for exploration.
+
+## Glitch art: aesthetic or process?
+
+Restricting glitch art to an aesthetic is way more convenient for categorization purposes, here is a [Reddit thread](https://www.reddit.com/r/glitch_art/comments/3cgwik/discussion_is_deep_dream_glitch_art/) discussing that issue, but to me considering glitch art as a process rather than an aesthetic is more interesting and rich. :full_moon_with_face:
 
 Here is how would read a more general definition of glitch art:
 
->Error inducing processes resulting in artistically interesting results.
+>Error inducing processes resulting in artistically interesting results. :rose:
 
-The notion of error is a the core of this definition. For a glitch to exist there has to be a fuck-up somewhere even though said fuck-up can be on purpose.
+The notion of error or misuse is a the core of this definition. For a glitch to exist there has to be a fuck-up somewhere even though said fuck-up can be on purpose. I don't consider fractals (which are completely [mesmerizing](https://duckduckgo.com/?q=fractals&iax=1&ia=images) btw :rainbow:) to be glitch art because it represents a mathematical construct in its purest form.
 
-So following those two definitions the notion of glitch encapsulates the notion of databending and adds the time dimension to it. The essence of all of it is data corruption. Now the scope of data corruption is extremely wide and most of it is boring so I will narrow it down to visual uses of data corruption. Since data corruption is clunky and awkward to say I tend to prefer the use of the word `glitch` which sounds squishier and slick.
+The scope of data corruption is extremely wide and most of it is boring so I will narrow it down to visual uses of data corruption. Since data corruption is clunky and awkward to say I tend to prefer the use of the word `glitch` which sounds squishier and slick.
 
-As we've seen recently with the boom of neural networks,and most notably with the publication of the results from deep dearning teams at Google, a new kind of fucked up image filter made its way into the hands of the public.
+As we've seen recently with the boom of [artificial neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network) which mimick the structure of the neocortex of the brain, and most notably with the publication of the results from deep dearning teams at Google, a new kind of eerie image filter made its way into the hands of visual hackers.
 
-Can style transfer or deep dream be considered glitching ? In the light of the previous definition of `glitch` we can safely assume that using neural networks to produce weird images is glitch art.
+<iframe class="post-video" width="560" height="315" src="https://www.youtube.com/embed/dbQh1I_uvjo" frameborder="0" allowfullscreen></iframe>
+
+Can style transfer or deep dream be considered glitching? In the light of the previous definition of `glitch` we can safely assume that using neural networks to produce weird images is glitch art. This is only one of the examples of current developments in visual hacking in its broadest scope.
 
 # 2D data corruption techniques
 
@@ -47,17 +47,23 @@ An image is just a glorified 2-dimensional array of dots. Now by messing with th
 
 That definition comes from [this great tutorial to reproduce that effect using Processing](http://datamoshing.com/2016/06/29/how-to-glitch-images-using-rgb-channel-shifting/).
 
-## .jpeg data corruption
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/channel_shifting.png">
 
-## .png data corruption
+## JPEG data corruption
 
-[This article](https://github.com/ucnv/pnglitch) is a gold mine for glitch-heads willing to understand how to fuck up PNG images.
+Probably the most common kind of image glitches. You can try it online [here](https://snorpey.github.io/jpg-glitch/). The variety of effects is already very interesting.
+
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/jpeg_glitch.png">
+
+## PNG data corruption
+
+[This article](https://github.com/ucnv/pnglitch) is a gold mine for glitch-heads willing to understand how to fuck up PNG images. This format turns out to be very interesting for its wide range of effects induced by glitches.
 
 ## Pixel sorting
 
 By selectively sorting pixels within an image one can get pretty interesting results.
 
-![alt tag](https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/pixel_sorting.png)
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/pixel_sort.png">
 
 You can check out this [ruby implementation](https://github.com/czycha/pxlsrt) for starters.
 
@@ -67,10 +73,36 @@ When investigating various ways to glitch things I discovered in awe that the fi
 
 3D models are in essence just a list of geometrical coordinates that can be altered and manipulated just in the same way the pixels of an image can be transformed.
 
-## .obj file alteration
+## OBJ file alteration
 
-The .obj file format is one of the oldest and most widely used for 3D models. Essentially a 3D model is just a list of vertices and faces. You can read the full [file format specification](https://en.wikipedia.org/wiki/Wavefront_.obj_file) to better understand how it works.
-When I started looking at ways to glitch 3d objects and how it would look like I stumbled upon this
-[very nice series of articles](http://www.srcxor.org/blog/3d-glitching/) which explain how to glitch a 3d model manually.
+The `.obj` file format is one of the oldest and most widely used for 3D models. Essentially a 3D model is just a list of vertices and faces. You can read the full [file format specification](https://en.wikipedia.org/wiki/Wavefront_.obj_file) to better understand how it works. When I started looking at ways to glitch 3d objects and how it would look like I stumbled upon this [very nice series of articles](http://www.srcxor.org/blog/3d-glitching/) which explain how to glitch a model manually.
 
-After seeing that I thought it would be cool if the process could be automated and made available directly in a command-line program so I made a [simple tool](https://github.com/pskl/3dglitch) to alter models and shoot pictures of the result.
+Then I thought it would be cool if the process could be automated and made available directly in a command-line program so I started a simple tool called [Glitch3D](https://github.com/pskl/3dglitch) (still a very early WIP) to alter models and shoot pictures of the result using [Blender](https://www.blender.org/). The end goal being having a fully automated glitch art generator running on a remote server.
+
+# Moving things
+
+Of course both 2D and 3D techniques described here can be used to make videos which are just a juxtaposition of still frames. But more than that there are glitching techniques only possible in videos.
+
+## Datamoshing
+
+In modern compression algorithms only parts of the video contain full frames. By removing said frames you get a nice blend of motions applied to the wrong frame.
+
+<img class='post-image' src="http://pascal.cc/assets/gifs/datamoshing.gif">
+
+# Uncharted world of non-referenced glitches
+
+The more our society gets technical the more errors and fringe cases get introduced in the system. Visual effects induced by errors can be found in many many fields which have yet to be charted.
+
+One example is the outstanding number of rendering engine bugs found in video-games which are kinda hard to categorize or even describe.
+
+<img class='post-image' src="http://pascal.cc/assets/gifs/battlefield_glitch.gif">
+
+Other weird stuff include [floating point rounding errors]('http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/') for example.
+
+One could also use audio processing software like [Audacity](http://www.hellocatfood.com/databending-using-audacity/) to open images and apply filters. Possibilities are endless.
+
+# Conclusion
+
+Mistakes are an important part of the creative process. Every single rendering engine that exists can be fiddled with. Exploring those creation channels can yield good artistic results. Explooooore ! :earth_africa: :zap:
+
+If you have any suggestions of very interesting categories not covered by this article, shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
