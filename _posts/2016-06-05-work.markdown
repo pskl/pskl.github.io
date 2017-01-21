@@ -74,7 +74,9 @@ To me the best alternative to Bash right now is Zsh which stays close to Bash bu
 
 To further bring out the good sides and have a good out-of-the-box experience I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
 
-[This is]({{ site.url}}/assets/screen-view.png) what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/screen-view.png">
+
+This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
 
 ## 'Lean' project management
 
@@ -103,7 +105,7 @@ Solution: think as small as possible first, don't overshoot, think short, make s
 
 ## Linters
 
-Writting code is tedious, software that monitors what you write and gives you hints is highly beneficial.
+Writting code is tedious, software that monitors what you write and gives you hints is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
 
 ## Tests
 
@@ -113,3 +115,5 @@ Any change (even the smallest) to your codebase as the potential to wreck the wh
 ## Conclusion
 
 Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't think too much. Don't overthink. What matters is what's there and how much of it actually works.
+
+<img class='post-image' src="http://pascal.cc/assets/gifs/cat_business.gif">

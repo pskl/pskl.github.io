@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Migrating a Rails app from AWS ElasticBeanstalk to Digital Ocean droplets"
+date:   2015-06-27 15:15:26
+published: false
+categories: jekyll update
+---
+
+ElasticBeanstalk is super convenient and quite easy to set up if you follow the documentation of Amazon and their command line tool for easy deployments.
+It comes out of the box with several products like [RDS][rds] database, [SQS][sqs] queueing system.
+
+The goal of EBS is to automatically have multiple instances of your app running at the same time when the traffic grows. In comparison a traditional set up (simple FTP or one fixed instance for example) will still have only one app running.
+
+So if you have an app running smoothly on EBS you might want to move it to Digital Ocean where the hosting price is significantly lower. Then you have to fall back from those super fancy :sparkles: AWS services to more traditional tools.
+
+For instance you might be using an SQS queue to mimic the behavior of cron jobs but now you have to implement [cron jobs][cron] the old way on a Digital Ocean droplet. And it's actually quite easy if you use the [whenever gem][whenever] :ok_hand:.
+
+For that matter I wrote a small guide on [How to set up a rails app on Digital Ocean][railsdo]
+
+[sqs]: https://aws.amazon.com/en/sqs/
+[rds]: https://aws.amazon.com/en/rds/
+[railsdo]: http://pascal.cc/jekyll/update/2015/06/26/ubuntu-vps.html
+[cron]: https://fr.wikipedia.org/wiki/Cron
+[whenever]: https://github.com/javan/whenever
