@@ -89,6 +89,8 @@ GEM
       jekyll (>= 2.0)
     jekyll-sass-converter (1.2.0)
       sass (~> 3.2)
+    jekyll-seo-tag (1.2.0)
+      jekyll (>= 2.0)
     jekyll-sitemap (0.8.1)
     jekyll-watch (1.2.1)
       listen (~> 2.7)
@@ -147,9 +149,11 @@ DEPENDENCIES
   github-pages
   html-proofer
   jekyll
+  jekyll-seo-tag
+  jekyll-sitemap
   jemoji
   mixpanel-ruby
   rouge
 
 BUNDLED WITH
-   1.12.5
+   1.13.6

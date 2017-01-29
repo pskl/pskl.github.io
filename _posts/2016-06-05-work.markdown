@@ -1,15 +1,20 @@
 ---
 layout: post
-title:  "Work"
+title:  "Simple ways to get shit done"
 date:   2016-06-05 15:15:26
 published: true
-categories: jekyll update
+description: "Article overviewing pragmatic ways to get shit done with software."
+image: /assets/pictures/screen-view.png
+permalink: /blog/work
+categories: blog work
 ---
 
-In this article I will try to detail a bit the choices I made in terms of work tools and procedures. Those apply to either a pro activity or hobby. Every opinion expressed here is just an opinion, don't go on a crusade for that. Any valuable input is greatly appreciated. This what works for me, find what works for you.
+In this article I will try to detail a bit the choices I made in terms of programming tools and procedures. Those apply to either a pro activity or hobby. Every opinion expressed here is personal, might be entirely wrong. Any valuable input is greatly appreciated. This what works for me, find what works for you. I feel compelled to share this because there are so many tools out there and so many ways to do things that it's easy to get lost and not get anything done.
 
-## Text editor
+## About programming languages
+Understanding the logic that makes software and having a firm understanding of best practices and [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) is way more important than the nature of the language you are currently using. I :heart: [Ruby](https://www.ruby-lang.org/en/) but it's not relevant.
 
+## Which text editor is the best?
 The battle for the best editor is still raging and many of the contestants have some very strong arguments. Here is an overview of the editors I tried so far:
 
  - **[VIM](http://www.vim.org/)**
@@ -24,7 +29,7 @@ The battle for the best editor is still raging and many of the contestants have 
 
 >is a sibling of VIM. Has a lot of similar good sides but is not as ubiquitous as far as I know.
 
-:no_entry_sign: Not ubiquitous
+:no_entry_sign: Also balls hard but not ubiquitous
 
 - **[Nano](https://www.nano-editor.org/)**
 
@@ -45,7 +50,7 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 - **[Atom](https://atom.io/)**
 
->the latest contestant on the market and the brainchild of the infamous [Github](https://github.com). It took all the right elements of Sublime Text and improved some of those. It feels fresher, comes with a lot of good plugins right-out-the-box and is fully customizable. Keep in mind that Atom is a bit slow on older hardware and can choke like a bitch on large files.
+>the latest contestant on the market and the brainchild of the infamous [Github](https://github.com). It took all the right elements of Sublime Text and improved some of those. It feels fresher, comes with a lot of good plugins right-out-the-box and is fully customizable. Keep in mind that Atom is a bit slow on older hardware and can choke very easily on large files.
 
 :white_check_mark: Noob friendly, cool, slick, free
 
@@ -53,36 +58,22 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
 
-## Color scheme
+## Color schemes
+I use [solarized](http://ethanschoonover.com/solarized) wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that dark themes are better for long term use of a computer screen. In addition I use [F.lux](https://justgetflux.com) a color adjusting software that changes the temperature of the display over the course of a day.
 
-I use solarized wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that the majority of developers find that dark themes are better for long term use of a computer screen. In addition to that I use [F.lux](https://justgetflux.com) a color adjusting software that changes the temperature of the display over the course of a day.
+## Which shell for your terminal application?
+The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements.
 
-## Terminal
-
-How good is the default Terminal.app from OSX?
-Well pretty good but iTerm is definitely better on the following aspects :
-
-+ ability to split panes as much as you want
-+ text search within the Terminal
-
-## Shell
-
-The most ubiquitous shell is obviously Bash. It's everywhere and offers a lot of things right out of the box.
-But the thing is that Bash is pretty outdated technology and is missing a lot of improvements compared to his cousins like zsh, fish, etc...
-
-To me the best alternative to Bash right now is Zsh which stays close to Bash but brings a lot of improvements.
-
-To further bring out the good sides and have a good out-of-the-box experience I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
+To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box. I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
 
 <img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/screen-view.png">
 
 This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
 
-## 'Lean' project management
+## Pragmatic approach to project management
+I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really.
 
-I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Now don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really.
-
-This is how 99,99% of side projects die in the wilderness:
+This is how 99,99% of side projects die:
 
 * you're talking with a friend, drinking :coffee: or :beer:
 * you have a great idea
@@ -101,19 +92,16 @@ This is how 99,99% of side projects die in the wilderness:
 * 1 month passes
 * project status: :skull:
 
-Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away.
+Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I personally think the best `todo` list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done.
 
-## Linters
+## Are code linters necessary?
+Writing code is a very tedious and awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
 
-Writting code is tedious, software that monitors what you write and gives you hints is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
-
-## Tests
-
-Any change (even the smallest) to your codebase as the potential to wreck the whole thing. Having a test suite will save you a lot of time if you plan to make gradual improvements to the project. If it's a one shot don't even bother.
+## Tests are (sometimes) awesome
+Any change (even the smallest) to your codebase as the potential to wreck the whole thing. Having a test suite will save you a lot of time if you plan to make gradual improvements to the project. If it's a one shot don't even bother writing one single test.
 
 
 ## Conclusion
-
-Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't think too much. Don't overthink. What matters is what's there and how much of it actually works.
+Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementined categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:
 
 <img class='post-image' src="http://pascal.cc/assets/gifs/cat_business.gif">

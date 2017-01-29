@@ -1,9 +1,11 @@
 ---
 layout: post
-title:  "Finance"
-date:   2015-06-30 15:15:26
+title:  "Investment 101"
+date:   2017-02-28 15:15:26
 published: false
-categories: jekyll update
+image: /assets/pictures/jpeg_glitch.png
+permalink: /blog/finance
+categories: blog finance
 ---
 One basic asumption to make before diving into more details: the stock market is complex and influenced by an extremely wide array of external and internal factors which basically makes it one big computational problem. It is by design extremely difficult to intuitively anticipate market movements. Thus most human-made investment decisions will be relatively poorly made in regard to their robot counterparts.
 
@@ -22,6 +24,9 @@ Is a measurement of the value of a section of a market. It is meant to represent
 
 ETF are essentially supercharged Indexed Funds. They are relatively new investment products, incredibly popular because they can offer some convenience to investors in some cases.
 
+** Active VS Passive management :: **
+
+There is a common misconception that ETFs == passive investment but thats not the case
 ** Conclusion **
 
 Only invest in ETF or Indexed Funds. Invest early, hold, reap the fruits later.

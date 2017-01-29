@@ -57,6 +57,14 @@
         z-index: 0;
       }
 
+      .site-header a:before {
+      	content: "PSKL";
+      	position: absolute;
+        left: 75px;
+      	color: rgba(193, 255, 221, 0.5);
+        z-index: 0;
+      }
+
     .site-header span {
         padding: 0.3em 0.5em;
         margin: 10px 20px;

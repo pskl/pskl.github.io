@@ -16,3 +16,5 @@ kramdown:
 # Ruby gems
 gems:
   - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag
