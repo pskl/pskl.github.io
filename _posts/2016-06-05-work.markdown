@@ -56,6 +56,14 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 :no_entry_sign: ~~Sometimes~~ Most of the times slow
 
+- **[Visual Studio Code](https://code.visualstudio.com/)**
+
+>built by new-school Microsoft which is nowadays a very good sign. This open-source editor takes all the good characteristics of Atom and gets rid off the speed inconvenience.
+
+:white_check_mark: Noob friendly, ~~cool~~, slick, free
+
+:no_entry_sign: Way faster than Atom
+
 Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
 
 ## Color schemes
@@ -102,6 +110,6 @@ Any change (even the smallest) to your codebase as the potential to wreck the wh
 
 
 ## Conclusion
-Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use Atom. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementined categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:
+Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use ~~Atom~~ Visual Studio Code. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementined categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:
 
 <img class='post-image' src="http://pascal.cc/assets/gifs/cat_business.gif">
