@@ -60,9 +60,9 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 >built by new-school Microsoft which is nowadays a very good sign. This open-source editor takes all the good characteristics of Atom and gets rid off the speed inconvenience.
 
-:white_check_mark: Noob friendly, ~~cool~~, slick, free
+:white_check_mark: Noob friendly, ~~cool~~ fast, slick, free
 
-:no_entry_sign: Way faster than Atom
+:no_entry_sign: :smirk:
 
 Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
 
@@ -70,9 +70,7 @@ Whatever the editor you decide to go with learn how to use it because it has ama
 I use [solarized](http://ethanschoonover.com/solarized) wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that dark themes are better for long term use of a computer screen. In addition I use [F.lux](https://justgetflux.com) a color adjusting software that changes the temperature of the display over the course of a day.
 
 ## Which shell for your terminal application?
-The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements.
-
-To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box. I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
+The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements. To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box. I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
 
 <img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/screen-view.png">
 
