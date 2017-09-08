@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simple ways to get shit done"
+title:  "Simple ways to get stuff done"
 date:   2016-06-05 15:15:26
 published: true
 description: "Article overviewing pragmatic ways to get shit done with software."
@@ -98,7 +98,7 @@ This is how 99,99% of side projects die:
 * 1 month passes
 * project status: :skull:
 
-Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I personally think the best `todo` list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done.
+Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I personally think the best `todo` list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience said lists tend to become dumping grounds.
 
 ## Are code linters necessary?
 Writing code is a very tedious and awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
