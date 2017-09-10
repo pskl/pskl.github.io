@@ -6,6 +6,7 @@ date:   2017-01-21 15:15:26
 image: /assets/pictures/jpeg_glitch.png
 permalink: /blog/glitches
 published: true
+listed: true
 categories: blog glitch
 ---
 
@@ -114,3 +115,6 @@ One could also use audio processing software like Audacity as a visual creation 
 Mistakes are an important part of the creative process. Every single rendering engine that exists can be fiddled with. Exploring those creation channels can yield good artistic results. Explooooore ! :earth_africa: :zap:
 
 If you have any suggestions of very interesting categories not covered by this article, shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
+
+## Additional Resources
+[Glitch becomes mainstream](http://www.adweek.com/digital/from-marketing-to-fashion-the-glitch-has-become-one-of-todays-defining-design-trends/)

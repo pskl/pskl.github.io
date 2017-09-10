@@ -3,6 +3,7 @@ layout: post
 title:  "Simple ways to get stuff done"
 date:   2016-06-05 15:15:26
 published: true
+listed: true
 description: "Article overviewing pragmatic ways to get shit done with software."
 image: /assets/pictures/screen-view.png
 permalink: /blog/work
@@ -108,6 +109,6 @@ Any change (even the smallest) to your codebase as the potential to wreck the wh
 
 
 ## Conclusion
-Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use ~~Atom~~ Visual Studio Code. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementined categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:
+Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use ~~Atom~~ Visual Studio Code. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementioned categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:
 
 <img class='post-image' src="http://pascal.cc/assets/gifs/cat_business.gif">
