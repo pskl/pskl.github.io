@@ -22,14 +22,17 @@ Secondly everything you own has a dynamic value (example:  a house can triple in
 
 ### Should you buy real estate?
 
-<iframe class="post-video" width="560" height="315" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscree></iframe>
+<div class='post-image'>
+  <iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscree></iframe>
+</div>
 
 There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run.
 
 >PROTIP: _One thing that is really good with this kind of investment is that you can easily ask for money lending to purchase it._
 
-<iframe class="post-video" width="560" height="315" src="https://youtube.com/embed/HaOsqkiKlYY" frameborder="0" allowfullscreen></iframe>
-
+<div class='post-image'>
+  <iframe class="post-video" src="https://youtube.com/embed/HaOsqkiKlYY" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### Should you buy gold or other rare items?
 
@@ -37,15 +40,15 @@ In general it is good practice to invest in what you know and value. For instanc
 
 ### But wait a second, how do stuffs get a price tag in the first place? Who decides that?
 
-One can only know how much something is worth by asking how much another guy would pay for it, at scale, through global marketplaces. For instance stocks are traded globally by thousands of computers routing their needs to a common 'stock market' and it is only by having people selling their stocks there that you can determine the average value of that stock. And this true for everything our world has to offer, only [offer and demand](https://www.britannica.com/topic/supply-and-demand) determine the value of your belongings, whatever the nature of those belongings.
+One can only know how much something is worth by asking how much another guy would pay for it, at scale, through global marketplaces. For instance stocks are traded globally by thousands of computers routing their needs to a common 'stock market' and it is only by having people selling their stocks there that you can determine the average value of that stock. And this true for everything our world has to offer, only [offer and demand](https://www.britannica.com/topic/supply-and-demand) determine the value of your belongings.
 
 ## Investing in abstract assets
 
 ### The marvellous land of Indexed Funds
 
-Side note: _One basic asumption to make before diving into more details: the stock market is complex and influenced by an extremely wide array of external and internal factors which basically makes it one big computational problem. It is by design extremely difficult to intuitively anticipate market movements. Thus most human-made investment decisions will be relatively poorly made in regard to their robot counterparts. Even [Warren Buffet](https://en.wikipedia.org/wiki/Warren_Buffett) who is probably the most successful investor of all times agrees that [seemingly premium funds are not worth the premium price](https://www.nytimes.com/2017/02/27/business/dealbook/buffett-asks-big-money-why-pay-high-fees.html?smprod=nytcore-ipad&smid=nytcore-ipad-share).
+Side note: One basic asumption to make before diving into more details: the stock market is complex and influenced by an extremely wide array of external and internal factors which basically makes it one big computational problem. It is by design extremely difficult to intuitively anticipate market movements. Thus most human-made investment decisions will be relatively poorly made in regard to their robot counterparts. Even [Warren Buffet](https://en.wikipedia.org/wiki/Warren_Buffett) who is probably the most successful investor of all times agrees that [seemingly premium funds are not worth the premium price](https://www.nytimes.com/2017/02/27/business/dealbook/buffett-asks-big-money-why-pay-high-fees.html?smprod=nytcore-ipad&smid=nytcore-ipad-share).
 
-This doesn't mean that actively managing securities is not something to pursue but just that's it's an incredibly difficult problem that requires heavy real-time data analysis and accurate prediction models, very few companies have been able to do it successfully and consistently (most notably [Renaissance Technologies](https://www.bloomberg.com/news/articles/2016-11-21/how-renaissance-s-medallion-fund-became-finance-s-blackest-box.)). There are many organisations selling those products bare (just the product) or with extra services. For instance in germany one of the leanest retailers of securities is [Flatex](http://flatex.de)._
+This doesn't mean that actively managing securities is not something to pursue but just that's it's an incredibly difficult problem that requires heavy real-time data analysis and accurate prediction models, very few companies have been able to do it successfully and consistently (most notably [Renaissance Technologies](https://www.bloomberg.com/news/articles/2016-11-21/how-renaissance-s-medallion-fund-became-finance-s-blackest-box.)).
 
 **What the fuck  is a fund?**
 
@@ -57,7 +60,9 @@ A **fund** is essentially just money from several individuals pooled together in
 | Indexed    | passive      | Money is automatically following a market index. |
 |Hedge | active | Mutual Fund with restricted access and fancy technology to [hedge](http://financial-dictionary.thefreedictionary.com/Hedging) against the market.
 
-**Ok now what is portfolio?**
+You can buy parts of it through a reseller which will most likely be a bank either selling those products bare (just the product) or with extra services (monitoring tools, rebalancing, etc). For instance in germany one of the leanest retailers of securities is [Flatex](http://flatex.de).
+
+**Ok now what is a portfolio?**
 
 It is a fancy name to designate all the tradable stuff you have but mostly in the context of finance. For example if you bought through your bank some stocks well those stocks plus the ones you might already have compose your portfolio.
 
@@ -99,12 +104,15 @@ In 2008 most people that lost money are the ones who panick sold their positions
 
 **Is this magical? What's the catch? :sparkles:**
 
-The main magic ingredient is called [compound return](http://www.investopedia.com/terms/c/compoundreturn.asp) and is the reason why starting early and holding very still is so critical. It's the mathematical reason why a 1 cent initial investment with a 100% daily return would result in 10 million in 30 days. On a more realistic scale: if you invested `10.000 $` in 2000, you would have about `21.600 $` in 2017.
+The main magic ingredient is called [compound return](http://www.investopedia.com/terms/c/compoundreturn.asp) and is the reason why starting early and holding very still is so critical. It's the mathematical reason why a 1 cent initial investment with a 100% daily return would result in 10 million in 30 days. On a more realistic scale: if you invested `10.000 $` in 2000 in the S&P500, you would have about `21.600 $` in 2017.
 
 **When and how much should I save?**
 
 Start investing as early as possible in order to leverage the compound effect nicely.
 The amount is not really important as long as you build the habit of sparing some money for your future.
+
+**What about taxes? :grin:**
+As long as the money stays stored in something (a security or a token for example) you don't get taxed on price fluctuations of course. Taxation happens when you fall back to a national currency. In that case it really depends where you originated from or work from.
 
 ### I heard about crypto-currencies having insane yield, where can I buy some of that?
 
@@ -114,17 +122,21 @@ Crypto-currencies are extremely new and risky assets but they can yield extremel
 
 I highly recommend adhering to the social, political and technical aspects of the founding principles of the blockchain. A lack of understanding can cause cognitive bias and very sub-par allocation decisions. For example Bitcoin is not just a digital currency, it's a protocol of communication. To understand where Bitcoin is located on the human timeline of groundbreaking inventions you can have a look at the following video:
 
-<iframe class="post-video" width="560" height="315" src="https://youtube.com/embed/l1si5ZWLgy0" frameborder="0" allowfullscreen></iframe>
+<div class='post-image'>
+  <iframe class="post-video" src="https://youtube.com/embed/l1si5ZWLgy0" frameborder="0" allowfullscreen></iframe>
+</div>
 
 If you want to go deeper in understanding how Bitcoin (and other crypto-currencies) works under the hood the book of reference is [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388). Otherwise you can learn how Bitcoin works [with emojis](https://medium.com/@tessr/making-money-530d2bb2b8f7). This invention is extremely hard to fully grasp because it intersects both Computer Science (distributed systems, open source technologies, version control, network protocols) and Economics (free market, offer and demand, inflation, [deflation](https://www.reddit.com/r/Bitcoin/comments/6yn8hs/the_difference_between_inflation_and_deflation/)). A firm understanding of both renders the task less daunting and it's such a big deal that [the MIT plans to open a curriculum for it](http://news.mit.edu/2017/mit-creates-new-major-computer-science-economics-data-science-0904).
 
 Here is another good video that adresses legitimacy concerns which are numerous when you come to think of it for the first time:
 
-<iframe class="post-video" width="560" height="315" src="https://youtube.com/embed/i_wOEL6dprg" frameborder="0" allowfullscreen></iframe>
+<div class='post-image'>
+  <iframe class="post-video" src="https://youtube.com/embed/i_wOEL6dprg" frameborder="0" allowfullscreen></iframe>
+</div>
 
 If you have done your homework already and consider yourself informed enough and willing to invest you can head towards one of the many exchange places online where you can buy crypto tokens with fiat currency. At the time of writing of this article one of the most reliable exchange is [Kraken](http://kraken.com/). Once you have managed to successfully land your crypto of choice in your exchange account I highly recommend moving it to a wallet under your full control.
 
-> **ULTRAPROTIP:** whatever you wanna buy stay away from ICOs because most of them are either scam or overly ambitious or very premature
+> **ULTRAPROTIP:** whatever you wanna buy stay away from ICOs because most of them are either scam or overly ambitious or very premature or a nasty combination of all 3.
 
 ## Diversification is :key:
 
@@ -132,8 +144,11 @@ If you have done your homework already and consider yourself informed enough and
 
 In order to have relatively stable decent returns every year it is necessary to diversify the assets in your portfolio as much as possible according the [modern portfolio theory](https://en.wikipedia.org/wiki/Modern_portfolio_theory). This allows you to spread the risk and make your porfolio more resilient to sudden market changes. What that means is that if you get super stacked on the passive investment side then you can allow yourself to get that nice apartment and über hipster crypto tokens portfolio which you can monitor on your phone using [Blockfolio](http://blockfolio.com/).
 
-<blockquote class="twitter-tweet post-image" data-lang="en"><p lang="en" dir="ltr">TL;DR how to invest your 💰<br>- 10% high risk (bitcoin)<br>- 40% medium risk (stocks, real estate, ETFs)<br>- 50% low risk (bonds, p2p lending)</p>&mdash; Pieter Levels @ 🇳🇱 (@levelsio) <a href="https://twitter.com/levelsio/status/918879529262776320?ref_src=twsrc%5Etfw">October 13, 2017</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class='post-image'>
+  <blockquote class="twitter-tweet" data-lang="en">
+  <p lang="en" dir="ltr">TL;DR how to invest your 💰<br>- 10% high risk (bitcoin)<br>- 40% medium risk (stocks, real estate, ETFs)<br>- 50% low risk (bonds, p2p lending)</p>&mdash; Pieter Levels @ 🇳🇱 (@levelsio) <a href="https://twitter.com/levelsio/status/918879529262776320?ref_src=twsrc%5Etfw">October 13, 2017</a>
+  </blockquote>
+</div>
 
 **Conclusion**
 
@@ -146,3 +161,6 @@ Diversify your portfolio and hold tangible assets and financial products in orde
 * [Important video](https://youtu.be/KmGnl7quDbY)
 * [More on Index funds](http://www.investopedia.com/articles/investing/103114/5-things-you-need-know-about-index-funds.asp)
 * [Personal finance for engineers](https://cs007.blog/)
+* [A letter to Jamie Dimon](https://blog.chain.com/a-letter-to-jamie-dimon-de89d417cb80)
+
+ <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
