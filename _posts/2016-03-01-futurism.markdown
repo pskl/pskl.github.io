@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "Futurism"
+title:  "The fight for relevance"
 date:   2015-03-01 15:15:26
 published: false
 categories: jekyll update
 permalink: /blog/futurism
 ---
+
+What is relevance?
 
 I am really into futurism and everything that revolves around it. Anticipating what's next for our civilization has become my number one hobby.
 

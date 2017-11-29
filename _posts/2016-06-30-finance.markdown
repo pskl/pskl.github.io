@@ -28,6 +28,12 @@ Secondly everything you own has a dynamic value (example:  a house can triple in
 
 There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run.
 
+<div class='post-image'>
+  <blockquote class="twitter-tweet" data-lang="en">
+  <p lang="en" dir="ltr">OMG I just had a thought. (I know, occasionally it still happens).<br><br>In Japan, workers get seniority-based raises. In America they often don&#39;t.<br><br>So HOUSE PRICE APPRECIATION became the vehicle by which Americans turned age into dignity.</p>&mdash; Noah Smith (@Noahpinion) <a href="https://twitter.com/Noahpinion/status/937747372284682240?ref_src=twsrc%5Etfw">December 4, 2017</a>
+  </blockquote>
+</div>
+
 >PROTIP: _One thing that is really good with this kind of investment is that you can easily ask for money lending to purchase it._
 
 <div class='post-image'>
@@ -98,7 +104,7 @@ This is a tricky one. Most saving plans provided by banks today have very low ye
 
 **Yeah but what about those pesky financial crises like 2008?**
 
-In 2008 most people that lost money are the ones who panick sold their positions anticipating the dip. But on a long enough timespan we can say that the markets recovered quite nicely ([here](http://library2.smu.ca/xmlui/bitstream/handle/01/26106/Balubaid_Fahad_MRP_2014.pdf) is a document that describes more exactly what happened to the S&P500). So if you chill in case of crises you're good to go (easier said than done tho :thinking_face:)
+In 2008 most people that lost money are the ones who panick sold their positions anticipating the dip. But on a long enough timespan we can say that the markets recovered quite nicely ([here](http://library2.smu.ca/xmlui/bitstream/handle/01/26106/Balubaid_Fahad_MRP_2014.pdf) is a document that describes more exactly what happened to the S&P500). So if you chill in case of crises you're good to go (easier said than done tho :expressionless:)
 
 <img class='post-image' src="http://pascal.cc/assets/gifs/done.gif">
 
@@ -112,7 +118,11 @@ Start investing as early as possible in order to leverage the compound effect ni
 The amount is not really important as long as you build the habit of sparing some money for your future.
 
 **What about taxes? :grin:**
+
 As long as the money stays stored in something (a security or a token for example) you don't get taxed on price fluctuations of course. Taxation happens when you fall back to a national currency. In that case it really depends where you originated from or work from.
+
+**Why is this boring as hell?**
+Good investment is boring, steady and safe (same rule applies to software). But to spice things up one could decide to invest in [green business](https://www.canopygrowth.com/), [prisons](http://www.corecivic.com/investor-information), [military equipment](), [porn](https://en.wikipedia.org/wiki/AdultVest), [robotics](http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000Z9T7) which will yield interesting diner conversations about morality at the next family reunion. Invest wisely and ethically.
 
 ### I heard about crypto-currencies having insane yield, where can I buy some of that?
 
