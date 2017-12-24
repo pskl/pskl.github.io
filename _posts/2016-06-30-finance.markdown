@@ -26,7 +26,7 @@ Secondly everything you own has a dynamic value (example:  a house can triple in
   <iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscree></iframe>
 </div>
 
-There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run.
+There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run. In order to get a better grasp on the problem I did [a small Excel spreadsheet simulation](https://docs.google.com/spreadsheets/d/1OzzYZnavesX-VAC_7IVeGw1MyS8l4093rVPZuSXin-4/edit?usp=sharing).
 
 <div class='post-image'>
   <blockquote class="twitter-tweet" data-lang="en">
@@ -122,6 +122,7 @@ The amount is not really important as long as you build the habit of sparing som
 As long as the money stays stored in something (a security or a token for example) you don't get taxed on price fluctuations of course. Taxation happens when you fall back to a national currency. In that case it really depends where you originated from or work from.
 
 **Why is this boring as hell?**
+
 Good investment is boring, steady and safe (same rule applies to software). But to spice things up one could decide to invest in [green business](https://www.canopygrowth.com/), [prisons](http://www.corecivic.com/investor-information), [military equipment](), [porn](https://en.wikipedia.org/wiki/AdultVest), [robotics](http://www.morningstar.co.uk/uk/etf/snapshot/snapshot.aspx?id=0P0000Z9T7) which will yield interesting diner conversations about morality at the next family reunion. Invest wisely and ethically.
 
 ### I heard about crypto-currencies having insane yield, where can I buy some of that?
