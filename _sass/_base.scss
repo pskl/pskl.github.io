@@ -91,9 +91,10 @@
  * ============================================== */
     blockquote {
         color: #8a8888;
-        border-left: 4px solid $brand-color;
-        padding-left: $spacing-unit / 2;
-        font-size: 17px;
+        border-left: 1px solid $brand-color;
+        // padding-left: $spacing-unit / 2;
+        padding: 19px;
+        font-size: 16px;
         letter-spacing: -1px;
         font-style: italic;
 

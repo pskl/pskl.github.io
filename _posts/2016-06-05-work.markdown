@@ -99,7 +99,7 @@ This is how 99,99% of side projects die:
 * 1 month passes
 * project status: :skull:
 
-Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I personally think the best `todo` list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience said lists tend to become dumping grounds.
+Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I think the best 'todo' list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience dedicated todo lists tend to become procrastination cesspools.
 
 ## Are code linters necessary?
 Writing code is a very tedious and awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
@@ -107,6 +107,8 @@ Writing code is a very tedious and awkward thing to do, software that monitors w
 ## Tests are (sometimes) awesome
 Any change (even the smallest) to your codebase as the potential to wreck the whole thing. Having a test suite will save you a lot of time if you plan to make gradual improvements to the project. If it's a one shot don't even bother writing one single test.
 
+## Prioritizing is the biggest :key:
+To be somewhat efficient at what you're doing you have to prioritize some items over others. It sounds really stupid but it's easier said than done for some people (including me).
 
 ## Conclusion
 Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use ~~Atom~~ Visual Studio Code. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementioned categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:

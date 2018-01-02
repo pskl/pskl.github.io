@@ -23,7 +23,7 @@ Secondly everything you own has a dynamic value (example:  a house can triple in
 ### Should you buy real estate?
 
 <div class='post-image'>
-  <iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscree></iframe>
+  <iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscreen></iframe>
 </div>
 
 There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run. In order to get a better grasp on the problem I did [a small Excel spreadsheet simulation](https://docs.google.com/spreadsheets/d/1OzzYZnavesX-VAC_7IVeGw1MyS8l4093rVPZuSXin-4/edit?usp=sharing).
@@ -92,10 +92,6 @@ PROBLEM: The stock price of a specific company can fall to the ground in seconds
 
 SOLUTION: Buys lots of different stocks of leading/established/growing companies (not manually but through a fund) to make your portfolio bulletproof :gun:, bang bang.
 
-**By the way I keep hearing about ETF? What kind of beast is that?**
-
-ETFs ([Exchange Traded Funds](http://www.investopedia.com/terms/e/etf.asp)) are essentially a type of Indexed Funds with sligthly different features and a slightly confusing name (Finance pros will argue that this is a very rough approximation and they are right but if you're a finance pro and not proof-reading this then you should probably be doing something else). Overall: `ETF = mostly good shit`.
-
 **This is all very nice but what about the saving plans offered by my bank?**
 
 This is a tricky one. Most saving plans provided by banks today have very low yearly returns with a maximum around 4% for the luckiest. With a good portfolio of securities you can expect around 6% a year. The crucial factor here is the tax/fee schema offered by your bank's financial products. Ask your banker how the product she offers you is different from an indexed investment to find answers.
@@ -145,7 +141,7 @@ Here is another good video that adresses legitimacy concerns which are numerous 
   <iframe class="post-video" src="https://youtube.com/embed/i_wOEL6dprg" frameborder="0" allowfullscreen></iframe>
 </div>
 
-If you have done your homework already and consider yourself informed enough and willing to invest you can head towards one of the many exchange places online where you can buy crypto tokens with fiat currency. At the time of writing of this article one of the most reliable exchange is [Kraken](http://kraken.com/). Once you have managed to successfully land your crypto of choice in your exchange account I highly recommend moving it to a wallet under your full control.
+If you have done your homework already and consider yourself informed enough and willing to invest you can head towards one of the many exchange places online where you can buy crypto tokens with fiat currency. At the time of writing of this article one of the most reliable exchange is [Kraken](http://kraken.com/). Once you have managed to successfully land your crypto of choice in your exchange account I highly recommend moving it to a wallet under your full control. You can see the question debated by traditional investors being discussed in [this reddit thread](https://www.reddit.com/r/investing/comments/7np3vj/is_it_worth_investing_in_cryptocurrency/) to forge your own opinion.
 
 > **ULTRAPROTIP:** whatever you wanna buy stay away from ICOs because most of them are either scam or overly ambitious or very premature or a nasty combination of all 3.
 

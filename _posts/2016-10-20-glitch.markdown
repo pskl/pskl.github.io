@@ -34,15 +34,17 @@ Here is how would read a more general definition of glitch art:
 
 >Error inducing processes resulting in artistically interesting results. :rose:
 
-The notion of error or misuse is a the core of this definition. For a glitch to exist there has to be a fuck-up somewhere even though said fuck-up can be on purpose. I don't consider fractals (which are completely [mesmerizing](https://duckduckgo.com/?q=fractals&iax=1&ia=images) btw :rainbow:) to be glitch art because it represents a mathematical construct in its purest form.
+The notion of error or misuse is at the core of this definition. For a glitch to exist there has to be a fuck-up somewhere even though said fuck-up can be on purpose. I don't consider fractals (which are completely [mesmerizing](https://duckduckgo.com/?q=fractals&iax=1&ia=images) btw :rainbow:) to be glitch art because it represents a mathematical construct in its purest form.
 
 The scope of data corruption is extremely wide and most of it is boring so I will narrow it down to visual uses of data corruption. Since data corruption is clunky and awkward to say I tend to prefer the use of the word `glitch` which sounds squishier and slick.
 
 As we've seen recently with the boom of [artificial neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network) which mimicks the structure of the brain's neocortex, and most notably with the publication of the results from deep learning teams at Google, a new kind of eerie image filter made its way into the hands of visual hackers.
 
-<iframe class="post-video" width="560" height="315" src="https://www.youtube.com/embed/dbQh1I_uvjo" frameborder="0" allowfullscreen></iframe>
+<div class="post-image">
+  <iframe class="post-video" src="https://www.youtube.com/embed/dbQh1I_uvjo" frameborder="0" allowfullscreen></iframe>
+</div>
 
-Can style transfer or deep dream be considered glitching? In the light of the previous definition of `glitch` we can safely assume that using neural networks to produce weird images is glitch art. This is only one of the examples of current developments in visual hacking in its broadest scope.
+Can style transfer or deep dream be considered glitching? In the light of the previous definition of `glitch` we can safely assume that using neural networks to produce weird images is not glitch art because there is no fundamental error introduced.
 
 # Corrupt an image
 
@@ -78,11 +80,11 @@ Probably the most common kind of image glitches. You can try it online [here](ht
 
 When investigating various ways to glitch things I discovered in awe that the field of 3D glitching is vastly under-explored.
 
-3D models are in essence just a list of geometrical coordinates that can be altered and manipulated just in the same way the pixels of an image can be transformed.
+3D models are in essence just a list of geometrical coordinates that can be altered and manipulated just in the same way the pixels of an image can be transformed. And model files also have different formats using different compression algorithms so there has to be ways to have fun with that.
 
 ## `.obj` file alteration
 
-The `.obj` file format is one of the oldest and most widely used for 3D models. Essentially a 3D model is just a list of vertices and faces. You can read the full [file format specification](https://en.wikipedia.org/wiki/Wavefront_.obj_file) to better understand how it works. When I started looking at ways to glitch 3d objects and how it would look like I stumbled upon this [very nice series of articles](http://www.srcxor.org/blog/3d-glitching/) which explain how to glitch a model manually.
+The `.obj` file format is one of the oldest and most widely used for 3D models. It is not compressed. Essentially a 3D model is just a list of vertices and faces. You can read the full [file format specification](https://en.wikipedia.org/wiki/Wavefront_.obj_file) to better understand how it works. When I started looking at ways to glitch 3d objects and how it would look like I stumbled upon this [very nice series of articles](http://www.srcxor.org/blog/3d-glitching/) which explain how to glitch a model manually.
 
 Then I thought it would be cool if the process could be automated and made available directly in a command-line program so I started a simple tool called [Glitch3D](https://github.com/pskl/glitch3d) (still a very early WIP) to alter models and shoot pictures of the result using [Blender](https://www.blender.org/). The end goal being having a fully automated glitch art generator running on a remote server.
 
