@@ -6,4 +6,4 @@ published: false
 categories: jekyll update
 ---
 
-DNS is kinda like real estate for the internet with a weird twist : imagine you could infinitely subdivide your house into any number of rooms.
+DNS is kinda like real estate for the internet with a weird twist: imagine you could infinitely subdivide your house into any number of rooms.

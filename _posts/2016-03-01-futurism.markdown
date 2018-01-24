@@ -6,10 +6,9 @@ published: false
 categories: jekyll update
 permalink: /blog/futurism
 ---
-
 What is relevance?
 
-I am really into futurism and everything that revolves around it. Anticipating what's next for our civilization has become my number one hobby.
+I am really into futurism and everything that revolves around it. Anticipating what's next for our civilization has become a hobby or a common case of [neurosis](https://en.wikipedia.org/wiki/Neurosis), hard to tell the difference.
 
 As in every field one should get acquainted with the classics and the pieces objectively considered masterpieces. Hence I recently read [1984](https://en.wikipedia.org/wiki/Nineteen_Eighty-Four) by Orson Welles (published in 1949) and ['A Brave New World'](https://en.wikipedia.org/wiki/Brave_New_World) by Aldous Huxley (published in 1932).
 
@@ -17,19 +16,19 @@ Both books unroll the vision of their respective author for the future of our so
 
 It reveals a dystopian future where people are no longer bound
 
-In this [letter](http://www.lettersofnote.com/2012/03/1984-v-brave-new-world.html) Aldous Huxley gives his opinion about Welles' book in a very condescending way which could result in the following tl;dr : 'Nice try kiddo but this is wrong'.
+In this [letter](http://www.lettersofnote.com/2012/03/1984-v-brave-new-world.html) Aldous Huxley gives his opinion about Welles' book in a very condescending way which could result in the following tl;dr: 'Nice try kiddo but this is wrong'.
 
-From an objective standpoint the sun is a way more convenient source of energy than human bodies
+From an objective standpoint the sun is a way more convenient source of energy than human bodies.
 
-What we will lose is signifance and the biggest hurdle coming our way is the existential crisis that is going to hit billions of unemployed people. We will have to redefine what it means to exist and co-exist.
+What we will lose is significance and the biggest hurdle coming our way is the existential crisis that is going to hit billions of unemployed people. We will have to redefine what it means to exist and co-exist.
 
-[Ray Kurzweil](http://wikipedia.com/ray_kurzweil), a Silicon Valley futurist, forecasts the [Singularity]().
+[Ray Kurzweil](http://wikipedia.com/ray_kurzweil), a Silicon Valley futurist, forecasts the [Singularity](https://en.wikipedia.org/wiki/Technological_singularity).
 As with any prediction it will probably fall short but a few things can be taken for granted :
-* Automation will deprecate most human jobs if not all, our definition of job will have to evolve
+* Automation will deprecate most human jobs [if not all](https://youtu.be/gbj_NsgNe7A), our definition of job and human will have to be adapted.
 * Life expectancy will rise to new levels
 
 Since automation will be the main engine of wealth creation we won't need to enslave and endoctrinate portions of the society to work like in A Brave New World.
+The totalitarian government described by 1984 is also not very plausible because as Kurzweil said: 'the free circulation of ideas makes government control and repression way more difficult'. To me A Brave New World is closer to reality than 1984 is but still doesnt hold its premises.
 
-The totalitarian government described by 1984 is also not very plausible because as Kurzweil said : 'the free circulation of ideas makes government control and repression way more difficult'.
-
-To me A Brave New World is closer to reality than 1984 is but still doesnt hold its premises.
+## Additional resources:
+[Humans need not apply](https://youtu.be/7Pq-S557XQU)

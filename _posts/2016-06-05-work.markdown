@@ -102,7 +102,7 @@ This is how 99,99% of side projects die:
 Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I think the best 'todo' list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience dedicated todo lists tend to become procrastination cesspools.
 
 ## Are code linters necessary?
-Writing code is a very tedious and awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
+Writing code is a very tedious ([programming sucks](https://www.stilldrinking.org/programming-sucks)) and awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
 
 ## Tests are (sometimes) awesome
 Any change (even the smallest) to your codebase as the potential to wreck the whole thing. Having a test suite will save you a lot of time if you plan to make gradual improvements to the project. If it's a one shot don't even bother writing one single test.
