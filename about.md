@@ -4,10 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is a place where I document some stuff (mainly for myself, but if it can be of any use for other people it's even better :speak_no_evil:). There is no particular topic or category because this blog acts as a notepad for me.
+Hi, my name is Pascal and I like to make things that make things.
 
-If you learned something from my blog posts you might want to donate BTC @ `1NVQnZo5o9pQWJGJHJTrQx5qySUKYJRPW` :hear_no_evil:
+This website is my personal notepad and there is no specific category or theme.
 
-Theme base is from [Camille Diez](https://github.com/diezcami/polar-bear-theme). She makes great stuff.
-
-The blog is powered by Jekyll (which is a [great minimalist blogging engine](https://jekyllrb.com/)) and hosted for free by [GitHub](http://github.com).
+* Theme base is from [Camille Diez](https://github.com/diezcami/polar-bear-theme) and slighlty customized with a bit of WebGL using [ThreeJS](threejs.org).
+* The blog is powered by Jekyll (which is a [great minimalist blogging engine](https://jekyllrb.com/)) and hosted for free by [GitHub](http://github.com).
+* If you want to donate BTC, please do so @ `1NVQnZo5o9pQWJGJHJTrQx5qySUKYJRPW`.

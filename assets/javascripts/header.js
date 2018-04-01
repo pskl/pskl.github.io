@@ -10,6 +10,24 @@ var windowHalfY = window.innerHeight / 2;
 init();
 animate();
 
+function generate_colors() {
+  var red = Math.floor((Math.random() * 256));
+  var green = Math.floor((Math.random() * 256));
+  var blue = Math.floor((Math.random() * 256));
+  var o = Math.round, r = Math.random, s = 255;
+  var a = o(r()*s), b = o(r()*s), c =  o(r()*s)
+  red = (red + a)/2;
+  green = (green + b)/2;
+  blue = (blue + c)/2;
+  var res = [
+    'rgba(255,255,255,1)',
+    'rgba(' + Math.floor(red) + ', ' + Math.floor(green) + ', ' + Math.floor(blue) + ',1)',
+    'rgba(' + a + ',' + b + ',' + c + ',' + 1 + ')'
+  ];
+  console.log(res);
+  return res;
+}
+
 function init() {
 
   container = document.createElement( 'div' );
@@ -24,7 +42,7 @@ function init() {
 
   scene = new THREE.Scene();
 
-  var colors = [0xc1ffdd, 0xf8c9ff, 0xffffff ];
+  var colors = generate_colors();
   var geometry = new THREE.Geometry();
 
   for ( var i = 0; i < 100; i ++ ) {
