@@ -65,6 +65,9 @@ By selectively sorting pixels within an image one can get pretty interesting res
 <img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/pixel_sort.png">
 
 You can check out this [ruby implementation](https://github.com/czycha/pxlsrt) for starters. The effects are very interesting and look even better when targeted at specific areas of a picture.
+It's a bit funny because I think this technique is especially interesting exactly because it reminds us of paint dripping on a canvas like so:
+
+<img class='post-image' src='https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/analog_glitch.png'>
 
 ## `.jpg` data corruption
 
@@ -79,6 +82,8 @@ Probably the most common kind of image glitches. You can try it online [here](ht
 # Corrupt a 3D object
 
 When investigating various ways to glitch things I discovered in awe that the field of 3D glitching is vastly under-explored.
+
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/glitch3d/master/fixtures/examples/demo.jpg">
 
 3D models are in essence just a list of geometrical coordinates that can be altered and manipulated just in the same way the pixels of an image can be transformed. And model files also have different formats using different compression algorithms so there has to be ways to have fun with that.
 
@@ -106,18 +111,18 @@ One example is the outstanding number of rendering engine bugs found in video-ga
 
 <img class='post-image' src="http://pascal.cc/assets/gifs/battlefield_glitch.gif">
 
-Other weird stuff include [floating point rounding errors]('http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/').
-
-One could also use audio processing software like Audacity as a visual creation tool. [This tutorial]('http://www.hellocatfood.com/databending-using-audacity/') shows you how to open images and apply audio filters on it. Possibilities are endless.
-
-`Note: this section will evolve in time as I discover more techniques.`
+Other weird stuff include:
+* [floating point rounding errors]('http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/').
+* using audio processing software like Audacity as a visual creation tool. [This tutorial]('http://www.hellocatfood.com/databending-using-audacity/') shows you how to open images and apply audio filters on it. Possibilities are endless.
 
 ## Conclusion
 
-Mistakes are an important part of the creative process. Every single rendering engine that exists can be fiddled with. Exploring those creation channels can yield good artistic results. Explooooore ! :earth_africa: :zap:
+I think artists like glitches so much because they perfectly fit the exploratory dimension of the creative process where an initial idea has to mutate and explode to lead its creator in a maze of potential outcomes.
+Rendering engines are everywhere nowadays and every single rendering engine that exists can be fiddle with or can behave in unexpected ways.
 
 If you have any suggestions of very interesting categories not covered by this article, shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
 
 ## Additional Resources
-[Glitch becomes mainstream](http://www.adweek.com/digital/from-marketing-to-fashion-the-glitch-has-become-one-of-todays-defining-design-trends/)
-[3D art by Martin Olsson](http://martinolsson.tumblr.com/)
+* [Glitch becomes mainstream](http://www.adweek.com/digital/from-marketing-to-fashion-the-glitch-has-become-one-of-todays-defining-design-trends/)
+* [3D art by Martin Olsson](http://martinolsson.tumblr.com/)
+* [A cool datamosh example](https://youtu.be/RLPr7RqTFo0)
