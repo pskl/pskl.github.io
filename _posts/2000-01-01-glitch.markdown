@@ -126,3 +126,7 @@ If you have any suggestions of very interesting categories not covered by this a
 * [Glitch becomes mainstream](http://www.adweek.com/digital/from-marketing-to-fashion-the-glitch-has-become-one-of-todays-defining-design-trends/)
 * [3D art by Martin Olsson](http://martinolsson.tumblr.com/)
 * [A cool datamosh example](https://youtu.be/RLPr7RqTFo0)
+
+<div class="post-image">
+  <iframe class="post-video" src="https://player.vimeo.com/video/193277439" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+</div>
