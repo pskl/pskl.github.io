@@ -115,6 +115,10 @@ Other weird stuff include:
 * [floating point rounding errors]('http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/').
 * using audio processing software like Audacity as a visual creation tool. [This tutorial]('http://www.hellocatfood.com/databending-using-audacity/') shows you how to open images and apply audio filters on it. Possibilities are endless.
 
+Here is a glitch spotted in the wild in Berlin by [Maria VdB](https://www.instagram.com/maria.vdberg/):
+
+<img class='post-image' src="http://pascal.cc/assets/pictures/berlin_bvg_glitch.png">
+
 ## Conclusion
 
 I think artists like glitches so much because they perfectly fit the exploratory dimension of the creative process where an initial idea has to mutate and explode to lead its creator in a maze of potential outcomes.
