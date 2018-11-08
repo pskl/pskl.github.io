@@ -1,10 +1,10 @@
 ---
 layout: post
-title:  "Simple ways to get stuff done"
+title:  "Simple ways to get stuff done as a developer"
 date:   2016-06-05 15:15:26
 published: true
 listed: true
-description: "Article overviewing pragmatic ways to get shit done with software."
+description: "Article overviewing pragmatic ways to get shit done when wou work with software."
 image: /assets/pictures/screen-view.png
 permalink: /blog/work
 categories: blog work
@@ -78,7 +78,7 @@ The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash
 This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
 
 ## Pragmatic approach to project management
-I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really.
+I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really. My rule of thumb is: if the priority of this project is about agreeing on a common interface (example: API design) then its best to work from the outwards in but on the other hand if this is not the priority then it is way smarter to work from the inside out (ie: start implementing and see where it leads).
 
 This is how 99,99% of side projects die:
 

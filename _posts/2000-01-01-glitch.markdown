@@ -91,7 +91,7 @@ When investigating various ways to glitch things I discovered in awe that the fi
 
 The `.obj` file format is one of the oldest and most widely used for 3D models. It is not compressed. Essentially a 3D model is just a list of vertices and faces. You can read the full [file format specification](https://en.wikipedia.org/wiki/Wavefront_.obj_file) to better understand how it works. When I started looking at ways to glitch 3d objects and how it would look like I stumbled upon this [very nice series of articles](http://www.srcxor.org/blog/3d-glitching/) which explain how to glitch a model manually.
 
-Then I thought it would be cool if the process could be automated and made available directly in a command-line program so I started a simple tool called [Glitch3D](https://github.com/pskl/glitch3d) (still a very early WIP) to alter models and shoot pictures of the result using [Blender](https://www.blender.org/). The end goal being having a fully automated glitch art generator running on a remote server.
+Then I thought it would be cool if the process could be automated and made available directly in a command-line program so I started a simple tool called [Glitch3D](https://github.com/pskl/glitch3d) (still a very early WIP) to alter models and shoot pictures of the result using [Blender](https://www.blender.org/). The end goal being having a fully automated glitch art generator running on a remote server, but that's a bit too ambitious I think.
 
 # Corrupt moving things
 
@@ -122,7 +122,7 @@ Here is a glitch spotted in the wild in Berlin by [Maria VdB](https://www.instag
 ## Conclusion
 
 I think artists like glitches so much because they perfectly fit the exploratory dimension of the creative process where an initial idea has to mutate and explode to lead its creator in a maze of potential outcomes.
-Rendering engines are everywhere nowadays and every single rendering engine that exists can be fiddle with or can behave in unexpected ways.
+Rendering engines are everywhere nowadays and every single rendering engine that exists can be fiddled with or can behave in unexpected ways.
 
 If you have any suggestions of very interesting categories not covered by this article, shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
 
