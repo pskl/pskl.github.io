@@ -73,7 +73,7 @@ I use [solarized](http://ethanschoonover.com/solarized) wich comes out of the bo
 ## Which shell for your terminal application?
 The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements. To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box. I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
 
-<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/screen-view.png">
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/screen-view.png">
 
 This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
 
