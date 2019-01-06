@@ -13,7 +13,7 @@ _This is the transcript of a talk I gave at the [Berlin Ruby user group](http://
 
 Ruby and Ruby on Rails applications as well as most types of [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) applications naturally tend to grow into [big balls of mud](https://en.wikipedia.org/wiki/Big_ball_of_mud) over time and the main job of software architects is to curb the entropy curve. Domain Driven Development is one of the tools that can help tackle complexity. Although it is very rare to come across the opportunity to implement DDD principles from inception it is in practice very comfortable to rely on those principles to guide the refactoring process and avoid costly mistakes.
 
-In this article I will first explain very swiftly what DDD is and which underlying concepts are essential and helpful for refactorings, then I will then detail into a specific case I've encountered.
+In this article I will first explain very swiftly what DDD is and which underlying concepts are essential and helpful for refactorings, then I will detail a specific case I've encountered.
 
 ## The usual refactor nightmare :skull:
 

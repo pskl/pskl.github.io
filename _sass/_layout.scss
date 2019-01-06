@@ -14,7 +14,7 @@
         }
     }
 
-    .visualisation {
+    #visualisation {
         max-height: 450px;
         width: 100%;
     }
@@ -22,6 +22,7 @@
     a.site-title {
       color: rgba(255, 255, 255, 1);
       z-index: 99;
+      text-shadow: -7px -2px #808080;
     }
 
     a.page-link {
@@ -67,6 +68,7 @@
         padding-bottom: 100px;
         position: absolute;
         right: 0;
+        text-shadow: 1px -1px #808080;
 
         .page-link {
             line-height: $base-line-height;
@@ -123,7 +125,7 @@
     }
 
     .post-link {
-        font-family: 'Helvetica Neue';
+        font-family:  $base-font-family;
         text-align: left;
         font-weight: 300;
         font-size: 1em;
