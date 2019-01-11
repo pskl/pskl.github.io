@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Using Domain Driven Design as a crutch for large refactors in Ruby applications"
+title:  "Using Domain Driven Design as a crutch for large refactors"
 date:   2018-12-21 15:53:26
 published: true
 listed: true
