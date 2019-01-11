@@ -29,7 +29,7 @@ DDD is not a coding paradigm like OOP or Functional programming. DDD does not re
 
 A bounded context is a "semantic contextual boundary". They usually represent the areas of expertise of the company or project you're working with. For example the [8fit](https://8fit.com/) mobile application helps users reach their goal in nutrition and workouts so those are a natural fit for bounded contexts.
 
-### What is an Ubiquitous language? :thinking:
+### What is a Ubiquitous language? :thinking:
 
 A ubiquitous language is the common language that should be shared by every stakeholder in a specific bounded context.
 
@@ -39,7 +39,7 @@ It is important to make sure that your developers are focused on the right "core
 
 ### Links between contexts need to be strategical
 
-Context maps define the relationship (or the link) that your bounded contexts share, there a few but here are some:
+Context maps define the relationship (or the link) that your bounded contexts share, there are a few but here are some:
 
 - *Conformist*: the downstream context is following the language of the upstream one blindly and has to "conform" to it
 - *Open Host Service*: the upstream context exposes a set of handy and documented services to the other
@@ -59,15 +59,15 @@ This is exactly why you need to put all the key stakeholders in one room and tri
 
 ## A case study
 
-Let's take look at a real life business problem: the [8fit](https://8fit.com/) backend application is a Ruby on Rails monolith interfaced with a frontend mobile application written in Typescript using React Native.
+Let's take a look at a real life business problem: the [8fit](https://8fit.com/) backend application is a Ruby on Rails monolith interfaced with a frontend mobile application written in Typescript using React Native.
 
 ### Current state
 
-The backend was first and foremost designed with a standard Rails CRUD architeture with each endpoint more or less mapping one to one with the underlying models. Over time and since a lot of the features were firstly built in the app itself the frontend code had the responsability to assemble and handle compound objects created from those base elements with more or less success. This signals the acummulation of domain logic in the frontend code and ultra tight coupling. :warning:
+The backend was first and foremost designed with a standard Rails CRUD architeture with each endpoint more or less mapping one to one with the underlying models. Over time and since a lot of the features were firstly built in the app itself the frontend code had the responsibility to assemble and handle compound objects created from those base elements with more or less success. This signals the accummulation of domain logic in the frontend code and ultra tight coupling. :warning:
 
-> “A common mistake made when using REST is to design resources that directly reflect the Aggregates in the domain model. Doing this forces every client into a Conformist relationship, where if the model changes shape the resources will also. Instead resources should be designed synthetically to follow client-driven use cases.” - __Vaughn Vernon, Domain-Driven Design Distilled (2016)__
+> “A common mistake made when using REST is to design resources that directly reflect the aggregates in the domain model. Doing this forces every client into a Conformist relationship, where if the model changes shape the resources will also. Instead resources should be designed synthetically to follow client-driven use cases.” - __Vaughn Vernon, Domain-Driven Design Distilled (2016)__
 
-It is important and tricky to be able to detect at the right moment the emergence of domain models. Nevertheless the [YAGNI principle](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) and the pragramtic ethos of the common Ruby developer outline that you should never over-engineer in the first place. Although it can help a lot to detect when your architecture would benefit from the creation of new domain models and determine where its creation is most appropriate.
+It is important and tricky to be able to detect at the right moment the emergence of domain models. Nevertheless the [YAGNI principle](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) and the pragmatic ethos of the common Ruby developer outline that you should never over-engineer in the first place. Although it can help a lot to detect when your architecture would benefit from the creation of new domain models and determine where its creation is most appropriate.
 
 <img class='post-image' src="http://pascal.cc/assets/pictures/8fit_ddd_1.png">
 
@@ -75,7 +75,7 @@ Each RoR model maps 1-to-1 with a table in our database: workout_templates, work
 
 ### Proposed modeling solutions
 
-By interacting with domain experts in the company (such as trainers, nutritionists, product managers...) we propose the introduction of bounded contexts and the definition of an ubiquitous language in each of those domains.
+By interacting with domain experts in the company (such as trainers, nutritionists, product managers...) we propose the introduction of bounded contexts and the definition of a ubiquitous language in each of those domains.
 
 <img class='post-image' src="http://pascal.cc/assets/pictures/8fit_ddd_2.png">
 
@@ -83,7 +83,7 @@ In this draft the nutrition bounded context contains the following aggregates: `
 
 The workouts bounded context contains the following "aggregates": workout program, progress... For instance a `Program` is an object that aggregates the underlying resources used to create the workouts for the user: templates, warmups, cooldowns, sets, steps... This enables us to do most of the heavy lifting backend side and enables a more comprehensive communication between the upstream and downstream parts of our architecture.
 
-The internal communication in each of the domain will rely on the introduction of domain events (using the [Pub/Sub pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) such as: `WorkoutCompleted` or `MealCompleted`.
+The internal communication in each of the domain will rely on the introduction of domain events (using the [Pub/Sub pattern](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern) such as: `WorkoutCompleted` or `MealCompleted`).
 
 ### What about design patterns?
 
@@ -93,7 +93,7 @@ Doing DDD by the book is possible and recommended. [The reference manual](https:
 
 Events are the life of your domains. Implementing event systems can dramatically reduce the coupling of your architecture components and can be implemented on top of an existing system.
 
-Relying on accurate domain events can enable you ultimately to leverage the power of [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html). This is the final form of DDD in all its glory but the key takeway is that there are different levels of adherence to DDD principles.
+Relying on accurate domain events can enable you ultimately to leverage the power of [Event Sourcing](https://martinfowler.com/eaaDev/EventSourcing.html). This is the final form of DDD in all its glory but the key takeaway is that there are different levels of adherence to DDD principles.
 
 ## Relationship with the Ruby ecosystem
 
@@ -101,7 +101,7 @@ Relying on accurate domain events can enable you ultimately to leverage the powe
 
 Plain old Ruby objects are the perfect tool for that job. They should be explicit and well structured.
 
-Tons of Ruby built in tricks to the rescue. Ruby's terseness and expressiveness makes it perfect to build readable objects that contain the business logic in your area of expertise.
+Ruby's terseness and expressiveness makes it perfect to build readable objects that contain the business logic in your area of expertise.
 
 ```ruby
 module Workouts
@@ -114,7 +114,7 @@ end
 
 ### Wisper
 
-Wisper is a very clean gem with zero dependencies so it won't bloat your bundle. It implements basic Pub/Sub functionalities that will enable you to start decoupling parts of your application.
+Wisper is a very clean gem with zero dependencies, so it won't bloat your bundle. It implements basic Pub/Sub functionalities that will enable you to start decoupling parts of your application.
 
 ```ruby
 # register handlers
@@ -132,7 +132,7 @@ end
 
 ### Rails Event Store
 
-If you plan on implementing Domain Events (which is a great idea) you will probably find this gem very helpful because it will enable your team to hit the ground running. It focuses on enabling domain events features and persistence. It was written and is still maintained by the [Arkency team](https://arkency.com/). :warning: Rails Event Store also implements Pub/Sub.
+If you plan on implementing Domain Events (which is a great idea) you will probably find this gem very helpful because it will enable your team to hit the ground running. It focuses on enabling domain event features and persistence. It was written and is still maintained by the [Arkency team](https://arkency.com/). :warning: Rails Event Store also implements Pub/Sub.
 
 ## TL;DR
 
