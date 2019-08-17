@@ -28,3 +28,19 @@ August 20 - 25, 2019
 
 Vernissage
 August 20, 2019 at 19.00
+
+~
+
+Additional Credits
+
+Curation:
+- Aleksandra Stor
+- Brigitte Pomme
+
+Graphic design:
+- Katarina Elisabeth Stefanakos
+- Dennis Rodman
+
+Sound design:
+- Nikita Nikitin
+- Rebecca Joe Loeb
