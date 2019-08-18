@@ -6,6 +6,9 @@ published: false
 categories: jekyll update
 permalink: /blog/futurism
 ---
+
+DRAFT !
+
 What is relevance?
 
 I am really into futurism and everything that revolves around it. Anticipating what's next for our civilization has become a hobby or a common case of [neurosis](https://en.wikipedia.org/wiki/Neurosis), hard to tell the difference.
