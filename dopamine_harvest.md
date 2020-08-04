@@ -29,12 +29,14 @@ August 20 - 25, 2019
 Vernissage
 August 20, 2019 at 19.00
 
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/665933072&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/cardiohud" title="КАРДИОХУ́Д" target="_blank" style="color: #cccccc; text-decoration: none;">КАРДИОХУ́Д</a> · <a href="https://soundcloud.com/cardiohud/dopamine-harvest" title="DOPAMINE HARVEST [EXHIBITION SOUNDTRACK]" target="_blank" style="color: #cccccc; text-decoration: none;">DOPAMINE HARVEST [EXHIBITION SOUNDTRACK]</a></div>
+
 ~
 
 Additional Credits
 
 Curation:
-- Aleksandra Stor
+- Aleksandra Štor
 - Brigitte Pomme
 
 Graphic design:
