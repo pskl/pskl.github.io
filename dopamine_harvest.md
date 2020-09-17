@@ -33,7 +33,7 @@ August 20, 2019 at 19.00
 
 ~
 
-Additional Credits
+# Additional Credits
 
 Curation:
 - Aleksandra Štor
@@ -41,7 +41,6 @@ Curation:
 
 Graphic design:
 - Katarina Elisabeth Stefanakos
-- Dennis Rodman
 
 Sound design:
 - Nikita Nikitin

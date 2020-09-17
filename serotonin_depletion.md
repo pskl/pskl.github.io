@@ -27,10 +27,16 @@ August 31 - September , 2019
 Vernissage
 August 31, 2020 at 16.00 -> 22.00
 
-~
+
 DJ Line up: [Cardiohud](https://soundcloud.com/cardiohud) / [Lowfeli](https://soundcloud.com/lowfeli) / [Mown](https://soundcloud.com/mownofficial) / [Notan](https://www.mixcloud.com/notannotan/) / [Grundstück](https://soundcloud.com/djgrundstuck)
 
-Additional Credits
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/894234949&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fuckgoogleaskmeanything" title="pskl" target="_blank" style="color: #cccccc; text-decoration: none;">pskl</a> · <a href="https://soundcloud.com/fuckgoogleaskmeanything/dj-double-spoon-serotonin-depletion-03092020" title="DJ DOUBLE SPOON @SEROTONIN DEPLETION 03.09.2020" target="_blank" style="color: #cccccc; text-decoration: none;">DJ DOUBLE SPOON @SEROTONIN DEPLETION 03.09.2020</a></div>
+
+
+~
+
+# Additional Credits
 
 Curation/Editorial:
 - Rebecca Joe Loeb
@@ -44,3 +50,4 @@ Sound engineering:
 
 Graphic design:
 - Katarina Elisabeth Stefanakos
+
