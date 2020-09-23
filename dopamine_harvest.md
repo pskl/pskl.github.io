@@ -33,15 +33,15 @@ August 20, 2019 at 19.00
 
 ~
 
-# Additional Credits
+### Additional Credits
 
-Curation:
+Curation/Editorial:
 - Aleksandra Štor
 - Brigitte Pomme
 
 Graphic design:
 - Katarina Elisabeth Stefanakos
 
-Sound design:
+Soundscaping:
 - Nikita Nikitin
 - Rebecca Joe Loeb

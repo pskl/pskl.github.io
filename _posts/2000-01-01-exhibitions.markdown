@@ -38,7 +38,7 @@ There are, of course, numerous downsides to such an undertaking.
 - It's a complete timesink. Organizing the whole event takes an incredible amount of time and requires help and planning from all sides.
 - Lastly it is sometimes hard to stay focused on enjoying the event and have quality conversations with attendees because you always have to take care or anticipate some detail of organization.
 
-If you are interesting in participating in those events or just want to send me feedback shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
+If you are interested in participating in those events or just want to send me feedback shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
 
 ## Link to past exhibition press releases
 * [Dopamine Harvest](http://pascal.cc/dopamine-harvest)

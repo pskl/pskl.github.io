@@ -35,14 +35,7 @@ DJ Line up: [Cardiohud](https://soundcloud.com/cardiohud) / [Lowfeli](https://so
 
 ~
 
-# Additional Credits
-
-Curation/Editorial:
-- Rebecca Joe Loeb
-
-Logistics:
-- Peter Winter
-- Pierre Van De Velde
+### Additional Credits
 
 Sound engineering:
 - Niko Ranch
@@ -50,3 +43,9 @@ Sound engineering:
 Graphic design:
 - Katarina Elisabeth Stefanakos
 
+Logistics:
+- Pierre Van De Velde
+- Ludovic Legrand
+
+Copywriting:
+- Rebecca Joe Loeb
