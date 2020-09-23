@@ -12,7 +12,7 @@ categories: blog exhibition
 
 _Since a very young age a dreadful fear of Death makes me anticipate the passing of each year._
 
-In 2019, after years of sad birthdays, I vowed to do each year a small art exhibition right at the junction between August and September for a few days as an experiment to replace my birthday with a different type of celebration that would move the light away from the anticipated increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. The initial emphasis was laid on art made with the assistance of technology which is coincides with the bulk of my practice. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
+In 2019, after years of sad birthdays, I vowed to do each year a small art exhibition right at the junction between August and September for a few days as an experiment to replace my birthday with a different type of celebration that would move the light away from the anticipated increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
 
 ## Replace a "mostly" meaningless event by something more personal and savory
 
@@ -28,7 +28,7 @@ So as to not exhibit alone and seem even more vain than I am each year I try to 
 
 When a person offers to meet up for a birthday it usually involves one ponctual timeslot. On the contrary if you organize a week long exhibition you offer your friends the opportunity to pick a time that suits them best which dramatically increases the odds of actually catching up with them. Friends can just come and go whenever they want and whenever they are available: some friends will hang out there the entire time and some will just pass by 5 minutes and I love it, no constraints, no pressure, liberty of format.
 
-Furthermore by making the event public you add a tiny drop of serendipity because the event can attract random people from different backgrounds. This can turn into great opportunities to make acquaintances.
+Furthermore by making the event public you add a tiny drop of serendipity because the event can attract random people from different backgrounds. This can turn into great opportunities to make acquaintances. Overall it's probably the most amount of fun I get throughout the year, a week of absolute pure productive bliss.
 
 ## Rather obvious but non-neglectable downsides
 
