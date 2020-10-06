@@ -49,3 +49,5 @@ Logistics:
 
 Copywriting:
 - Rebecca Joe Loeb
+
+[→ post-mortem story highlights](https://www.instagram.com/stories/highlights/17913217354460475/)

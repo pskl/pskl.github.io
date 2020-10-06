@@ -45,3 +45,6 @@ Graphic design:
 Soundscaping:
 - Nikita Nikitin
 - Rebecca Joe Loeb
+
+
+[→ post-mortem story highlights](https://www.instagram.com/stories/highlights/18081377293039487/)
