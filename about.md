@@ -6,6 +6,6 @@ permalink: /about/
 
 Hi, my name is Pascal.
 
-I like to make things that make things. I mostly write software but once a year I organize a small [exhibition](http://pascal.cc/blog/exhibitions).
+I like to make things that make things. I mostly write software but once a year I organize a small art exhibition.
 
-To say hi back or talk about stuff → **hello@pascal.cc**
+To say hi back or ask me things → **[hello@pascal.cc](mailto:hello@pascal.cc)**
