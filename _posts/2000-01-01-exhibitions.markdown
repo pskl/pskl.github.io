@@ -30,7 +30,7 @@ When a person offers to meet up for a birthday it usually involves one ponctual 
 
 Furthermore by making the event public you add a tiny drop of serendipity because the event can attract random people from different backgrounds. This can turn into great opportunities to make acquaintances. Overall it's probably the most amount of fun I get throughout the year, a week of absolute pure productive bliss.
 
-Serendipity is at the core of my art practice: I try to leverage mass productions methods ("creative" bots) and randomness to increase odds to find gems. This also works with people and for life in general : the more people you meet the higher chances to meet interesting people.
+Serendipity is at the core of my art practice: I try to leverage mass productions methods ("creative" bots) and randomness to increase odds to find gems. This also works with people and for life in general: the more people you meet the higher the chances are to meet interesting people.
 
 ## Rather obvious but non-neglectable downsides
 
