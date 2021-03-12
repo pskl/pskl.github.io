@@ -68,14 +68,14 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
 
 ## Color schemes
-I use [solarized](http://ethanschoonover.com/solarized) wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that dark themes are better for long term use of a computer screen. In addition I use [F.lux](https://justgetflux.com) a color adjusting software that changes the temperature of the display over the course of a day.
+I use [solarized](http://ethanschoonover.com/solarized) wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that dark themes are better for long term use of a computer screen. ~~In addition I use [F.lux](https://justgetflux.com) a color adjusting software that changes the temperature of the display over the course of a day.~~
 
 ## Which shell for your terminal application?
 The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements. To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box. I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
 
 <img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/screen-view.png">
 
-This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.
+~~This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.~~
 
 ## Pragmatic approach to project management
 I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really. My rule of thumb is: if the priority of this project is about agreeing on a common interface (example: API design) then its best to work from the outwards in but on the other hand if this is not the priority then it is way smarter to work from the inside out (ie: start implementing and see where it leads).
