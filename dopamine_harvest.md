@@ -3,7 +3,7 @@ layout: page
 title: Dopamine Harvest
 permalink: /dopamine-harvest
 ---
-_Press release_
+_Press release, Blitz Gallery_
 
 Berlin, Release Date: For Immediate Release
 

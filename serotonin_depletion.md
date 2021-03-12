@@ -3,7 +3,7 @@ layout: page
 title: Serotonin Depletion
 permalink: /serotonin-depletion
 ---
-_Press release_
+_Press release, Blitz Gallery_
 
 Berlin, Release Date: For Immediate Release
 
