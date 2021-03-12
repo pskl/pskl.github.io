@@ -1,9 +1,8 @@
 # Site settings
 title: "PSKL"
-description: "Generated ramblings"
+description: "."
 baseurl: ""
-url: "http://pascal.cc"
-twitter_username: fullstache
+url: "https://pascal.cc"
 github_username:  pskl
 
 # Build settings

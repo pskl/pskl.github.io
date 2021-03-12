@@ -11,7 +11,7 @@ In response to the year 2020, or the year that was stolen, [Plattenvereinigung](
 
 Not for 100 years has the world collectively gone through a systematic shutting-down of society which has asked each and every one of us to analyze how we value and spend our time. Through these three very different artists we see how each experiences a world that is no longer outwardly chaotic, but ripe with an inner chaos that we bring upon ourselves.  Serotonin Depletion asks us to contemplate what is left when our normal sources of pleasure and connection vanish. What does time feel like when we are simply passing it?
 
-<img class='post-image' src="http://pascal.cc/assets/pictures/ikatch.png">
+<img class='post-image' src="https://pascal.cc/assets/pictures/ikatch.png">
 
 [Kathrin (Ikatch)](https://www.ikatch.net/) was born in 1980 and lives in Berlin since 1998. In 2012 & 2019 she became a loving mother. "Nature and everything natural means the world to me. I‘ve always had many different interests and have always been creative as a way of expressing myself. Digital art is one channel for me to do so. It all begins with a photo (or image in general) that attracts my attention, inspires me. I start the process with various apps on different devices - because I enjoy learning and combining experience and experiments. It really is following the flow, it is not planned out, I just go ahead, try out new techniques, and when I like the result I proceed, otherwise I go one step back. Following the white rabbit, kind of. Also it is so fascinating to me how many opportunities there are nowadays for image editing."
 

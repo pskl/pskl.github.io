@@ -16,7 +16,7 @@ First of all we usually categorize assets (stuff that you own) in two categories
 
 Secondly everything you own has a dynamic value (example:  a house can triple in value over 10 years) representing your net worth and that value is a compound of all the stuffs you have (it's the cornerstone of a capitalistic system, which is now predominant in [100 % percent of all countries](https://www.bloomberg.com/view/articles/2017-10-09/it-s-denmark-versus-singapore-for-the-growth-crown)). The goal of having a savings strategy is to maximize the growth of your net worth. In other words, the money your assets generates while you sit on your :peach: doing nothing.
 
-<img class='post-image' src="http://pascal.cc/assets/gifs/money_pillow.gif">
+<img class='post-image' src="https://pascal.cc/assets/gifs/money_pillow.gif">
 
 ##  Investing in tangible assets
 
@@ -84,7 +84,7 @@ A wealth manager is a human or group of humans that intensely look at Excel spre
 
 It's a measurement of the value of a section of a market. It is meant to represent the overall trend of an aggregate of companies. For example the [S&P 500](https://en.wikipedia.org/wiki/S%26P_500_Index) is an index. Historical evidence shows that very few active fund managers can outperform indexes. The fund buys parts of the leading companies in a country in an effort to profit from the overall growth of the whole country's private sector.
 
-<img class='post-image' src="http://pascal.cc/assets/sp500.png">
+<img class='post-image' src="https://pascal.cc/assets/sp500.png">
 
 **Why are indexes so badass?**
 
@@ -102,7 +102,7 @@ This is a tricky one. Most saving plans provided by banks today have very low ye
 
 In 2008 most people that lost money are the ones who panick sold their positions anticipating the dip. But on a long enough timespan we can say that the markets recovered quite nicely ([here](http://library2.smu.ca/xmlui/bitstream/handle/01/26106/Balubaid_Fahad_MRP_2014.pdf) is a document that describes more exactly what happened to the S&P500). So if you chill in case of crises you're good to go (easier said than done tho :expressionless:)
 
-<img class='post-image' src="http://pascal.cc/assets/gifs/done.gif">
+<img class='post-image' src="https://pascal.cc/assets/gifs/done.gif">
 
 **Is this magical? What's the catch? :sparkles:**
 
@@ -147,7 +147,7 @@ If you have done your homework already and consider yourself informed enough and
 
 ## Diversification is :key:
 
-<img class='post-image' src="http://pascal.cc/assets/gifs/diversify.gif">
+<img class='post-image' src="https://pascal.cc/assets/gifs/diversify.gif">
 
 In order to have relatively stable decent returns every year it is necessary to diversify the assets in your portfolio as much as possible according the [modern portfolio theory](https://en.wikipedia.org/wiki/Modern_portfolio_theory). This allows you to spread the risk and make your porfolio more resilient to sudden market changes. What that means is that if you get super stacked on the passive investment side then you can allow yourself to get that nice apartment and über hipster crypto tokens portfolio which you can monitor on your phone using [Blockfolio](http://blockfolio.com/).
 
@@ -161,7 +161,7 @@ In order to have relatively stable decent returns every year it is necessary to 
 
 Diversify your portfolio and hold tangible assets and financial products in order to guarantee a certain amount of safety. When buying financial securities only buy Indexed Funds and ETF, buy early, hold, reap the fruits later. It's like growing a garden. If you are young and without too many downpayments you can consider investing in crypto-currencies which are the most high-risk/high-reward asset class that exists right now.
 
-<img class='post-image' src="http://pascal.cc/assets/gifs/diversifyobonds.gif">
+<img class='post-image' src="https://pascal.cc/assets/gifs/diversifyobonds.gif">
 
 ## More resources to follow up on that matter:
 

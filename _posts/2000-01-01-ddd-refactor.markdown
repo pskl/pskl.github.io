@@ -9,7 +9,7 @@ permalink: /blog/domain-driven-design
 categories: blog design
 ---
 
-_This is the transcript of a talk I gave at the [Berlin Ruby user group](http://berlin.onruby.de/) on 03/01/18. You can download the slides [here](http://pascal.cc/assets/ddd_slides.pdf)._
+_This is the transcript of a talk I gave at the [Berlin Ruby user group](http://berlin.onruby.de/) on 03/01/18. You can download the slides [here](https://pascal.cc/assets/ddd_slides.pdf)._
 
 Ruby and Ruby on Rails applications as well as most types of [OOP](https://en.wikipedia.org/wiki/Object-oriented_programming) applications naturally tend to grow into [big balls of mud](https://en.wikipedia.org/wiki/Big_ball_of_mud) over time and the main job of software architects is to curb the entropy curve. Domain Driven Development is one of the tools that can help tackle complexity. Although it is very rare to come across the opportunity to implement DDD principles from inception it is in practice very comfortable to rely on those principles to guide the refactoring process and avoid costly mistakes.
 
@@ -35,7 +35,7 @@ A ubiquitous language is the common language that should be shared by every stak
 
 It is important to make sure that your developers are focused on the right "core" domains of the business and they should not spend too much time on domains that could be externalized. The ubiquitous language is developed as a joint effort between the technical experts and the business experts; it is the crutch :tada:
 
-<img class='post-image' src="http://pascal.cc/assets/pictures/ubiquitous_language.png">
+<img class='post-image' src="https://pascal.cc/assets/pictures/ubiquitous_language.png">
 
 ### Links between contexts need to be strategical
 
@@ -45,7 +45,7 @@ Context maps define the relationship (or the link) that your bounded contexts sh
 - *Open Host Service*: the upstream context exposes a set of handy and documented services to the other
 - *Anti Corruption Layer*: the downstream system implements a layer of communication to prevent the upstream language from contaminating its own
 
-<img class='post-image' src="http://pascal.cc/assets/pictures/context_mapping.png">
+<img class='post-image' src="https://pascal.cc/assets/pictures/context_mapping.png">
 
 ### How to design with DDD in mind?
 
@@ -69,7 +69,7 @@ The backend was first and foremost designed with a standard Rails CRUD architetu
 
 It is important and tricky to be able to detect at the right moment the emergence of domain models. Nevertheless the [YAGNI principle](https://en.wikipedia.org/wiki/You_aren%27t_gonna_need_it) and the pragmatic ethos of the common Ruby developer outline that you should never over-engineer in the first place. Although it can help a lot to detect when your architecture would benefit from the creation of new domain models and determine where its creation is most appropriate.
 
-<img class='post-image' src="http://pascal.cc/assets/pictures/8fit_ddd_1.png">
+<img class='post-image' src="https://pascal.cc/assets/pictures/8fit_ddd_1.png">
 
 Each RoR model maps 1-to-1 with a table in our database: workout_templates, workouts, meals, recipes, ingredients...
 
@@ -77,7 +77,7 @@ Each RoR model maps 1-to-1 with a table in our database: workout_templates, work
 
 By interacting with domain experts in the company (such as trainers, nutritionists, product managers...) we propose the introduction of bounded contexts and the definition of a ubiquitous language in each of those domains.
 
-<img class='post-image' src="http://pascal.cc/assets/pictures/8fit_ddd_2.png">
+<img class='post-image' src="https://pascal.cc/assets/pictures/8fit_ddd_2.png">
 
 In this draft the nutrition bounded context contains the following aggregates: `MealPlan` and `RecipeBook` for instance. The `Recipebook` is aggregating the `Recipe` and the `Ingredient` objects to deliver a more comprehensive entity downstream.
 

@@ -101,7 +101,7 @@ Of course both 2D and 3D techniques described here can be used to make videos wh
 
 In modern compression algorithms only parts of the video contain full frames. By removing said frames you get a nice blend of motions applied to the wrong frame.
 
-<img class='post-image' src="http://pascal.cc/assets/gifs/datamoshing.gif">
+<img class='post-image' src="https://pascal.cc/assets/gifs/datamoshing.gif">
 
 # Embrace the uncharted world of non-referenced glitches
 
@@ -109,7 +109,7 @@ The more our society gets technical the more errors and fringe cases get introdu
 
 One example is the outstanding number of rendering engine bugs found in video-games which are kinda hard to categorize or even describe.
 
-<img class='post-image' src="http://pascal.cc/assets/gifs/battlefield_glitch.gif">
+<img class='post-image' src="https://pascal.cc/assets/gifs/battlefield_glitch.gif">
 
 Other weird stuff include:
 * [floating point rounding errors]('http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/').
@@ -117,7 +117,7 @@ Other weird stuff include:
 
 Here is a glitch spotted in the wild in Berlin by [Maria VdB](https://www.instagram.com/maria.vdberg/):
 
-<img class='post-image' src="http://pascal.cc/assets/pictures/berlin_bvg_glitch.png">
+<img class='post-image' src="https://pascal.cc/assets/pictures/berlin_bvg_glitch.png">
 
 ## Conclusion
 

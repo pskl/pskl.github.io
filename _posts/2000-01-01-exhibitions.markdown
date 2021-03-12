@@ -43,5 +43,5 @@ There are, of course, numerous downsides to such an undertaking.
 If you are interested in participating in those events or just want to send me feedback shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
 
 ## Link to past exhibition press releases
-* [Dopamine Harvest](http://pascal.cc/dopamine-harvest)
-* [Serotonin Depletion](http://pascal.cc/serotonin-depletion)
+* [Dopamine Harvest](https://pascal.cc/dopamine-harvest)
+* [Serotonin Depletion](https://pascal.cc/serotonin-depletion)
