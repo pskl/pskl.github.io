@@ -112,8 +112,8 @@ One example is the outstanding number of rendering engine bugs found in video-ga
 <img class='post-image' src="https://pascal.cc/assets/gifs/battlefield_glitch.gif">
 
 Other weird stuff include:
-* [floating point rounding errors]('http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/').
-* using audio processing software like Audacity as a visual creation tool. [This tutorial]('http://www.hellocatfood.com/databending-using-audacity/') shows you how to open images and apply audio filters on it. Possibilities are endless.
+* [floating point rounding errors](http://mantascode.com/exploring-the-realm-of-floating-point-rounding-errors/).
+* using audio processing software like Audacity as a visual creation tool. [This tutorial](http://www.hellocatfood.com/databending-using-audacity/) shows you how to open images and apply audio filters on it. Possibilities are endless.
 
 Here is a glitch spotted in the wild in Berlin by [Maria VdB](https://www.instagram.com/maria.vdberg/):
 
