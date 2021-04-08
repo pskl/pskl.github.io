@@ -26,7 +26,7 @@ Secondly everything you own has a dynamic value (example:  a house can triple in
   <iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscreen></iframe>
 </div>
 
-There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run. In order to get a better grasp on the problem I did [a small Excel spreadsheet simulation](https://docs.google.com/spreadsheets/d/1OzzYZnavesX-VAC_7IVeGw1MyS8l4093rVPZuSXin-4/edit?usp=sharing).
+There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run.
 
 <div class='post-image'>
   <blockquote class="twitter-tweet" data-lang="en">
@@ -34,7 +34,7 @@ There is no such thing as free real estate sadly... Investment decisions are oft
   </blockquote>
 </div>
 
->PROTIP: _One thing that is really good with this kind of investment is that you can easily ask for money lending to purchase it._
+>PROTIP: _One thing that is really good with this kind of investment is that you can easily ask for money lending to purchase it. And if the lending rate is low it can be a good deal._
 
 <div class='post-image'>
   <iframe class="post-video" src="https://youtube.com/embed/HaOsqkiKlYY" frameborder="0" allowfullscreen></iframe>

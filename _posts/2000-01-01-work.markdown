@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Simple ways to get stuff done as a developer"
+title:  "Simple ways to get stuff done as a maker"
 date:   2016-06-05 15:15:26
 published: true
 listed: true
@@ -20,7 +20,7 @@ The battle for the best editor is still raging and many of the contestants have 
 
  - **[VIM](http://www.vim.org/)**
 
->the oldschool choice for purists and minimalists. It offers the best typing experience one can ask for. This editor is ubiquitous, it's installed natively on most Linux/UNIX based servers/personal computers thus making it a really safe choice. It requires dedication over time and a willingness to lose productivity temporarily. Also it is the opposite of an [Omakase](https://en.wikipedia.org/wiki/Omakase) editor: it comes out barebones and one needs to furnish it with a shit-ton of plugins to do even the simple things. One could say its like the [npm](https://www.npmjs.com/) of text editors but that would be quite a stretch.
+>the oldschool choice for purists and minimalists. It offers the best typing experience one can ask for. This editor is ubiquitous, it's installed natively on most Linux/UNIX based servers/personal computers thus making it a really safe choice. It requires dedication over time and a willingness to lose productivity temporarily. Also it is the opposite of an [Omakase](https://en.wikipedia.org/wiki/Omakase) editor: it comes out barebones and one needs to furnish it with a shit-ton of plugins to do even the simple things.
 
 :white_check_mark: Nerd cred ++, powerfullest, everywhere, cool as fuck
 
@@ -55,7 +55,7 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 :white_check_mark: Noob friendly, cool, slick, free
 
-:no_entry_sign: ~~Sometimes~~ Most of the times slow
+:no_entry_sign: ~~Sometimes~~ Most of the times slow, no workspace settings
 
 - **[Visual Studio Code](https://code.visualstudio.com/)**
 
@@ -67,18 +67,15 @@ Sublime Text is written in C++ which makes it pretty fast and reliable. Think of
 
 Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
 
-## Color schemes
-I use [solarized](http://ethanschoonover.com/solarized) wich comes out of the box with atom and which is pretty eye candy. On that aspect it boils down to personal preferences but I find that dark themes are better for long term use of a computer screen. ~~In addition I use [F.lux](https://justgetflux.com) a color adjusting software that changes the temperature of the display over the course of a day.~~
-
 ## Which shell for your terminal application?
-The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements. To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box. I highly suggest using [Oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh) which brings UI improvements and easy customization. (see [my .zshrc](https://github.com/pskl/dotfiles/blob/master/.zshrc)).
+The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29). It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new improvements. To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to his ancestors but brings a lot of improvements out of the box.
 
 <img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/screen-view.png">
 
 ~~This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.~~
 
 ## Pragmatic approach to project management
-I always try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless. Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really. My rule of thumb is: if the priority of this project is about agreeing on a common interface (example: API design) then its best to work from the outwards in but on the other hand if this is not the priority then it is way smarter to work from the inside out (ie: start implementing and see where it leads).
+It's sometimes best to try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless if you're working alone or in a very small team (<=2). Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really. My rule of thumb is: if the priority of this project is about agreeing on a common interface (example: API design) then its best to work from the outwards in but on the other hand if this is not the priority then it is way smarter to work from the inside out (ie: start implementing and see where it leads).
 
 This is how 99,99% of side projects die:
 
@@ -99,16 +96,18 @@ This is how 99,99% of side projects die:
 * 1 month passes
 * project status: :skull:
 
-Solution: think as small as possible first, don't overshoot, think short, make something out of it before it fades away. Also I think the best 'todo' list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience dedicated todo lists tend to become procrastination cesspools.
+Solution: think as small as possible first, don't overshoot, think short (while keeping an eye on the big picture), make something out of it before it fades away, iterate, iterate, iterate. Also I think the best 'todo' list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience dedicated todo lists tend to become procrastination cesspools.
+
+>“Make it work, make it fast, then make it pretty… and it isn’t finished until it is pretty!” __-SQL MVP Jeff Moden (RedGate’s 2011 Exceptional DBA of the Year)__
 
 ## Are code linters necessary?
-Writing code is a very tedious ([programming sucks](https://www.stilldrinking.org/programming-sucks)) and an awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
+Writing code is a very tedious activity ([programming sucks](https://www.stilldrinking.org/programming-sucks)) and an awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
 
 ## Tests are (sometimes) awesome
 Any change (even the smallest) to your codebase as the potential to wreck the whole thing. Having a test suite will save you a lot of time if you plan to make gradual improvements to the project. If it's a one shot don't even bother writing one single test.
 
 ## Prioritizing is the biggest :key:
-To be somewhat efficient at what you're doing you have to prioritize some items over others. It sounds really stupid but it's easier said than done for some people (including me).
+To be somewhat efficient at what you're doing you have to prioritize some items over others. It sounds really stupid but it's easier said than done for some people including me.
 
 ## Conclusion
 Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use ~~Atom~~ Visual Studio Code. Don't lose yourself in project planning which is just cruft in most cases. Get your hands dirty, do it. Don't overthink. Within all aforementioned categories the plethora of possibilities is mainly there for distraction, the best tools are the ones you're comfortable with. What matters is what's there and how much of it actually works. :hammer:

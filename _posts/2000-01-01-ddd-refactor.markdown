@@ -43,7 +43,7 @@ Context maps define the relationship (or the link) that your bounded contexts sh
 
 - *Conformist*: the downstream context is following the language of the upstream one blindly and has to "conform" to it
 - *Open Host Service*: the upstream context exposes a set of handy and documented services to the other
-- *Anti Corruption Layer*: the downstream system implements a layer of communication to prevent the upstream language from contaminating its own
+- *Anti Corruption Layer*: the downstream system implements a layer of communication to prevent the upstream language from contaminating the other. Very useful for sandboxing a legacy system.
 
 <img class='post-image' src="https://pascal.cc/assets/pictures/context_mapping.png">
 
