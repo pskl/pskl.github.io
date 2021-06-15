@@ -2,6 +2,11 @@
 layout: page
 title: Serotonin Depletion
 permalink: /serotonin-depletion
+listed: false
+published: true
+description: Press Release 2020 exhibition
+image: /assets/pictures/ikatch.png
+categories: art berlin
 ---
 _Press release, Blitz Gallery_
 

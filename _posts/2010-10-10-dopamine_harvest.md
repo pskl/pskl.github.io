@@ -2,6 +2,11 @@
 layout: page
 title: Dopamine Harvest
 permalink: /dopamine-harvest
+description: Press Release 2019 exhibition
+listed: false
+published: true
+image: /assets/pictures/anf.png
+categories: art berlin
 ---
 _Press release, Blitz Gallery_
 
