@@ -26,7 +26,7 @@ In his latest project pskl has repurposed an old adult themed website into an au
 
 [Andreas Nicolas Fischer](https://studioanf.com/) (b. 1982, Munich) concerns himself with the physical manifestation of digital processes and data through generative systems. He is a graduate from the class of professor Joachim Sauter at the Berlin University of the Arts. Andreas works and lives in Berlin.
 
-Pskl (b. 1990, Vannes) creating in Berlin is embracing a noise-driven creative exploration, writing his own tools and autonomous systems for visual creation. His interest is based on passively repurposing internet material into new works of art. Coming from an engineering background his skill set lies at the intersection of automation and visuals creation.
+[pskl](https://foundation.app/pskl) (b. 1990, Vannes) creating in Berlin is embracing a noise-driven creative exploration, writing his own tools and autonomous systems for visual creation. His interest is based on passively repurposing internet material into new works of art. Coming from an engineering background his skill set lies at the intersection of automation and visuals creation.
 
 On view
 August 20 - 25, 2019

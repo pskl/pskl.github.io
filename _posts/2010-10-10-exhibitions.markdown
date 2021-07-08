@@ -45,3 +45,4 @@ If you are interested in participating in those events or just want to send me f
 ## Link to past exhibition press releases
 * [Dopamine Harvest](https://pascal.cc/dopamine-harvest)
 * [Serotonin Depletion](https://pascal.cc/serotonin-depletion)
+* [Endorphin Delusion](https://pascal.cc/endorphin-delusion)

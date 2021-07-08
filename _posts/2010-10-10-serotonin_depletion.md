@@ -24,7 +24,7 @@ Not for 100 years has the world collectively gone through a systematic shutting-
 Manolo approaches the digital surface as a plastic space using the code as artistic materiality, based on the experimentation with basic geometric shapes, lines and colours.
 Inspired by artists like Raven Kwok, Ben Fry and Casey Reas, he believes that ‘code transcends language’. Color is also what stands out the most from Manolo’s work and that’s because ‘sometimes I spend more time forming a color palette than programming. My inspiration comes from looking around all the time. I look at a lot of things from design. Instagram, Twitter, all the time searching for references. A movie, an old newspaper. Inspiration comes from many places. In my work, I intend to evoke something - from a time or of a certain quality.'
 
-Pskl (b. 1990, Vannes, France) is embracing a noise-driven creative exploration, creating his own tools and autonomous systems for visual creation. His interest is based on passively repurposing internet material into new works of art. Coming from an engineering background his skill set lies at the intersection of automation and visuals creation. He works and lives in Berlin since 2016.
+[pskl](https://foundation.app/pskl) (b. 1990, Vannes, France) is embracing a noise-driven creative exploration, creating his own tools and autonomous systems for visual creation. His interest is based on passively repurposing internet material into new works of art. Coming from an engineering background his skill set lies at the intersection of automation and visuals creation. He works and lives in Berlin since 2016.
 
 On view
 August 31 - September , 2019
