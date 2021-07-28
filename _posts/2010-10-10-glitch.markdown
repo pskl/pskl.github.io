@@ -93,9 +93,17 @@ The `.obj` file format is one of the oldest and most widely used for 3D models. 
 
 Then I thought it would be cool if the process could be automated and made available directly in a command-line program so I started a simple tool called [Glitch3D](https://github.com/pskl/glitch3d) (still a very early WIP) to alter models and shoot pictures of the result using [Blender](https://www.blender.org/). The end goal being having a fully automated glitch art generator running on a remote server, but that's a bit too ambitious I think.
 
-# Corrupt moving things
+# Have fun with videos!
 
 Of course both 2D and 3D techniques described here can be used to make videos which are just a juxtaposition of still frames. But more than that there are glitching techniques only possible in videos.
+
+### Motion interpolation
+
+The open-source tool [ffmpeg](https://ffmpeg.org) is a gold mine for finding strange ways to process video streams. One of those cool effects (among a plethora) leverages the frame interpolation abilities to generate visual effects as described by [hellocatfood](https://www.hellocatfood.com/motion-interpolation-for-glitch-aesthetics-using-ffmpeg-part-0/).
+
+<div class="post-image">
+  <iframe class="post-video" src="https://www.youtube.com/embed/Eo4wzzDMXDE" frameborder="0" allowfullscreen></iframe>
+</div>
 
 ### Datamoshing
 
