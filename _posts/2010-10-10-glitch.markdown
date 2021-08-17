@@ -40,9 +40,7 @@ The scope of data corruption is extremely wide and most of it is boring so I wil
 
 As we've seen recently with the boom of [artificial neural networks](https://en.wikipedia.org/wiki/Artificial_neural_network) which mimicks the structure of the brain's neocortex, and most notably with the publication of the results from deep learning teams at Google, a new kind of eerie image filter made its way into the hands of visual hackers.
 
-<div class="post-image">
-  <iframe class="post-video" src="https://www.youtube.com/embed/dbQh1I_uvjo" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://www.youtube.com/embed/dbQh1I_uvjo" frameborder="0" allowfullscreen></iframe>
 
 Can style transfer or deep dream be considered glitching? In the light of the previous definition of `glitch` we can safely assume that using neural networks to produce weird images is not glitch art because there is no fundamental error introduced.
 
@@ -101,9 +99,7 @@ Of course both 2D and 3D techniques described here can be used to make videos wh
 
 The open-source tool [ffmpeg](https://ffmpeg.org) is a gold mine for finding strange ways to process video streams. One of those cool effects (among a plethora) leverages the frame interpolation abilities to generate visual effects as described by [hellocatfood](https://www.hellocatfood.com/motion-interpolation-for-glitch-aesthetics-using-ffmpeg-part-0/).
 
-<div class="post-image">
-  <iframe class="post-video" src="https://www.youtube.com/embed/Eo4wzzDMXDE" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://www.youtube.com/embed/Eo4wzzDMXDE" frameborder="0" allowfullscreen></iframe>
 
 ### Datamoshing
 
@@ -139,6 +135,4 @@ If you have any suggestions of very interesting categories not covered by this a
 * [3D art by Martin Olsson](http://martinolsson.tumblr.com/)
 * [A cool datamosh example](https://youtu.be/RLPr7RqTFo0)
 
-<div class="post-image">
-  <iframe class="post-video" src="https://player.vimeo.com/video/193277439" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://player.vimeo.com/video/193277439" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>

@@ -22,9 +22,7 @@ Secondly everything you own has a dynamic value (example:  a house can triple in
 
 ### Should you buy real estate?
 
-<div class='post-image'>
-  <iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://www.youtube.com/embed/cd4-UnU8lWY" frameborder="0" allowfullscreen></iframe>
 
 There is no such thing as free real estate sadly... Investment decisions are often clouded by psychological bias. For instance in many countries it is generally regarded that the best kind of investment a young adult can make is buy her own flat/house because its safe and that way she doesn't have to pay rent which alleviates the pains of life in a peculiar way. Well this is only true if you buy real estate in a real good up and coming area, otherwise a portfolio of securities will yield better returns in the long run.
 
@@ -36,9 +34,7 @@ There is no such thing as free real estate sadly... Investment decisions are oft
 
 >PROTIP: _One thing that is really good with this kind of investment is that you can easily ask for money lending to purchase it. And if the lending rate is low it can be a good deal._
 
-<div class='post-image'>
-  <iframe class="post-video" src="https://youtube.com/embed/HaOsqkiKlYY" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://youtube.com/embed/HaOsqkiKlYY" frameborder="0" allowfullscreen></iframe>
 
 ### Should you buy gold or other rare items?
 
@@ -129,17 +125,13 @@ Crypto-currencies are extremely new and risky assets but they can yield extremel
 
 I highly recommend adhering to the social, political and technical aspects of the founding principles of the blockchain. A lack of understanding can cause cognitive bias and very sub-par allocation decisions. For example Bitcoin is not just a digital currency, it's a protocol of communication. To understand where Bitcoin is located on the human timeline of groundbreaking inventions you can have a look at the following video:
 
-<div class='post-image'>
-  <iframe class="post-video" src="https://youtube.com/embed/l1si5ZWLgy0" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://youtube.com/embed/l1si5ZWLgy0" frameborder="0" allowfullscreen></iframe>
 
 If you want to go deeper in understanding how Bitcoin (and other crypto-currencies) works under the hood the book of reference is [Mastering Bitcoin](https://www.amazon.com/Mastering-Bitcoin-Programming-Open-Blockchain/dp/1491954388). Otherwise you can learn how Bitcoin works [with emojis](https://medium.com/@tessr/making-money-530d2bb2b8f7). This invention is extremely hard to fully grasp because it intersects both Computer Science (distributed systems, open source technologies, version control, network protocols) and Economics (free market, offer and demand, inflation, [deflation](https://www.reddit.com/r/Bitcoin/comments/6yn8hs/the_difference_between_inflation_and_deflation/)). A firm understanding of both renders the task less daunting and it's such a big deal that [the MIT plans to open a curriculum for it](http://news.mit.edu/2017/mit-creates-new-major-computer-science-economics-data-science-0904).
 
 Here is another good video that adresses legitimacy concerns which are numerous when you come to think of it for the first time:
 
-<div class='post-image'>
-  <iframe class="post-video" src="https://youtube.com/embed/i_wOEL6dprg" frameborder="0" allowfullscreen></iframe>
-</div>
+<iframe class="post-video" src="https://youtube.com/embed/i_wOEL6dprg" frameborder="0" allowfullscreen></iframe>
 
 If you have done your homework already and consider yourself informed enough and willing to invest you can head towards one of the many exchange places online where you can buy crypto tokens with fiat currency. At the time of writing of this article one of the most reliable exchange is [Kraken](http://kraken.com/). Once you have managed to successfully land your crypto of choice in your exchange account I highly recommend moving it to a wallet under your full control. You can see the question debated by traditional investors being discussed in [this reddit thread](https://www.reddit.com/r/investing/comments/7np3vj/is_it_worth_investing_in_cryptocurrency/) to forge your own opinion.
 
