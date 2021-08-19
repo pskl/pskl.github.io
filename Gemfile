@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 gem 'github-pages'
-gem 'jemoji'
+gem 'jemoji' # GH emojis https://www.webfx.com/tools/emoji-cheat-sheet/
 gem 'rouge'
 gem "jekyll", ">= 3.6.3"
 gem 'mixpanel-ruby'
