@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Why is glitch art so cool?
+title:  Why is glitch art popular?
 description: Glitch art is a new medium for artistic expression. Learn how to make your own glitches programmatically!
 date: 2017-01-21 15:15:26
 image: /assets/pictures/jpeg_glitch.png
@@ -10,7 +10,7 @@ listed: true
 categories: blog glitch art
 ---
 
-It is common knowledge that glitch art is widely spread and more importantly cool as heck. But what is it exactly? How come it is so diverse and strange? And more importantly how is it made? In this article I'll try to address those :fire: questions.
+Glitch is cool. But what is it exactly? How come it is so diverse and strange? And more importantly how is it made? In this article I'll try to address those :fire: questions.
 
 **Glitch**
 
