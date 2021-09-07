@@ -35,7 +35,7 @@ Angelina works in varied media exploring the relationship between daily objects 
 
 [Buy pskl's NFTs on FND](https://foundation.app/pskl) | [Buy pskl's NFTs on H=N](https://hicetnunc.xyz/pskl/)
 
-[August Zwieser](https://instagram.com/fikkusrecords) is an earthling of the Western Hemisphere, with 100% proletariat pumping through his veins, a monument of the working class. He is a provocation standing in the room, which zap like a remote condition non-stop by the television channels of the society.
+[August Zwieser](https://www.instagram.com/august_zwieser/) is an earthling of the Western Hemisphere, with 100% proletariat pumping through his veins, a monument of the working class. He is a provocation standing in the room, which zap like a remote condition non-stop by the television channels of the society.
 
 
 :round_pushpin: [GlogauAIR](https://glogauair.net/), Glogauer Str. 16, 10999 Berlin
@@ -43,6 +43,8 @@ Angelina works in varied media exploring the relationship between daily objects 
 :cocktail: Vernissage on September 1 2021 from 17.00 to 22.00 | :cocktail: Finissage on September 4 2021 from 17.00 to 22.00
 
 Music: [Huamaniser](https://soundcloud.com/huamaniser) / [Lowfeli](https://soundcloud.com/lowfeli) / [DJ Double Spoon](https://soundcloud.com/bahayam) / [DJ Endstuffe](https://soundcloud.com/nikoranch)
+
+<iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1120588069&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/fuckgoogleaskmeanything" title="pskl" target="_blank" style="color: #cccccc; text-decoration: none;">pskl</a> · <a href="https://soundcloud.com/fuckgoogleaskmeanything/endorphin-delusion-dj-double-spoon" title="Endorphin Delusion - DJ Double Spoon" target="_blank" style="color: #cccccc; text-decoration: none;">Endorphin Delusion - DJ Double Spoon</a></div>
 
 :arrow_right: [Facebook event](https://www.facebook.com/events/2919415464998316)  |  :arrow_right: [IG Story](https://www.instagram.com/stories/highlights/17967986761440878/)
 
