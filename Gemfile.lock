@@ -235,7 +235,7 @@ GEM
     minitest (5.14.4)
     mixpanel-ruby (2.2.2)
     multipart-post (2.1.1)
-    nokogiri (1.12.1)
+    nokogiri (1.12.5)
       mini_portile2 (~> 2.6.1)
       racc (~> 1.4)
     nokogumbo (2.0.5)
