@@ -23,7 +23,7 @@ These times offer an opportunity to face our learned behaviors with fresh eyes. 
 [Yulav](https://instagram.com/yulav) is an artist of various media, by birth from Siberia, lives and operates in Berlin. Its art takes origin from the street in its broader understanding. Yulav has worked for the street audience since 2018, still considering the outdoor surface as the best exhibition space and inspiration source. It has participated in numerous exhibitions in Russia, China, Czech Republic and had its first solo exhibition in 2020 in Berlin. The works presented at the exhibition send the viewer to the contradiction between the stormy stream of thoughts and their absence. The detailing of the canvas reaches such a scale that it is already not clear how harmoniously all these small thoughts embodied in reality. The author wonders about the necessity of detail as a whole, about the choice between the complex and the simple. Should one go into the wilderness and specify, should each detail be considered separately; or would it be more useful to renounce concretization and regard the object as something all-encompassing and extraneous.
 This abstract interpretation goes back further, to a conflicting society in which a certain group of cohabitants tries to complicate things, while a second group stereotypes them. The author's reflection culminates in a moment of synchronization, a moment of harmony between contradictions. The author sees in the diversity, even the polarity of opinions and approaches - one wholesome thought that explains humanity.
 
-[Buy Yulav's  NFTs on FND](https://foundation.app/yulav)
+[Buy Yulav's NFT artworks here](https://foundation.app/yulav)
 
 [Angelina Lambrikht](https://www.instagram.com/lambrikht_/) is an artist from Russia who currently resides in Berlin. She has studied classical and contemporary art in Moscow, and has participated in various exhibitions in Russia, such as 6th Moscow International biennale for young art 2018.
 Angelina works in varied media exploring the relationship between daily objects and light. Often the ideas for her projects come from a steady gaze into the environment. Her approach is to re-assemble the routine and drown in the moment. She can use anything for her artworks from elegant glassware to plastic food containers. The objects themselves and their origin are of no value to her, it is important to find some hidden magic that is inherent in them.
@@ -33,7 +33,7 @@ Angelina works in varied media exploring the relationship between daily objects 
 
 <img class='post-image' src="/assets/pictures/pskl_endorphin_delusion.jpg">
 
-[Buy pskl's NFTs on FND](https://foundation.app/pskl) | [Buy pskl's NFTs on H=N](https://hicetnunc.xyz/pskl/)
+[Buy pskl's NFT artworks here](http://nft.pascal.cc)
 
 [August Zwieser](https://www.instagram.com/august_zwieser/) is an earthling of the Western Hemisphere, with 100% proletariat pumping through his veins, a monument of the working class. He is a provocation standing in the room, which zap like a remote condition non-stop by the television channels of the society.
 
