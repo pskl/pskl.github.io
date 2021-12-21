@@ -63,7 +63,7 @@ Let's take a look at a real life business problem: the [8fit](https://8fit.com/)
 
 ### Current state
 
-The backend was first and foremost designed with a standard Rails CRUD architeture with each endpoint more or less mapping one to one with the underlying models. Over time and since a lot of the features were firstly built in the app itself the frontend code had the responsibility to assemble and handle compound objects created from those base elements with more or less success. This signals the accummulation of domain logic in the frontend code and ultra tight coupling. :warning:
+The backend was first and foremost designed with a standard Rails CRUD architecture with each endpoint more or less mapping one to one with the underlying models. Over time and since a lot of the features were firstly built in the app itself the frontend code had the responsibility to assemble and handle compound objects created from those base elements with more or less success. This signals the accummulation of domain logic in the frontend code and ultra tight coupling. :warning:
 
 > “A common mistake made when using REST is to design resources that directly reflect the aggregates in the domain model. Doing this forces every client into a Conformist relationship, where if the model changes shape the resources will also. Instead resources should be designed synthetically to follow client-driven use cases.” - __Vaughn Vernon, Domain-Driven Design Distilled (2016)__
 
