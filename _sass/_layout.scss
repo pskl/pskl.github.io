@@ -27,6 +27,7 @@
       color: $title-text-color;
       z-index: 99;
       text-shadow: -7px -2px darken($title-text-color, 50%);
+      filter: drop-shadow(-6px -1px 4px darken($title-text-color, 70%));
     }
 
     a.page-link {
@@ -69,6 +70,7 @@
         padding-bottom: 100px;
         position: absolute;
         right: 0;
+        z-index:99;
         text-shadow: 1px -1px darken($title-text-color, 50%);
 
         .page-link {
