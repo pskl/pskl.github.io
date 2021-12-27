@@ -4,7 +4,7 @@ var windowHalfX = window.innerWidth / 2;
 var windowHalfY = window.innerHeight / 2;
 
 container = document.createElement('div');
-container.id = 'visualisation';
+container.id = 'canvas-container';
 header = document.getElementsByClassName('site-header')[0];
 header.appendChild(container);
 container.addEventListener('click', start, false);
@@ -30,7 +30,7 @@ function start() {
   var material_black = new THREE.LineBasicMaterial({ color: '#000000', linewidth: 5});
   var material_grey = new THREE.LineBasicMaterial({ color: '#808080', linewidth: 3});
 
-  for ( var i = 0; i < Math.random()*100; i ++ ) {
+  for ( var i = 0; i < Math.random()*300; i ++ ) {
     var vertex = new THREE.Vector3();
     vertex.x = rand_offset();
     vertex.y = rand_offset();
