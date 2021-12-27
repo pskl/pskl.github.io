@@ -24,26 +24,27 @@
     }
 
     a.site-title {
-      color: rgba(255, 255, 255, 1);
+      color: $title-text-color;
       z-index: 99;
-      text-shadow: -7px -2px #808080;
+      text-shadow: -7px -2px darken($title-text-color, 50%);
     }
 
     a.page-link {
-      color: rgba(255, 255, 255, 1);
+      color: $title-text-color;
     }
 
     .site-header h1 {
         display: block;
         font-size: 110px !important;
-        letter-spacing: 3px;
+        letter-spacing: 20px;
         text-align: center;
         padding-top: 20px;
         clear: both;
         position: absolute;
         left: 0;
         top: 0;
-        color: rgb(255, 255, 255, 1);
+        z-index:99;
+        color: $title-text-color;
 
         @include media-query($on-palm) {
             font-size:60px !important;
@@ -68,7 +69,7 @@
         padding-bottom: 100px;
         position: absolute;
         right: 0;
-        text-shadow: 1px -1px #808080;
+        text-shadow: 1px -1px darken($title-text-color, 50%);
 
         .page-link {
             line-height: $base-line-height;
