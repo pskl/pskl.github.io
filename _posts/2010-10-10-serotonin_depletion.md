@@ -46,7 +46,8 @@ Editorial:
 - Rebecca Joe Loeb
 
 Sound engineering:
-- Niko Ranch
+- Nikolaï Ranch
+- Jonas Steinleitner
 
 Graphic design:
 - Katarina Elisabeth Stefanakos
