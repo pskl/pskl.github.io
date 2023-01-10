@@ -11,9 +11,9 @@ categories: blog ai
 
 # The Boom of Large Language Models and Image Generation Tools 🤯
 
-In recent years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, developers, and the general public.
+In recent years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public.
 
-![image of a computer](/assets/pictures/jamesg.png)
+<img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/jamesg.png">
 
 ## Large Language Models 🤓
 
@@ -25,7 +25,7 @@ In addition to GPT-3, there have been other large language models developed by r
 
 Image generation tools have also gained a lot of attention in recent years. One example is [DALL-E](https://openai.com/blog/dall-e/), also developed by OpenAI, which is a neural network-based image generation tool. DALL-E can generate a wide range of images based on a given text prompt, such as "a two-story pink house with a white fence and a red door." The generated images are often highly realistic and can be used in a variety of applications, including design and art.
 
-![image generated](/assets/pictures/jamesg2.png)
+<img class='post-image' alt="the soul of transhumanism, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/jamesg2.png">
 
 Other image generation tools have also been developed, such as [StyleGAN](https://openai.com/blog/stylegan/) and [BigGAN](https://openai.com/blog/biggan/). These tools can generate high-resolution images of people, animals, and other objects with great detail and realism.
 
