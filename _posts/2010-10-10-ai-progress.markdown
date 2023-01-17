@@ -31,11 +31,15 @@ Other image generation tools have also been developed, such as [StyleGAN](https:
 
 ## Implications and Ethical Considerations 🤔
 
-Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting
+Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting!
 
 ### How will generative image models might affect creativity?
 
 Generative image models, such as Generative Adversarial Networks (GANs), have the potential to greatly impact the field of digital art and design by allowing for the creation of highly realistic and unique images. However, it's important to note that the use of these models alone does not necessarily equate to creativity. Creativity involves the ability to come up with novel ideas, and while GANs can generate new images, they are still limited by the data they were trained on and the parameters set by the designer. Therefore, the effect of generative image models on creativity will likely depend on how they are used and integrated with human creativity.
+
+<div class="post-image">
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ML systems are just matrix algebra training data soup, and will only ever be as good as their training data. This is why AlphaZero is only as good as human players at Chess and Go :)</p>&mdash; flaw (@flawedaxioms) <a href="https://twitter.com/flawedaxioms/status/1609625028458582016?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
 ### Which industries will be affected first?
 
@@ -47,7 +51,7 @@ There are several industries that are likely to be affected by generative image 
 
 - Advertising and marketing: GANs can be used to generate photorealistic images for ads and marketing campaigns.
 
-- Architecture and urban planning: GANs can be used to generate photorealistic images of architectural designs, which could be used for presentations and visualizations.
+- [Architecture](https://www.dezeen.com/2022/11/16/ai-design-architecture-product/) and urban planning: GANs can be used to generate photorealistic images of architectural designs, which could be used for presentations and visualizations.
 
 - Fashion and retail: GANs can be used to generate images of clothing and accessories, which could be used for online shopping and virtual try-on features.
 
