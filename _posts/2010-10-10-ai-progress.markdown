@@ -11,15 +11,29 @@ categories: blog ai
 
 # The Boom of Large Language Models and Image Generation Tools 🤯
 
-In recent years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public.
+Since I've read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) in 2016 I've always been fascinated by the idea that the age of machines would soon be upon us. It seems that we are currently reaching an inflection point. In 2015 when Google released Deepdream the idea of machine creativity captivated my mind and since then the jumps in capability have gotten bigger and bigger. Nowadays the pace of innovation is so fast that I can't keep up and have to take notes.
+
+In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public.
 
 <img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/jamesg.png">
 
 ## Large Language Models 🤓
 
-One of the most well-known large language models is [GPT-3](https://openai.com/blog/gpt-3-apps/) (Generative Pre-training Transformer 3), developed by [OpenAI](https://openai.com/). GPT-3 is a neural network-based language model that has been trained on a massive dataset, allowing it to generate human-like text. It can perform a wide range of language tasks, including translation, summarization, and question answering, with impressive accuracy.
+One of the most well-known large language models is [GPT-3](https://openai.com/blog/gpt-3-apps/) (Generative Pre-training Transformer 3), developed by [OpenAI](https://openai.com/). GPT-3 is a neural network-based language model that has been trained on a massive dataset, allowing it to generate human-like text. It can perform a wide range of language tasks, including translation, summarization, and question answering, with impressive accuracy. [Text really is the universal interface](https://scale.com/blog/text-universal-interface).
 
 In addition to GPT-3, there have been other large language models developed by researchers at universities and companies around the world. These models have the potential to revolutionize natural language processing and have a wide range of applications, from chatbots and virtual assistants to content creation and language translation.
+
+### Transformers
+
+The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper "Attention is All You Need" by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing (NLP) and speech recognition.
+
+The key feature of the transformer architecture is the use of self-attention mechanisms. Attention mechanisms allow the model to focus on specific parts of the input, rather than processing the entire input at once. In the transformer, the self-attention mechanism allows the model to weigh the importance of different parts of the input sequence when making a prediction.
+
+In transformer architecture, the input sequence is processed by a stack of multiple layers, each layer consisting of two sub-layers: a multi-head self-attention mechanism and a fully connected feedforward neural network. The self-attention mechanism allows the model to weigh the importance of different parts of the input sequence and the feedforward neural network allows the model to learn more complex representations of the input.
+
+The transformer architecture also includes a mechanism called positional encoding which allows the model to understand the order of the elements in the input sequence. This is particularly important for sequential data such as natural language sentences.
+
+Overall, the transformer architecture allows the model to efficiently process large amounts of sequential data and achieve state-of-the-art performance on a variety of NLP tasks such as language translation, text summarization, and language modeling. It's really this novel neural architecture that enabled the current breakthrough in AI tech wether its text or image generation.
 
 ## Image Generation Tools 🖼
 
@@ -32,18 +46,6 @@ Other image generation tools have also been developed, such as [StyleGAN](https:
 ## Implications and Ethical Considerations 🤔
 
 Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting!
-
-### Transformers
-
-The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper "Attention is All You Need" by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing (NLP) and speech recognition.
-
-The key feature of the transformer architecture is the use of self-attention mechanisms. Attention mechanisms allow the model to focus on specific parts of the input, rather than processing the entire input at once. In the transformer, the self-attention mechanism allows the model to weigh the importance of different parts of the input sequence when making a prediction.
-
-In transformer architecture, the input sequence is processed by a stack of multiple layers, each layer consisting of two sub-layers: a multi-head self-attention mechanism and a fully connected feedforward neural network. The self-attention mechanism allows the model to weigh the importance of different parts of the input sequence and the feedforward neural network allows the model to learn more complex representations of the input.
-
-The transformer architecture also includes a mechanism called positional encoding which allows the model to understand the order of the elements in the input sequence. This is particularly important for sequential data such as natural language sentences.
-
-Overall, the transformer architecture allows the model to efficiently process large amounts of sequential data and achieve state-of-the-art performance on a variety of NLP tasks such as language translation, text summarization, and language modeling.
 
 ### CLIP
 
@@ -79,4 +81,4 @@ There are several industries that are likely to be affected by generative image 
 
 - Automotive and industrial design: image models can be used to generate images of vehicles and industrial products, which could be used for visualization and marketing purposes.
 
-These are some of the examples of the industry that will be affected by image models, but the use cases of these models are diverse and varied.
+These are some of the examples of the industry that will be affected by image models, but the use cases of these models are diverse and varied. The job of a software engineer is also changing dramatically and the future of the job market remains unclear.
