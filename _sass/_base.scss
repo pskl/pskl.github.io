@@ -83,7 +83,7 @@
     a {
         color: darken($brand-color, 10%);
         text-decoration: none;
-        cursor: crosshair;
+        cursor: pointer;
 
         &:hover {
             color: darken($brand-color, 20%);

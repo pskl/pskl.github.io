@@ -183,6 +183,13 @@
             padding: 8px;
         }
 
+        a {
+          padding: .02em .02em;
+          box-shadow: .25em 0 0 $highlighter-color, -.25em 0 0 $highlighter-color;
+          background: $highlighter-color;
+          color: $text-color;
+        }
+
         p {
           text-indent: 1.5em;
           text-align: justify;
