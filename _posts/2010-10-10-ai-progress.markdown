@@ -77,7 +77,7 @@ There are other industries that are likely to be affected by generative image mo
 
 - Digital art and design: Generative image models can be used to create highly realistic images, which could be used in a variety of digital art and design projects.
 
-- Film and video game production: image models can be used to create realistic, computer-generated characters, environments, and special effects.
+- Film and video game production: image models can be used to create realistic, computer-generated characters, environments, and special effects. There are indie proof-of-concepts pretty good at [making concept art](https://www.reddit.com/r/StableDiffusion/comments/10vslkw/charturnerv2_released/).
 
 - Advertising and marketing: image models can be used to generate photorealistic images for ads and marketing campaigns.
 
