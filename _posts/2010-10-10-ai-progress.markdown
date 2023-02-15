@@ -57,6 +57,10 @@ One of the key features of CLIP is that it uses a transformer architecture which
 
 CLIP allows the model to understand the relationship between natural language and visual information, which is useful in tasks such as image captioning and visual question answering. It can also be used in other areas, such as computer vision and natural language understanding.
 
+### Diffusion models
+
+At first CLIP was paired with the GANs we knew and loved since the beginning like VQGAN. It gave us a pair of goggles to observe the latent world but soon enough we had to rethink the way we develop, so to speak, the digital photographs of latent concepts. Soon after the release of a new paper diffusion models took over and rapidly replaced GANs, well, [simply because they seem to work a lot better](https://aurorasolar.com/blog/putting-ai-to-the-test-generative-adversarial-networks-vs-diffusion-models/). There we had it: ["Diffusion Models Beat GANs on Image Synthesis"](https://arxiv.org/abs/2105.05233). The [math side of it is not boring too](https://towardsdatascience.com/diffusion-models-91b75430ec2).
+
 ### How will generative image models might affect creativity?
 
 Generative image models have the potential to greatly impact the field of digital art and design by allowing for the creation of highly realistic and unique images. However, it's important to note that the use of these models alone does not necessarily equate to creativity. Creativity involves the ability to come up with novel ideas, and while GANs can generate new images, they are still limited by the data they were trained on and the parameters set by the designer. Therefore, the effect of generative image models on creativity will likely depend on how they are used and integrated with human creativity.
