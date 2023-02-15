@@ -67,7 +67,13 @@ Generative image models have the potential to greatly impact the field of digita
 
 ### Which industries will be affected first?
 
-There are several industries that are likely to be affected by generative image models in the near future.
+#### Big tech
+
+These technologies have a great potential to [shuffle the cards](https://tanay.substack.com/p/big-tech-and-generative-ai) for a lot of the big actors in the tech industry.
+
+#### Tech adjacent sectors
+
+There are other industries that are likely to be affected by generative image models in the near future.
 
 - Digital art and design: Generative image models can be used to create highly realistic images, which could be used in a variety of digital art and design projects.
 
