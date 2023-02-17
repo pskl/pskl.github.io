@@ -15,7 +15,7 @@ Since I've read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wik
 
 In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public.
 
-<img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/jamesg.png">
+<img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai1.png">
 
 ## Large Language Models 🤓
 
@@ -43,10 +43,6 @@ Image generation tools have also gained a lot of attention in recent years. One 
 
 Other image generation tools have also been developed, such as [StyleGAN](https://openai.com/blog/stylegan/) and [BigGAN](https://openai.com/blog/biggan/). These tools can generate high-resolution images of people, animals, and other objects with great detail and realism.
 
-## Implications and Ethical Considerations 🤔
-
-Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting!
-
 ### CLIP
 
 CLIP (Contrastive Language-Image Pre-training) is a machine learning model developed by OpenAI that can understand the relationship between natural language and visual information. It is trained on a large dataset of images and their associated text captions.
@@ -60,6 +56,14 @@ CLIP allows the model to understand the relationship between natural language an
 ### Diffusion models
 
 At first CLIP was paired with the GANs we knew and loved since the beginning like VQGAN. It gave us a pair of goggles to observe the latent world but soon enough we had to rethink the way we develop, so to speak, the digital photographs of latent concepts. Soon after the release of a new paper diffusion models took over and rapidly replaced GANs, well, [simply because they seem to work a lot better](https://aurorasolar.com/blog/putting-ai-to-the-test-generative-adversarial-networks-vs-diffusion-models/). There we had it: ["Diffusion Models Beat GANs on Image Synthesis"](https://arxiv.org/abs/2105.05233). The [math side of it is not boring too](https://towardsdatascience.com/diffusion-models-91b75430ec2).
+
+## Implications and Ethical Considerations 🤔
+
+Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting!
+
+### The competitive edge of schizopoasting
+
+LLMs make it easy to generate your average normal descriptive text or basic stories. This evolution brings more value to the specificities of human writing including extreme aversion to cohesive language and [schizoposting](https://knowyourmeme.com/editorials/meme-insider/schizoposting-on-the-rise-trollge-pill-time-and-i-hate-the-antichrist). Humans posters have to post better and better.
 
 ### How will generative image models might affect creativity?
 
@@ -92,3 +96,52 @@ There are other industries that are likely to be affected by generative image mo
 - Automotive and industrial design: image models can be used to generate images of vehicles and industrial products, which could be used for visualization and marketing purposes.
 
 These are some of the examples of the industry that will be affected by image models, but the use cases of these models are diverse and varied. The job of a software engineer is also changing dramatically and the future of the job market remains unclear.
+
+#### Where to experiment with these new technologies?
+
+All these new shiny toys have in common the fact that they necessitate beefy GPUs to run. In the case of the language models like GPT-3 they can be [very unwieldy](https://www.reddit.com/r/OpenAI/comments/u572t6/possible_to_run_openai_gpt3_models_like_davinci/) for the average consumer and thus require to be used as a service. On the other hand image generation networks can be trained AND used on custom servers or locally.
+
+<img class='post-image' alt="ethereal field of  gigantic mega computers with data cables, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai3.png">
+
+##### Local PC
+
+Buy a cool expensive consumer GPU for your tower PC. The problem is that the minute you buy it its value starts decreasing and slowly drifting away. Maintaining a local environment for the GPUs can be tedious and sometimes re-provisioning would be faster with a cloud solution where you can just scrap the entire thing and start anew.
+
+##### Using SaaS tools
+
+This area is moving extremely fast and includes players like the following:
+
+- [ChatGPT](https://chat.openai.com)
+- [Midjourney](https://www.midjourney.com)
+- [Dall-E 2](https://openai.com/dall-e-2/)
+
+##### Running your own models using Cloud GPUs
+
+In this case you would rent GPUs in the cloud and pay hourly for your usage. Here are some providers I have tried so far:
+
+###### [Colab](colab.research.google.com/)
+
+|PROS :white_check_mark:| CONS :no_entry_sign: |
+|:--------------|:-----|
+| Really good community support | Google |
+| Rather cheap | Not very user friendly|
+|  | Not good for long-running workflows |
+||Paid-tier got recently nerfed |
+
+###### [Paperspace](https://console.paperspace.com/signup?R=237JXZT)
+
+|PROS :white_check_mark:| CONS :no_entry_sign: |
+|:--------------|:-----|
+| Kinda expensive| Lots of bugs |
+| Lots of cool features | The adapted notebooks are buggy af|
+| Gradient Notebook IDE is cool | Availability of machines can be bad|
+
+###### [JarvisLabs](https://cloud.jarvislabs.ai/)
+
+|PROS :white_check_mark:| CONS :no_entry_sign: |
+|:--------------|:-----|
+| Cheap rates | Shitty barebobnes UI |
+| Pre-defined images like Automatic1111's ||
+
+
+_PS: this article was written using LLMs, my own brain, my beloved [HHKB](https://hhkeyboard.us/hhkb/pro-hybrid) and illustrated with Stable Diffusion 1.5._
