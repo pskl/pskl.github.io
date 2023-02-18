@@ -57,6 +57,10 @@ CLIP allows the model to understand the relationship between natural language an
 
 At first CLIP was paired with the GANs we knew and loved since the beginning like VQGAN. It gave us a pair of goggles to observe the latent world but soon enough we had to rethink the way we develop, so to speak, the digital photographs of latent concepts. Soon after the release of a new paper diffusion models took over and rapidly replaced GANs, well, [simply because they seem to work a lot better](https://aurorasolar.com/blog/putting-ai-to-the-test-generative-adversarial-networks-vs-diffusion-models/). There we had it: ["Diffusion Models Beat GANs on Image Synthesis"](https://arxiv.org/abs/2105.05233). The [math side of it is not boring too](https://towardsdatascience.com/diffusion-models-91b75430ec2).
 
+### Dreambooth
+
+The holy grail of AI visual art has always been to generate more variations of the same and back in the days of StyleGAN there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome training, the results were far from being aesthetically interesting at all. [Dreambooth](https://arxiv.org/abs/2208.12242), published in August 2022, changes all of that and enables embedding of concepts inside image generation tools in fairly inexpensive way, with very little material and absolutely incredible results.
+
 ## Implications and Ethical Considerations 🤔
 
 Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting!
@@ -65,9 +69,9 @@ Overall, the recent boom in large language models and image generation tools has
 
 LLMs make it easy to generate your average normal descriptive text or basic stories. This evolution brings more value to the specificities of human writing including extreme aversion to cohesive language and [schizoposting](https://knowyourmeme.com/editorials/meme-insider/schizoposting-on-the-rise-trollge-pill-time-and-i-hate-the-antichrist). Humans posters have to post better and better.
 
-### How will generative image models might affect creativity?
+### How might generative image models  affect creativity?
 
-Generative image models have the potential to greatly impact the field of digital art and design by allowing for the creation of highly realistic and unique images. However, it's important to note that the use of these models alone does not necessarily equate to creativity. Creativity involves the ability to come up with novel ideas, and while GANs can generate new images, they are still limited by the data they were trained on and the parameters set by the designer. Therefore, the effect of generative image models on creativity will likely depend on how they are used and integrated with human creativity.
+Generative image models have the potential to greatly impact the field of digital art and design by allowing for the creation of highly realistic and unique images. However, it's important to note that the use of these models alone does not necessarily equate to creativity. Creativity involves the ability to come up with novel ideas, and while image models can generate new images, they are still limited by the data they were trained on and the parameters set by the designer. Therefore, the effect of generative image models on creativity will likely depend on how they are used and integrated with human creativity.
 
 <div class="post-image">
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ML systems are just matrix algebra training data soup, and will only ever be as good as their training data. This is why AlphaZero is only as good as human players at Chess and Go :)</p>&mdash; flaw (@flawedaxioms) <a href="https://twitter.com/flawedaxioms/status/1609625028458582016?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
