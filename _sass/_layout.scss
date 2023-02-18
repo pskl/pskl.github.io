@@ -163,10 +163,14 @@
     }
 
     .post-image {
-        width: 50%;
+        max-width: 50%;
         margin: 0 auto;
         display: block;
         padding: 10px;
+
+        @include media-query($on-palm) {
+          max-width: 80%;
+        }
     }
 
     .post-video {

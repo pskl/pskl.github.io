@@ -11,28 +11,28 @@ categories: blog ai
 
 # The Boom of Large Language Models and Image Generation Tools 🤯
 
-Since I've read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) in 2016 I've always been fascinated by the idea that the age of machines would soon be upon us. It seems that we are currently reaching an inflection point. In 2015 when Google released Deepdream the idea of machine creativity captivated my mind and since then the jumps in capability have gotten bigger and bigger. Nowadays the pace of innovation is so fast that I can't keep up and have to take notes.
+Since I've read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) in 2016 I've always been fascinated by the idea that the age of machines would soon be upon us. It seems that we are currently reaching an inflection point. In 2015 when Google released [Deepdream](https://en.wikipedia.org/wiki/DeepDream) the idea of machine creativity captivated my mind and since then the jumps in capability have gotten bigger and bigger. Nowadays the pace of innovation is so fast that I can't keep up and have to take notes.
 
 <div class="post-image">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Humanity is going to make all parts of the world touched by humans beautiful. We are going to create beauty too cheap to meter. And not just an enforced-from-above standard of beauty either, everyone will be able to make their own domain beautiful in the manner of their choosing.</p>&mdash; Rivers Have Wings (@RiversHaveWings) <a href="https://twitter.com/RiversHaveWings/status/1617314715650363393?ref_src=twsrc%5Etfw">January 23, 2023</a></blockquote></div>
 
-In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public.
+In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public. You've probably heard about LLMs, ChatGPT, CLIP, GPT-3, GANs, AGI and all sorts of acronyms that make your head spin.
 
 <img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai1.png">
 
-## Large Language Models 🤓
+## Large Language Models
 
 One of the most well-known large language models is [GPT-3](https://openai.com/blog/gpt-3-apps/) (Generative Pre-training Transformer 3), developed by [OpenAI](https://openai.com/). GPT-3 is a neural network-based language model that has been trained on a massive dataset, allowing it to generate human-like text. It can perform a wide range of language tasks, including translation, summarization, and question answering, with impressive accuracy. [Text really is the universal interface](https://scale.com/blog/text-universal-interface).
 
-In addition to GPT-3, there have been other large language models developed by researchers at universities and companies around the world. These models have the potential to revolutionize natural language processing and have a wide range of applications, from chatbots and virtual assistants to content creation and language translation.
+In addition to GPT-3, there have been other large language models developed by researchers at universities and companies around the world. These models have the potential to revolutionize natural language processing and have a wide range of applications, from chatbots and virtual assistants to content creation and language translation. The thing that made recent language models particularly game-changing was the introduction of the transformer neural architecture.
 
-### Transformers
+### Transformers (CLIP, GPT-X)
 
-The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper "Attention is All You Need" by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing (NLP) and speech recognition.
+The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762) by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing (NLP) and speech recognition.
 
 The key feature of the transformer architecture is the use of self-attention mechanisms. Attention mechanisms allow the model to focus on specific parts of the input, rather than processing the entire input at once. In the transformer, the self-attention mechanism allows the model to weigh the importance of different parts of the input sequence when making a prediction.
 
-In transformer architecture, the input sequence is processed by a stack of multiple layers, each layer consisting of two sub-layers: a multi-head self-attention mechanism and a fully connected feedforward neural network. The self-attention mechanism allows the model to weigh the importance of different parts of the input sequence and the feedforward neural network allows the model to learn more complex representations of the input.
+In a transformer architecture, the input sequence is processed by a stack of multiple layers, each layer consisting of two sub-layers: a multi-head self-attention mechanism and a fully connected feedforward neural network. The self-attention mechanism allows the model to weigh the importance of different parts of the input sequence and the feedforward neural network allows the model to learn more complex representations of the input.
 
 The transformer architecture also includes a mechanism called positional encoding which allows the model to understand the order of the elements in the input sequence. This is particularly important for sequential data such as natural language sentences.
 
@@ -44,9 +44,9 @@ Image generation tools have also gained a lot of attention in recent years. One 
 
 <img class='post-image' alt="the soul of transhumanism, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai2.png">
 
-Other image generation tools have also been developed, such as [StyleGAN](https://openai.com/blog/stylegan/) and [BigGAN](https://openai.com/blog/biggan/). These tools can generate high-resolution images of people, animals, and other objects with great detail and realism.
+In the past other image generation tools have also been developed, such as [StyleGAN](https://openai.com/blog/stylegan/) and [BigGAN](https://openai.com/blog/biggan/). These tools can generate high-resolution images of people, animals, and other objects with great detail and realism. But recent image generation improvements all have in common the introduction of CLIP.
 
-### CLIP
+### wtf is CLIP?
 
 CLIP (Contrastive Language-Image Pre-training) is a machine learning model developed by OpenAI that can understand the relationship between natural language and visual information. It is trained on a large dataset of images and their associated text captions.
 
@@ -54,23 +54,23 @@ The model is pre-trained on this dataset using a process called contrastive lear
 
 One of the key features of CLIP is that it uses a transformer architecture which is similar to the one used in BERT, GPT-2, and other models that have been used for natural language processing (NLP) tasks. This allows the model to efficiently process large amounts of data and achieve state-of-the-art performance on a variety of NLP tasks.
 
-CLIP allows the model to understand the relationship between natural language and visual information, which is useful in tasks such as image captioning and visual question answering. It can also be used in other areas, such as computer vision and natural language understanding.
+CLIP allows the model to understand the relationship between natural language and visual information, which is useful in tasks such as image captioning and visual question answering. It can also be used in other areas, such as computer vision and natural language understanding. In short CLIP made any "text-to-image" tool possible which seemed impossible not that long ago.
 
 ### Diffusion models
 
 At first CLIP was paired with the GANs we knew and loved since the beginning like VQGAN. It gave us a pair of goggles to observe the latent world but soon enough we had to rethink the way we develop, so to speak, the digital photographs of latent concepts. Soon after the release of a new paper diffusion models took over and rapidly replaced GANs, well, [simply because they seem to work a lot better](https://aurorasolar.com/blog/putting-ai-to-the-test-generative-adversarial-networks-vs-diffusion-models/). There we had it: ["Diffusion Models Beat GANs on Image Synthesis"](https://arxiv.org/abs/2105.05233). The [math side of it is not boring too](https://towardsdatascience.com/diffusion-models-91b75430ec2).
 
-### Dreambooth
+### Dreambooth?
 
-The holy grail of AI visual art has always been to generate more variations of the same and back in the days of StyleGAN there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome training, the results were far from being aesthetically interesting at all. [Dreambooth](https://arxiv.org/abs/2208.12242), published in August 2022, changes all of that and enables embedding of concepts inside image generation tools in fairly inexpensive way, with very little material and absolutely incredible results. More than that since the fine-tuning process is [rather straightforward](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/) it has unlocked [a whole scene of custom diffusion models where hobbyists compete for generating the best results](https://civitai.com/) in the most creative ways possible, mixing and matching different existing networks. The potential use cases for this technique are [numerous and diverse](https://pixelpoint.io/blog/ms-fluent-emoji-style-fine-tune-on-stable-diffusion/), I would say this is currently the most exciting ongoing growth.
+The holy grail of AI visual art has always been to generate more variations of the same and back in the days of StyleGAN there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome training, the results were far from being aesthetically interesting at all. [Dreambooth](https://arxiv.org/abs/2208.12242), published in August 2022, changes all of that and enables embedding of concepts inside image generation tools in fairly inexpensive way, with very little material and absolutely incredible results. More than that since the fine-tuning process is [rather straightforward](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/) it has unlocked [a whole scene of custom diffusion models where hobbyists compete for generating the best results](https://civitai.com/) in the most creative ways possible, mixing and matching different existing networks. The potential use cases for this technique are [numerous and diverse](https://pixelpoint.io/blog/ms-fluent-emoji-style-fine-tune-on-stable-diffusion/), I would say this is currently the most exciting ongoing growth of any AI sector. One thing worth noting is that openness and the DIY ethos of [StabilityAI](https://stability.ai/) was amplified by this accessible Dreambooth technique (authored by Google Research and originally working with their proprietary diffusion engine called Imagen) for which most implementations rely on Stability's [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) itself! What a great synergy!
 
 ## Implications and Ethical Considerations 🤔
 
 Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It ~~will be~~ is interesting!
 
-### The competitive edge of schizopoasting
+### The competitive edge of schizopoasting vs GPT-ass text
 
-LLMs make it easy to generate your average normal descriptive text or basic stories. This evolution brings more value to the specificities of human writing including extreme aversion to cohesive language and [schizoposting](https://knowyourmeme.com/editorials/meme-insider/schizoposting-on-the-rise-trollge-pill-time-and-i-hate-the-antichrist). Humans posters have to post better and better.
+LLMs make it easy to generate your average normal descriptive text or basic stories. This evolution brings more value to the specificities of human writing including extreme aversion to cohesive language and [schizoposting](https://knowyourmeme.com/editorials/meme-insider/schizoposting-on-the-rise-trollge-pill-time-and-i-hate-the-antichrist). Humans posters have to post weirder and better, find the outer limits of creative writing where patterns become more intricate, less structured. GPT-ass text has become slur just like [NPC](https://en.wikipedia.org/wiki/NPC_(meme)). Humans are excellent at detecting suble shifts and twists in fellow humans' expression and making most of human writing a platitude will eventually raise the bar for what is considered interesting.
 
 ### How might generative image models  affect creativity?
 
@@ -134,6 +134,7 @@ In this case you would rent GPUs in the cloud and pay hourly for your usage. Her
 | Rather cheap | Not very user friendly|
 |  | Not good for long-running workflows |
 ||Paid-tier got recently nerfed |
+||No file persistence|
 
 ###### [Paperspace](https://console.paperspace.com/signup?R=237JXZT)
 
