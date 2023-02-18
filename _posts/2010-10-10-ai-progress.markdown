@@ -4,7 +4,7 @@ title:  "The Boom of Large Language Models and Image Generation Tools"
 date:   2022-12-21 15:55:26
 published: true
 listed: true
-image: /assets/pictures/jamesg.png
+image: /assets/pictures/ai1.png
 permalink: /blog/ai-progress
 categories: blog ai
 ---
@@ -12,6 +12,9 @@ categories: blog ai
 # The Boom of Large Language Models and Image Generation Tools 🤯
 
 Since I've read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) in 2016 I've always been fascinated by the idea that the age of machines would soon be upon us. It seems that we are currently reaching an inflection point. In 2015 when Google released Deepdream the idea of machine creativity captivated my mind and since then the jumps in capability have gotten bigger and bigger. Nowadays the pace of innovation is so fast that I can't keep up and have to take notes.
+
+<div class="post-image">
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Humanity is going to make all parts of the world touched by humans beautiful. We are going to create beauty too cheap to meter. And not just an enforced-from-above standard of beauty either, everyone will be able to make their own domain beautiful in the manner of their choosing.</p>&mdash; Rivers Have Wings (@RiversHaveWings) <a href="https://twitter.com/RiversHaveWings/status/1617314715650363393?ref_src=twsrc%5Etfw">January 23, 2023</a></blockquote></div>
 
 In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public.
 
@@ -39,7 +42,7 @@ Overall, the transformer architecture allows the model to efficiently process la
 
 Image generation tools have also gained a lot of attention in recent years. One example is [DALL-E](https://openai.com/blog/dall-e/), also developed by OpenAI, which is a neural network-based image generation tool. DALL-E can generate a wide range of images based on a given text prompt, such as "a two-story pink house with a white fence and a red door." The generated images are often highly realistic and can be used in a variety of applications, including design and art.
 
-<img class='post-image' alt="the soul of transhumanism, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/jamesg2.png">
+<img class='post-image' alt="the soul of transhumanism, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai2.png">
 
 Other image generation tools have also been developed, such as [StyleGAN](https://openai.com/blog/stylegan/) and [BigGAN](https://openai.com/blog/biggan/). These tools can generate high-resolution images of people, animals, and other objects with great detail and realism.
 
@@ -59,11 +62,11 @@ At first CLIP was paired with the GANs we knew and loved since the beginning lik
 
 ### Dreambooth
 
-The holy grail of AI visual art has always been to generate more variations of the same and back in the days of StyleGAN there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome training, the results were far from being aesthetically interesting at all. [Dreambooth](https://arxiv.org/abs/2208.12242), published in August 2022, changes all of that and enables embedding of concepts inside image generation tools in fairly inexpensive way, with very little material and absolutely incredible results.
+The holy grail of AI visual art has always been to generate more variations of the same and back in the days of StyleGAN there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome training, the results were far from being aesthetically interesting at all. [Dreambooth](https://arxiv.org/abs/2208.12242), published in August 2022, changes all of that and enables embedding of concepts inside image generation tools in fairly inexpensive way, with very little material and absolutely incredible results. More than that since the fine-tuning process is [rather straightforward](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/) it has unlocked [a whole scene of custom diffusion models where hobbyists compete for generating the best results](https://civitai.com/) in the most creative ways possible, mixing and matching different existing networks. The potential use cases for this technique are [numerous and diverse](https://pixelpoint.io/blog/ms-fluent-emoji-style-fine-tune-on-stable-diffusion/), I would say this is currently the most exciting ongoing growth.
 
 ## Implications and Ethical Considerations 🤔
 
-Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It will be interesting!
+Overall, the recent boom in large language models and image generation tools has exciting implications for a wide range of industries and applications. While there are certainly ethical concerns to consider, the potential for these tools to improve and augment human capabilities is undeniable. It ~~will be~~ is interesting!
 
 ### The competitive edge of schizopoasting
 
@@ -74,7 +77,7 @@ LLMs make it easy to generate your average normal descriptive text or basic stor
 Generative image models have the potential to greatly impact the field of digital art and design by allowing for the creation of highly realistic and unique images. However, it's important to note that the use of these models alone does not necessarily equate to creativity. Creativity involves the ability to come up with novel ideas, and while image models can generate new images, they are still limited by the data they were trained on and the parameters set by the designer. Therefore, the effect of generative image models on creativity will likely depend on how they are used and integrated with human creativity.
 
 <div class="post-image">
-  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ML systems are just matrix algebra training data soup, and will only ever be as good as their training data. This is why AlphaZero is only as good as human players at Chess and Go :)</p>&mdash; flaw (@flawedaxioms) <a href="https://twitter.com/flawedaxioms/status/1609625028458582016?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ML systems are just matrix algebra training data soup, and will only ever be as good as their training data. This is why AlphaZero is only as good as human players at Chess and Go :)</p>&mdash; flaw (@flawedaxioms) <a href="https://twitter.com/flawedaxioms/status/1609625028458582016?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote>
 </div>
 
 ### Which industries will be affected first?
@@ -113,11 +116,11 @@ Buy a cool expensive consumer GPU for your tower PC. The problem is that the min
 
 ##### Using SaaS tools
 
-This area is moving extremely fast and includes players like the following:
+This area is moving extremely fast and includes players that have rapidly become household names. These are the companies making the headlines and being used by journalists to comment on the advent of the machine age. Besides the obvious convenience they do promote a monolithic approach to creative walled gardens.
 
-- [ChatGPT](https://chat.openai.com)
-- [Midjourney](https://www.midjourney.com)
-- [Dall-E 2](https://openai.com/dall-e-2/)
+- [ChatGPT](https://chat.openai.com): one of the fastest growing userbase in recent tech history
+- [Midjourney](https://www.midjourney.com): a sort of meta cohesive customer driven art direction which I have yet to enjoy
+- [Dall-E 2](https://openai.com/dall-e-2/): the OG heavily censored image magic box
 
 ##### Running your own models using Cloud GPUs
 
@@ -137,14 +140,14 @@ In this case you would rent GPUs in the cloud and pay hourly for your usage. Her
 |PROS :white_check_mark:| CONS :no_entry_sign: |
 |:--------------|:-----|
 | Kinda expensive| Lots of bugs |
-| Lots of cool features | The adapted notebooks are buggy af|
-| Gradient Notebook IDE is cool | Availability of machines can be bad|
+| Lots of cool features | The "official" adapted notebooks are buggy af :/ |
+| Gradient Notebook IDE is cool | Limited availability of machines|
 
 ###### [JarvisLabs](https://cloud.jarvislabs.ai/)
 
 |PROS :white_check_mark:| CONS :no_entry_sign: |
 |:--------------|:-----|
-| Cheap rates | Shitty barebobnes UI |
+| Cheap rates | Shitty barebones UI |
 | Pre-defined images like Automatic1111's ||
 
 
