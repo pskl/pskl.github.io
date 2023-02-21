@@ -8,14 +8,14 @@ image: /assets/pictures/ai2.png
 permalink: /blog/ai-progress
 categories: blog ai
 ---
-In 2015 when Google released [Deepdream](https://en.wikipedia.org/wiki/DeepDream) the idea of machine creativity captivated my mind and ever since I've read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) in 2016 I've always been fascinated by the idea that the age of machines would soon be upon us. The concept is scary, grandiose, ethereal and a fertile ground for science (and personal) fiction. Progress was somewhat slow but it seems that we are currently reaching an inflection point, this area of interest dear to me has become so prolific and fast-paced that I feel the need to start taking notes to declutter a bit my mental map. __Paradigm shit after paradigm shift the giant leaps peculiarly keep coming!__
+In 2015 when Google released [Deepdream](https://en.wikipedia.org/wiki/DeepDream) the idea of machine creativity captivated my mind for a short while then faded. Later on I read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) (in 2016) and ever since I've always been fascinated by the idea that the age of machines would soon be upon us. The concept and the myth of the Singularity is scary, grandiose, ethereal and a fertile ground for science (and personal) fiction. Since then progress was relatively slow but it seems that we are currently approaching an inflection point, this area of interest dear to me has become so prolific and fast-paced that I feel the need to start taking notes to declutter a bit my mental map. __Paradigm shit after paradigm shift the giant leaps peculiarly keep coming!__
+
+<img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai1.png">
+
+In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public. You've probably heard about __LLMs__, __ChatGPT__, __CLIP__, __GPT-3__, __GANs__, __AGI__ and all sorts of acronyms that make your head spin. Let's summarize in broad terms what's happening: what actually triggered the current explosion, what are the implications (mixed-in with some personal speculation).
 
 <div class="post-image">
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Humanity is going to make all parts of the world touched by humans beautiful. We are going to create beauty too cheap to meter. And not just an enforced-from-above standard of beauty either, everyone will be able to make their own domain beautiful in the manner of their choosing.</p>&mdash; Rivers Have Wings (@RiversHaveWings) <a href="https://twitter.com/RiversHaveWings/status/1617314715650363393?ref_src=twsrc%5Etfw">January 23, 2023</a></blockquote></div>
-
-In the last 2 years, there has been a significant boom in the development of large language models and image generation tools. These tools have the ability to generate realistic and coherent text and images, respectively, and have garnered a lot of attention from researchers, artists, developers, and the general public. You've probably heard about __LLMs__, __ChatGPT__, __CLIP__, __GPT-3__, __GANs__, __AGI__ and all sorts of acronyms that make your head spin.
-
-<img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai1.png">
 
 ## Large Language Models
 
