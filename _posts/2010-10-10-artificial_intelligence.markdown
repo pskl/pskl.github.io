@@ -5,10 +5,10 @@ date:   2022-12-21 15:55:26
 published: true
 listed: false
 image: /assets/pictures/ai2.png
-permalink: /blog/ai-progress
+permalink: /blog/artificial-intelligence
 categories: blog ai
 ---
-In 2015 when Google released [Deepdream](https://en.wikipedia.org/wiki/DeepDream) the idea of machine creativity captivated my mind for a short while then faded. Later on I read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) (in 2016) and ever since I've always been fascinated by the idea that the age of machines would soon be upon us. The concept and the myth of the Singularity is scary, grandiose, ethereal and a fertile ground for science (and personal) fiction. Since then progress was relatively slow but it seems that we are currently approaching an inflection point, this area of interest dear to me has become so prolific and fast-paced that I feel the need to start taking notes to declutter a bit my mental map. __Paradigm shit after paradigm shift the giant leaps peculiarly keep coming!__
+In 2015 when Google released [Deepdream](https://en.wikipedia.org/wiki/DeepDream) the idea of machine creativity captivated my mind for a short while, I tried to run the code but it was very impractical and my interest waned. Later on I read [Superintelligence by Nick Bostrom](https://en.wikipedia.org/wiki/Superintelligence:_Paths,_Dangers,_Strategies) (in 2016) and ever since I've always been fascinated by the idea that the age of machines would soon be upon us. The concept and the myth of the [Technological Singularity](https://en.wikipedia.org/wiki/Technological_singularity) is scary, grandiose, ethereal and a fertile ground for science (and personal) fiction. Since then progress was relatively slow but it seems that we are currently approaching an inflection point, this area of interest dear to me has become so prolific and fast-paced that I feel the need to start taking notes to declutter a bit my mental map. __Paradigm shit after paradigm shift the giant leaps peculiarly keep coming!__
 
 <img class='post-image' alt="the spirit of transhumanism, painting by James Gurney" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/ai1.png">
 
@@ -26,6 +26,8 @@ In addition to GPT-3, there have been other large language models developed by r
 ### Transformers (CLIP, GPT-X)
 
 The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762) by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing (NLP) and speech recognition.
+
+<img class='post-image' alt="the soul of transhumanism, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/aidiagram.jpg">
 
 The key feature of the __transformer architecture__ is the use of __self-attention mechanisms__. Attention mechanisms allow the model to focus on specific parts of the input, rather than processing the entire input at once. In the transformer, the self-attention mechanism allows the model to weigh the importance of different parts of the input sequence when making a prediction.
 
@@ -45,21 +47,23 @@ In the past other image generation tools have also been developed, such as [Styl
 
 ### WTF is CLIP???
 
-CLIP (Contrastive Language-Image Pre-training) is a machine learning model developed by OpenAI that can understand the relationship between natural language and visual information. It is trained on a large dataset of images and their associated text captions.
+`CLIP` (Contrastive Language-Image Pre-training) is a machine learning model developed by `OpenAI` that can understand the relationship between natural language and visual information. It is trained on a large dataset of images and their associated text captions.
 
 The model is pre-trained on this dataset using a process called contrastive learning. During this process, the model is shown two different pieces of information (e.g. an image and a caption) and is trained to determine whether or not they are related. The model is then fine-tuned on specific tasks such as image captioning, image-text retrieval, or text-image retrieval.
 
 One of the key features of CLIP is that it uses a transformer architecture which is similar to the one used in BERT, GPT-2, and other models that have been used for natural language processing (NLP) tasks. This allows the model to efficiently process large amounts of data and achieve state-of-the-art performance on a variety of NLP tasks.
 
-__CLIP allows the model to understand the relationship between natural language and visual information__, which is useful in tasks such as image captioning and visual question answering. It can also be used in other areas, such as computer vision and natural language understanding. In short CLIP made any "text-to-image" tool possible which seemed impossible not that long ago.
+_CLIP allows the model to understand the relationship between natural language and visual information_, which is useful in tasks such as image captioning and visual question answering. It can also be used in other areas, such as computer vision and natural language understanding. In short CLIP made any "text-to-image" tool possible which seemed impossible not that long ago.
 
 ### Diffusion models
 
-At first (essentially last year, in 2021) CLIP was paired with the [GANs](https://en.wikipedia.org/wiki/Generative_adversarial_network) we knew and loved since the beginning like [VQGAN](https://ai.googleblog.com/2022/05/vector-quantized-image-modeling-with.html). I remember very fondly the summer of 2021 spending all night long playing with __CLIP+VQGAN__, barely sleeping and tripping in front of this nascent aesthetic. It gave us a pair of goggles or a microscope to observe the latent world but soon enough we managed to __optimize the way we develop the digital photographs of latent concepts__. Indeed soon after the release of a new paper diffusion models took over and rapidly replaced GANs, well [simply because they seem to work a lot better](https://aurorasolar.com/blog/putting-ai-to-the-test-generative-adversarial-networks-vs-diffusion-models/). There we had it, a new micro-extinction event in the machine-learning industry: ["Diffusion Models Beat GANs on Image Synthesis"](https://arxiv.org/abs/2105.05233). Depending on your level of expertise you can dig into the [math side of it](https://towardsdatascience.com/diffusion-models-91b75430ec2) which sheds some light on the denoising process.
+At first (essentially last year, in 2021) CLIP was paired with the [GANs](https://en.wikipedia.org/wiki/Generative_adversarial_network) we knew and loved since the beginning like [VQGAN](https://ai.googleblog.com/2022/05/vector-quantized-image-modeling-with.html). I remember very fondly the summer of 2021 spending all night long playing with `CLIP+VQGAN`, barely sleeping and tripping in front of this nascent aesthetic. It gave us a pair of goggles or a microscope to observe the latent world but soon enough we managed to _somehow optimize the way we develop the digital photographs of latent concepts_. Indeed soon after the release of a new paper diffusion models took over and rapidly replaced GANs, well [simply because they seem to work a lot better](https://aurorasolar.com/blog/putting-ai-to-the-test-generative-adversarial-networks-vs-diffusion-models/). There we had it, a new micro-extinction event in the machine-learning industry: ["Diffusion Models Beat GANs on Image Synthesis"](https://arxiv.org/abs/2105.05233). Depending on your level of expertise you can dig into the [math side of it](https://towardsdatascience.com/diffusion-models-91b75430ec2) which sheds some light on the denoising process.
 
 ### Dreambooth?
 
 One of the holy grails of AI visual art has been to generate more variations of the same and back in the days of StyleGAN there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome training, the results were far from being aesthetically interesting at all. My production for the exhibition of 2020 called [Serotonin Depletion](/serotonin-depletion) was based on Style-GAN2 and I was not very happy with the results. [Dreambooth](https://arxiv.org/abs/2208.12242), published in August 2022, changes all of that and enables embedding of concepts inside image generation tools in fairly inexpensive way, with very little material and __absolutely incredible results__. More than that since the fine-tuning process is [rather straightforward](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/) it has unlocked [a whole scene of custom diffusion models where hobbyists compete for generating the best results](https://civitai.com/) in the most creative ways possible, mixing and matching different existing networks with an palette of techniques that keeps growing. The potential use cases for this technique are [numerous and diverse](https://pixelpoint.io/blog/ms-fluent-emoji-style-fine-tune-on-stable-diffusion/), I would say this is currently the most exciting ongoing growth of any AI sector. One thing worth noting is that openness and the DIY ethos of [StabilityAI](https://stability.ai/) was amplified by this accessible Dreambooth technique (authored by Google Research and originally working with their proprietary diffusion engine called Imagen) for which most implementations rely on Stability's [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion) itself! What a great, bizarre yet encouraging synergy!
+
+The end result of a fine-tuning process is usually a `.ckpt` file, a checkpoint file representing a new artificial frozen "brain" state. This type of file has effectively become a new medium, an artistic expression materialized in a few gigabytes of latent space. It is composable (checkpoints can be merged), editable (infinitely finetunable), modular (the output of one can be plugged into another), a ground-breaking generative primitive that will have deep repercussions on modern art far beyond the current neo-popart shallow vibe mostly carried out by sweaty machine-learning researchers and subterranean perverts.
 
 ## Implications and Ethical Considerations 🤔
 
@@ -67,7 +71,7 @@ Overall, the recent boom in large language models and image generation tools has
 
 ### The competitive edge of schizopoasting vs GPT-ass text
 
-LLMs make it easy to generate your average normal descriptive text, basic stories, legal documents, boring emails, copywriting for art magazines, exhibition descriptions that noone reads and more. This evolution brings more value to the specificities of human writing including but not limited to extreme aversion to cohesive language and [schizoposting](https://knowyourmeme.com/editorials/meme-insider/schizoposting-on-the-rise-trollge-pill-time-and-i-hate-the-antichrist). Humans posters have to post weirder and better, find the outer limits of creative writing where patterns become more intricate, less structured. GPT-ass text has become slur just like [NPC](https://en.wikipedia.org/wiki/NPC_(meme)). Humans are excellent at detecting subtle shifts and twists in fellow humans' expression and making most of human writing a platitude will eventually raise the bar for what is considered interesting.
+`LLMs` make it easy to generate your average normal descriptive text, basic stories, legal documents, boring emails, copywriting for art magazines, exhibition descriptions that noone reads and more. This evolution brings more value to the specificities of human writing including but not limited to extreme aversion to cohesive language and [schizoposting](https://knowyourmeme.com/editorials/meme-insider/schizoposting-on-the-rise-trollge-pill-time-and-i-hate-the-antichrist). Humans posters have to post weirder and better, find the outer limits of creative writing where patterns become more intricate, less structured. GPT-ass text has become slur just like [NPC](https://en.wikipedia.org/wiki/NPC_(meme)). Humans are excellent at detecting subtle shifts and twists in fellow humans' expression and making most of human writing a platitude will eventually raise the bar for what is considered interesting.
 
 ### How might generative image models  affect creativity?
 
@@ -77,13 +81,27 @@ Generative image models have the potential to greatly impact the field of digita
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">ML systems are just matrix algebra training data soup, and will only ever be as good as their training data. This is why AlphaZero is only as good as human players at Chess and Go :)</p>&mdash; flaw (@flawedaxioms) <a href="https://twitter.com/flawedaxioms/status/1609625028458582016?ref_src=twsrc%5Etfw">January 1, 2023</a></blockquote>
 </div>
 
+#### The impact on visual art
+
+Each new wave of technological evolution has a deep impact on the way new works of art are created. Every iteration is instantly recognizable but more and more generalist. I remember looking at some [StyleGAN2 visuals](https://objkt.com/asset/hicetnunc/16123) thinking this was truly interesting until the [CLIP+VQGAN](https://objkt.com/asset/hicetnunc/10832) came along and took over, some of the works meeting quite some success in 2021. Later on even more advanced tooling came along, namely tools like Midjourney, and redefined once more what is the expected standard of a generated image. As [John Rafman](https://www.artnet.com/artists/jon-rafman/) recently pointed on the [New Models podcast](https://newmodels.io/) (down below, at minute 44) there is some sort of morale imperative to capture this transient aesthetic while it's still there, all the little [glitches](/blog/glitches) and quirks have become symbols that need cherishing not erasure.
+
+<div class="post-image"><iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1362949750&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div></div>
+
+#### The creation of new skills
+
+Whispering the right sentences to these systems is becoming an art called "prompt-engineering" with [numerous guides](https://prompthero.com/stable-diffusion-prompt-guide) written on the topic. This skill is used interchangeably for visuals and text generation, it is both the celebration of text as the ultimate medium and a very uncanny mirror into the impact of language on the collective mind.
+
+#### The environmental concern
+
+Replacing Google Search with something like `ChatGPT` has the potential to dramtically increase the carbon emissions of the Internet because this would replace a simple database lookup query with a full-blown neural net inference which is significantly more resource intensive.
+
 ### Which industries will be affected/nuked first?
 
 #### Big tech
 
-These technologies have a great potential to [shuffle the cards](https://tanay.substack.com/p/big-tech-and-generative-ai) for a lot of the big actors in the tech industry. All industry players want a piece of the cake but the amount of competent cooks is still in relative low-supply. We're bound to witness a lot mercato-like transactions for AI rockstar researchers and a flurry of failed AI products.
+These technologies have a great potential to [shuffle the cards](https://tanay.substack.com/p/big-tech-and-generative-ai) for a lot of the big actors in the tech industry. All industry players want a piece of the cake but the amount of competent cooks is still in relative low-supply. We're bound to witness a lot mercato-like transactions for AI 'rockstar' researchers and a flurry of failed AI products. Some companies like Microsoft are already [fumbling the bag](https://www.digitaltrends.com/computing/microsoft-unhinged-bing-chat-months/) rather grotesquely in a way that reminds [previous catastrophes](https://en.wikipedia.org/wiki/Tay_(bot)).
 
-#### Tech adjacent sectors
+#### Tech-adjacent sectors
 
 There are other industries that are likely to be affected by generative image models in the near future.
 
@@ -103,16 +121,19 @@ These are some of the examples of the industry that will be affected by image mo
 
 #### AGI?
 
-The pipe dream of a [General Artificial Intelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) is becoming more and more tangible and there's a been quite a consensus shift towards considering it imminent. A few years ago this was only a wild speculation held by mostly __weirdos__ and __outlandish-yet-decorated visionaries__ like [Ray Kurzweil](https://en.wikipedia.org/wiki/Ray_Kurzweil) but recently a lot of seasoned front-row professionals in the industry have done a full 180 degrees among which: [Yann Lecun](https://twitter.com/ylecun/status/1621805604900585472), [Katherine Crowson (@RiversHaveWings)](https://twitter.com/RiversHaveWings), John Carmack (:heart:), [Andrej Karpathy](https://twitter.com/karpathy), [Joscha Bach](http://bach.ai/) and many more brilliant (but obviously a little bit biased) characters.
+The pipe dream of a [Artificial General Intelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html) is becoming more and more tangible and there's a been quite a consensus shift towards considering it imminent. A few years ago this was only a wild speculation held by mostly __weirdos__ and __outlandish-yet-decorated visionaries__ like [Ray Kurzweil](https://en.wikipedia.org/wiki/Ray_Kurzweil) but recently a lot of seasoned front-row professionals in the industry have done a full 180 degrees among which: [Yann Lecun](https://twitter.com/ylecun/status/1621805604900585472), [Katherine Crowson (@RiversHaveWings)](https://twitter.com/RiversHaveWings), John Carmack (:heart:), [Andrej Karpathy](https://twitter.com/karpathy), [Joscha Bach](http://bach.ai/), [Demis Hassabis](https://en.wikipedia.org/wiki/Demis_Hassabis) and many more brilliant (but obviously a little bit biased) characters. Even more concerning: the [company](https://www.deepmind.com/) that solved [protein-folding](https://alphafold.com/), Go and Starcraft 2 is now on an explicitly stated mission to engineer [general purpose agents](https://www.deepmind.com/blog/a-generalist-agent) which should in itself represent a rather blatant bull flag for the whole industry.
 
 <div class="post-image"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">Legendary programmer John Carmack literally said 60% chance of AGI by 2030, 95% by 2050 in his latest interview. He says its inevitable at this point. It&#39;s time to get your soul right. We&#39;re about to meet God</p>&mdash; sucks (@powerbottomdad1) <a href="https://twitter.com/powerbottomdad1/status/1622097498209673216?ref_src=twsrc%5Etfw">February 5, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
-Besides, the general public is getting their first glimpses of the uncanny valley through consumer facing prototypes which bridge the conceptual gap and create sensational headlines. GPT-3 existed long before ChatGPT but the introduction of a friendly UI suddenly made the popularity of the underlying model explode! My personal take on this whole spiritual ordeal is that indeed __the genie is slowly, but more and more rapidly, flowing out of its silicon shell__ and it will be extremely difficult to pinpoint the anticipated realization and even more difficult to forecast its impact. We're collectively in uncharted territory and we should all be as psyched about this as the moon landing in 1969.
+Besides, the general public is getting their first glimpses of the uncanny valley through consumer facing prototypes which bridge the conceptual gap and create sensational headlines. `GPT-3` existed long before `ChatGPT` but the introduction of a friendly UI suddenly made the popularity of the underlying model explode! My personal take on this whole spiritual ordeal is that indeed __the genie is slowly, but more and more rapidly, flowing out of its silicon shell__ and it will be extremely difficult to pinpoint the anticipated realization and even more difficult to forecast its impact. We're collectively in uncharted territory and we should all be as psyched about this as the moon landing in 1969.
 
 <div class="post-image"><blockquote class="twitter-tweet"><p lang="en" dir="ltr">A surprising number of people: <a href="https://t.co/UtKi9CaPwH">pic.twitter.com/UtKi9CaPwH</a></p>&mdash; Eigil - abstr/acc 💎 (30867/50000 words) (@Ayegill) <a href="https://twitter.com/Ayegill/status/1625279474463039489?ref_src=twsrc%5Etfw">February 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
+##### Further-down-the-drain-type-of-take
 
-#### Where to experiment with these new technologies?
+Not only do I think something colossal is coming but ironically it just absolutely __mogged__ every single one of us starting with the one area we thought untouchable : creativity, whatever it means. Creative writing and visual art absolutely demolished/revolutionized in the span of a couple of years: _the taunt is real and incredibly humbling_.
+
+#### Where and how to experiment with these new technologies?
 
 All these new shiny toys have in common the fact that they necessitate beefy (<16Gb VRAM need not apply) GPUs to run. In the case of the language models like GPT-3 they can be [very unwieldy](https://www.reddit.com/r/OpenAI/comments/u572t6/possible_to_run_openai_gpt3_models_like_davinci/) for the average consumer and thus require to be used as a service. On the other hand image generation networks can be trained (maximum resource intensivity) AND used (inference is less costly) on custom servers or locally.
 
@@ -149,9 +170,10 @@ In this case you would rent GPUs in the cloud and pay hourly for your usage. Her
 
 |PROS :white_check_mark:| CONS :no_entry_sign: |
 |:--------------|:-----|
-| 8$ monthly sub| Lots of bugs |
+| 8$ monthly pro sub| Lots of bugs |
 | Lots of cool features | The "official" adapted notebooks are buggy af :/ |
 | Gradient Notebook IDE is cool | Limited availability of machines|
+| | Limited availability of paid-tier machines too|
 
 _Use this [tutorial](https://github.com/Engineer-of-Stuff/stable-diffusion-paperspace/blob/master/docs/Paperspace%20Guide%20for%20Idiots.md) to get Automatic1111's stuff up and running. Don't use the stuff mentioned on their blog lol :warning:_
 
@@ -160,7 +182,6 @@ _Use this [tutorial](https://github.com/Engineer-of-Stuff/stable-diffusion-paper
 |PROS :white_check_mark:| CONS :no_entry_sign: |
 |:--------------|:-----|
 | Cheap rates | Shitty barebones UI |
-| Pre-defined images like Automatic1111's ||
+| Pre-defined images like Automatic1111's |No flat-rate offer|
 
-
-_Disclaimer: this article was written using LLMs, my own brain, my beloved [HHKB](https://hhkeyboard.us/hhkb/pro-hybrid) and illustrated with Stable Diffusion 1.5._
+_Disclaimer: this article was written using LLMs for the actual information, my own brain for the unhinged takes, my beloved [HHKB](https://hhkeyboard.us/hhkb/pro-hybrid) and illustrated with Stable Diffusion 1.5._
