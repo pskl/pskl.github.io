@@ -184,4 +184,9 @@ _Use this [tutorial](https://github.com/Engineer-of-Stuff/stable-diffusion-paper
 | Cheap rates | Shitty barebones UI |
 | Pre-defined images like Automatic1111's |No flat-rate offer|
 
+
+## Conclusion
+
+Generative tools are deeply changing our world and it is very likely that the current technological prowess is barely the tip of the iceberg. History is in the making and the tools to get a front row seat have never been easier to us and readily available.
+
 _Disclaimer: this article was written using LLMs for the actual information, my own brain for the unhinged takes, my beloved [HHKB](https://hhkeyboard.us/hhkb/pro-hybrid) and illustrated with Stable Diffusion 1.5._
