@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "The Boom of Large Language Models and Image Generation"
-date:   2022-12-21 15:55:26
+title: "The Boom of Large Language Models and Image Generation"
+date: 2022-12-19
 published: true
 listed: true
 image: /assets/pictures/ai2.png

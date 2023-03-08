@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Why organize a yearly exhibition?
+title: Why organize a yearly exhibition?
 description: Benchmarking a solution to overcome the fear of birthdays.
-date:   2020-09-16 14:13:21
+date: 2020-09-16
 image: /assets/pictures/ikatch.png
 permalink: /blog/exhibitions
 published: true
@@ -43,6 +43,7 @@ There are, of course, numerous downsides to such an undertaking.
 If you are interested in participating in those events or just want to send me feedback shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
 
 ## Link to past exhibition press releases
-* [Dopamine Harvest](https://pascal.cc/dopamine-harvest)
-* [Serotonin Depletion](https://pascal.cc/serotonin-depletion)
-* [Endorphin Delusion](https://pascal.cc/endorphin-delusion)
+* [Dopamine Harvest](/dopamine-harvest)
+* [Serotonin Depletion](/serotonin-depletion)
+* [Endorphin Delusion](/endorphin-delusion)
+* [Zapzarap](/zapzarap)

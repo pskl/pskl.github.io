@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Bullshit-free investment advice"
-date:   2017-02-28 15:15:26
+title: "Bullshit-free investment advice"
+date: 2017-02-28
 published: true
 listed: false
 image: /assets/pictures/sp500.png

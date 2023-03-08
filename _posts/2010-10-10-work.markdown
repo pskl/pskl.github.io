@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Simple ways to get stuff done as a maker"
-date:   2016-06-05 15:15:26
+date: 2016-06-05
 published: true
 listed: true
 description: "Article overviewing pragmatic ways to get things done when wou work with software."
