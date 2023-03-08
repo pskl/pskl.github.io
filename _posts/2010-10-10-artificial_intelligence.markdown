@@ -63,7 +63,7 @@ At first (essentially last year, in 2021) CLIP was paired with the [GANs](https:
 
 At first and in some ways these deep-fake enabling technologies do feel like the [ultimate heist](/zapzarap). The training data is scraped with or without permission directly from the Internet. For image generation one of the best datasets available is [LAION-5B](https://laion.ai/projects/) which contains 5.85 billion CLIP-filtered image-text pairs. The fact that it contains a mixed bag of human representations and commercial content is highly controversial and later iterations of Stable Diffusion allowed artists to opt-out of being part of the dataset. I personally believe that having some of my art in there as well as some personal photographs should be celebrated as being part of the beautiful shared sum of human culture as long as the dataset is made public.
 
-### Dreambooth?
+### What is Dreambooth?
 
 One of the holy grails of AI visual art has been to generate more variations of the same and back in the days of `StyleGAN` there were 2 problems: firstly one needed to feed the machine a large collection of the same concept and secondly, after a cumbersome (and expensive!) training, the results were far from being aesthetically interesting at all. My production for the exhibition of 2020 called [Serotonin Depletion](/serotonin-depletion){:target="_blank"} was based on `StyleGAN-2` and I was not very happy with the results. [Dreambooth](https://arxiv.org/abs/2208.12242){:target="_blank"}, published in August 2022 (note : and since then many more similar techniques like [LoRA](https://huggingface.co/blog/lora) have sprouted up), changes all of that and enables embedding of concepts inside image generation tools in a fairly inexpensive way, with very little material and __absolutely incredible results__. It has become very easy to fine-tune a generalist model like Stable Diffusion on a few samples of a concept or person. More than that since the fine-tuning process is [rather straightforward and cheap](https://bytexd.com/how-to-use-dreambooth-to-fine-tune-stable-diffusion-colab/){:target="_blank"} it has enabled [a whole scene of custom diffusion models where hobbyists compete for generating the best results](https://civitai.com/){:target="_blank"} in the most creative ways possible, mixing and matching different existing networks with an palette of techniques that keeps growing. The potential use cases for this technique are [numerous and diverse](https://pixelpoint.io/blog/ms-fluent-emoji-style-fine-tune-on-stable-diffusion/){:target="_blank"}, I would say this is currently the most exciting ongoing growth of any AI sector. One thing worth noting is that openness and the DIY ethos of [StabilityAI](https://stability.ai/){:target="_blank"} was amplified by this accessible Dreambooth technique (authored by Google Research and originally working with their proprietary diffusion engine called Imagen) for which most implementations rely on Stability's [Stable Diffusion](https://en.wikipedia.org/wiki/Stable_Diffusion){:target="_blank"} itself! What a great, bizarre-yet-encouraging synergy!
 
@@ -94,15 +94,15 @@ Each new wave of technological evolution has a deep impact on the way new works 
 
 <div class="post-image"><iframe width="100%" height="200" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1362949750&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"></div></div>
 
-#### The creation of new skills
+#### Will AI create jobs and new art forms?
 
 Whispering the right sentences to these systems is becoming an art called "prompt-engineering" with [numerous guides](https://prompthero.com/stable-diffusion-prompt-guide) written on the topic. This skill is used interchangeably for visuals and text generation, it is both the celebration of text as the ultimate medium and a very uncanny mirror into the impact of language on the collective mind.
 
-#### The environmental concern
+#### Is it safe for the environment?
 
 Replacing Google Search with something like `ChatGPT` has the potential to dramatically increase the carbon emissions of the Internet because this would replace a simple database lookup query with a full-blown neural net inference which is significantly more resource intensive.
 
-### Which industries will be affected/nuked first?
+### Which industries will be affected/nuked by AI first?
 
 #### Big Tech :hammer:
 
@@ -128,7 +128,7 @@ There are other industries that are likely to be affected by generative image mo
 
 - Automotive and industrial design: image models can be used to generate images of vehicles and industrial products, which could be used for visualization and marketing purposes.
 
-#### AGI?
+#### Is AGI possible?
 
 The pipe dream of a [Artificial General Intelligence](https://waitbutwhy.com/2015/01/artificial-intelligence-revolution-1.html){:target="_blank"} is becoming more and more tangible and there's a been quite a consensus shift towards considering it imminent. A few years ago this was only a wild speculation held by mostly __weirdos__ and __outlandish-yet-decorated visionaries__ like [Ray Kurzweil](https://en.wikipedia.org/wiki/Ray_Kurzweil){:target="_blank"} but recently a lot of seasoned front-row professionals in the industry have done a full 180 degrees among which: [Yann Lecun](https://twitter.com/ylecun/status/1621805604900585472){:target="_blank"}, [Katherine Crowson (@RiversHaveWings)](https://twitter.com/RiversHaveWings){:target="_blank"}, John Carmack (:heart:), [Andrej Karpathy](https://twitter.com/karpathy){:target="_blank"}, [Joscha Bach](http://bach.ai/), [Demis Hassabis](https://en.wikipedia.org/wiki/Demis_Hassabis){:target="_blank"} and many more brilliant (but obviously a little bit biased) characters. Even more concerning: the [company](https://www.deepmind.com/){:target="_blank"} that solved [protein-folding](https://alphafold.com/){:target="_blank"}, Go and Starcraft 2 is now on an explicitly stated mission to engineer [general purpose agents](https://www.deepmind.com/blog/a-generalist-agent){:target="_blank"} which should in itself represent a rather blatant bull flag for the whole industry.
 
