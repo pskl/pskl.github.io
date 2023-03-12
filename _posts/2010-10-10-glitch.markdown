@@ -128,7 +128,7 @@ Here is a glitch spotted in the wild in Berlin by [Maria VdB](https://www.instag
 I think artists like glitches so much because they perfectly fit the exploratory dimension of the creative process where an initial idea has to mutate and explode to lead its creator in a maze of potential outcomes.
 Rendering engines are everywhere nowadays and every single rendering engine that exists can be fiddled with or can behave in unexpected ways.
 
-If you have any suggestions of very interesting categories not covered by this article, shoot me an email at [hello@pascal.cc](mailto:hello@pascal.cc).
+If you have any suggestions of very interesting categories not covered by this article, shoot me an email at **[hello[at]pascal.cc](mailto:hello@pascal.cc)**.
 
 ## Additional Resources
 * [Glitch becomes mainstream](http://www.adweek.com/digital/from-marketing-to-fashion-the-glitch-has-become-one-of-todays-defining-design-trends/)
