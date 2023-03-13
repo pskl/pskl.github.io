@@ -21,9 +21,9 @@ In the last 2 years, there has been a significant boom in the development of lar
 
 One of the most well-known large language models is [GPT-3](https://openai.com/blog/gpt-3-apps/) (Generative Pre-training Transformer 3), developed by [OpenAI](https://openai.com/). GPT-3 is a neural network-based language model that has been trained on a massive dataset, allowing it to generate human-like text. It can perform a wide range of language tasks, including translation, summarization, and question answering, with impressive accuracy. The breakthrough that made recent language models particularly game-changing was the introduction of the transformer neural architecture.
 
-### Transformers (CLIP, GPT-X)
+### Transformers say fuck recursion! (CLIP, GPT-X)
 
-The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762){:target="_blank"} by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing and speech recognition.
+The transformer architecture is a type of neural network architecture that was introduced in a 2017 paper ["Attention is All You Need"](https://arxiv.org/abs/1706.03762){:target="_blank"} by Google researchers. It is particularly well-suited for tasks involving sequential data, such as natural language processing and speech recognition. It's a radically [new approach](https://towardsdatascience.com/transformers-141e32e69591) to neural architecture that brought to market a lot of new products.
 
 <img class='post-image' alt="the soul of transhumanism, painting by Greg Rutkowski" src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/aidiagram.jpg">
 
