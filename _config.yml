@@ -1,0 +1,19 @@
+# Site settings
+title: "pskl"
+description: "."
+baseurl: ""
+url: "https://pascal.cc"
+github_username:  pskl
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Ruby gems
+gems:
+  - jemoji
+  - jekyll-sitemap
+  - jekyll-seo-tag

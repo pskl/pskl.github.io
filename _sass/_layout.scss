@@ -1,0 +1,205 @@
+/* Site Header
+ * ============================================== */
+    .site-header {
+        min-height: 450px;
+        background-color: $brand-color;
+        background-size: cover;
+        background-position: center -170px;
+        background-attachment: fixed;
+
+        @include media-query($on-palm) {
+            min-height: 250px;
+            background-position: center -250px;
+            display: none; // No fancy header on mobile
+        }
+    }
+
+    #canvas-container {
+        max-height: 400px;
+        width: 100%;
+
+        canvas {
+          filter: blur(3px);
+        }
+    }
+
+    a.site-title {
+      color: $title-text-color;
+      z-index: 99;
+      text-shadow: -7px -2px darken($title-text-color, 50%);
+      filter: drop-shadow(-6px -1px 4px darken($title-text-color, 70%));
+    }
+
+    a.page-link {
+      color: $title-text-color;
+    }
+
+    .site-header h1 {
+        display: block;
+        font-size: 110px !important;
+        letter-spacing: 20px;
+        text-align: center;
+        padding-top: 20px;
+        clear: both;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index:99;
+        color: $title-text-color;
+
+        @include media-query($on-palm) {
+            font-size:60px !important;
+        }
+    }
+
+    .site-header span {
+        padding: 0.3em 0.5em;
+        margin: 10px 20px;
+        display: inline-block;
+
+        @include media-query($on-palm) {
+            margin: 10px 10px;
+            padding: 0.15em 0.4em;
+        }
+    }
+
+    .site-nav {
+        float: right;
+        line-height: 56px;
+        margin-right: 25px;
+        padding-bottom: 100px;
+        position: absolute;
+        right: 0;
+        z-index:99;
+        text-shadow: 1px -1px darken($title-text-color, 50%);
+
+        .page-link {
+            line-height: $base-line-height;
+            font-weight: bold;
+            letter-spacing: 0.05em;
+
+            &:not(:first-child) {
+                margin-left: 20px;
+            }
+        }
+
+        @include media-query($on-palm) {
+            padding-bottom: 10px;
+        }
+    }
+
+/* Site Footer
+ * ============================================== */
+    .footer {
+        padding-bottom: 3em;
+        margin: auto;
+        font-size: 12px;
+        font-family: $base-font-family;
+        color: #959595;
+    }
+
+/* Individual Posts
+ * ============================================== */
+    .page-content {
+        padding: $spacing-unit 0;
+        // text-align: justify;
+    }
+
+    .page-heading {
+        font-size: 20px;
+        padding-top: 2px;
+    }
+
+/* Archive
+ * ============================================== */
+    .post-list {
+        margin-left: 0;
+        list-style: none;
+
+        > li {
+            display: block;
+            padding: 0.1em 1.5em;
+        }
+
+    }
+
+    .post-link {
+        font-family:  $base-font-family;
+        text-align: left;
+        font-weight: 300;
+        font-size: 1em;
+        letter-spacing: -1px;
+        color: #454545;
+        display: block;
+        width: 100%;
+
+        @include media-query($on-palm) {
+            font-size: 1.33em;
+        }
+    }
+
+    .post-meta {
+        font-size: $small-font-size;
+        color: $brand-color;
+        text-transform: uppercase;
+        display: inline-block;
+    }
+
+/* Post Format
+ * ============================================== */
+    .post-header {
+        margin-bottom: $spacing-unit;
+    }
+
+    .post-title {
+        font-size: 42px;
+        letter-spacing: -1px;
+        line-height: 1;
+        text-align: left;
+
+        @include media-query($on-laptop) {
+            font-size: 36px;
+        }
+    }
+
+    .post-image {
+        max-width: 50%;
+        margin: 0 auto;
+        display: block;
+        padding: 10px;
+
+        @include media-query($on-palm) {
+          max-width: 80%;
+        }
+    }
+
+    .post-video {
+        display: block;
+        margin: 0 auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .post-content {
+        margin-bottom: $spacing-unit;
+
+        h2 {
+            padding: 8px;
+        }
+
+        a {
+          padding: .02em .02em;
+          box-shadow: .25em 0 0 $highlighter-color, -.25em 0 0 $highlighter-color;
+          background: $highlighter-color;
+          color: $text-color;
+        }
+
+        p {
+          text-indent: 1.5em;
+          text-align: justify;
+        }
+
+        strong {
+          font-weight: 600;
+        }
+    }

@@ -1,0 +1,118 @@
+---
+layout: post
+title:  "Simple ways to get stuff done as a maker"
+date: 2016-06-05
+published: true
+listed: true
+description: "Article overviewing pragmatic ways to get things done when wou work with software."
+image: /assets/pictures/screen-view.png
+permalink: /blog/work
+categories: blog work
+---
+
+In this article I will try to detail a bit the choices I made in terms of programming tools and workflows. If you are an experienced developer or don't plan on coding anytime soon (or both, bless your soul) this article is mostly irrelevant and you can resume your regular schedule. Every opinion expressed here is personal, might be entirely wrong. Any valuable input is greatly appreciated. This what works for me, find what works for you. I feel compelled to share this because there are so many tools out there and so many ways to do things that it's easy to get lost and not get anything done, especially for people transitioning from a different skillset.
+
+## About programming languages
+Understanding the logic that makes software and having a firm understanding of best practices and [design patterns](https://en.wikipedia.org/wiki/Software_design_pattern) is way more important than the nature of the language you are currently using. I :heart: [Ruby](https://www.ruby-lang.org/en/) but this preference is not very relevant, the variety of programming languages somewhat reflects the variety of purposes they serve. If you know exactly what you're doing pick the best tool for the job and if you don't pick something somewhat general purpose that you like, easy. Good bets for beginners include (but not limited to): JavaScript, Python, PHP, Golang, Ruby, etc...
+
+## Which text editor is the best?
+The battle for the best editor is still ragingly irrelevant but here's a flash personal review nonetheless.
+
+ - **[VIM](http://www.vim.org/)**
+
+>the oldschool choice for purists and minimalists. It offers the best typing experience one can ask for. This editor is ubiquitous, it's installed natively on most Linux/UNIX based servers/personal computers thus making it a really safe choice. It requires dedication over time and a willingness to lose productivity temporarily. Also it is the opposite of an [Omakase](https://en.wikipedia.org/wiki/Omakase) editor: it comes out barebones and one needs to furnish it with a myriad of plugins to do even the simple things that you find in most editors. It is quite a fascinating universe really and a great piece of technology.
+
+:white_check_mark: Nerd cred ++, powerfullest, everywhere, cool as fuck
+
+:no_entry_sign: Balls hard to master, kinda weird, [RSI](https://en.wikipedia.org/wiki/Repetitive_strain_injury)
+
+- **[Emacs](https://www.gnu.org/software/emacs/)**
+
+>is a sibling of VIM. Has a lot of similar good sides but is not as ubiquitous as far as I know.
+
+:no_entry_sign: Also balls hard but not ubiquitous
+
+- **[Nano](https://www.nano-editor.org/)**
+
+>is a noob-friendly barebones editor which comes with many UNIX systems.
+
+:white_check_mark: Neat name
+
+:no_entry_sign: Feature set very limited, cool factor ~ 0 %
+
+- **[Sublime Text](https://www.sublimetext.com/)**
+
+>used to be the gold standard of user-friendly text editors because it offers right out of the box a very good typing experience with helpful shortcuts and a clean UI.
+Sublime Text is written in C++ which makes it pretty fast and reliable. Think of this editor as the father of Atom. The Sublime ecosystem is mature and has a lot of good plugins. It is not as customizable as Atom though.
+
+:white_check_mark: Fast, simple, kinda noob friendly
+
+:no_entry_sign: Not free
+
+- **[Atom](https://atom.io/)**
+
+>the latest contestant on the market and the brainchild of the infamous [Github](https://github.com). It took all the right elements of Sublime Text and improved some of those. It feels fresher, comes with a lot of good plugins right-out-the-box and is fully customizable. Keep in mind that Atom is a bit slow on older hardware and can choke very easily on large files.
+
+:white_check_mark: Noob friendly, cool, slick, free
+
+:no_entry_sign: ~~Sometimes~~ Most of the times slow, no workspace settings
+
+- **[Visual Studio Code](https://code.visualstudio.com/)**
+
+>built by 'new-school Microsoft' which is nowadays an OK sign. This open-source editor takes all the good characteristics of Atom and gets rid off the speed inconvenience and blablabla. It's quite feature-rich and I probably don't even know half of what it can do but it's pretty usable.
+
+:white_check_mark: Noob friendly, ~~cool~~ fast, slick, free
+
+:no_entry_sign: :smirk:
+
+Whatever the editor you decide to go with learn how to use it because it has amazing features that will make your life simpler.
+
+## Which shell for your terminal application?
+The most ubiquitous shell is obviously [Bash](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29) and is already quite OK and usable. It's everywhere and offers a lot of things right out of the box. But it's very outdated and misses a lot of new cool modern improvements. To me the best alternative to Bash right now is [Zsh](https://en.wikipedia.org/wiki/Z_shell) which stays close to its predecessors but brings a lot of improvements out of the box. UPDATE: since then it has become the default on macOS.
+
+<img class='post-image' src="https://raw.githubusercontent.com/pskl/pskl.github.io/master/assets/pictures/screen-view.png">
+
+~~This is what my screen looks like when I'm working. I like to have my console along my editor which I split because having two shells (or 24) is convenient.~~
+
+## 'Pragmatical' approach to 'project management'
+It is arguably sometimes best to try to go directly to the 'making' step and skip the 'blueprint' step. The blueprint step is most of the time useless if you're working alone or in a very small team (<=2). Don't get me wrong: when > 2 persons are involved in a project then project management tools and blueprints become necessary and it can work great if done right. But for small personal projects just make the first iteration and then adjust your shot, really. My rule of thumb is: if the priority of this project is about agreeing on a common interface (example: API design) then its best to work from the outwards in but on the other hand if this is not the priority then it is way smarter to work from the inside out (ie: start implementing and see where it leads).
+
+Now a short story:
+
+* you're talking with a friend, drinking :coffee: or :beer:
+* you have a great idea
+* you get excited :tada:
+* you start seeing in your mind how great it could become :rainbow:
+* you start making sketches
+* you start planning features
+* you see the insane potential of this project
+* mild euphoria slowly builds up and is reinforced by someone's unsollicited opinion on the topic
+* you start thinking too big and too distant :telescope:
+* you leave the coffeeshop the mind full of stars and extremely pumped (same for your friend) :star:
+* life goes on :walking:
+* the thing you planned is too complicated even on first step
+* you never do it or postpone so called 'project sessions'
+* you don't see results hence the motivation to keep working on it starts rotting
+* your friend experiences the same feelings and gets bored too
+* 1 month passes
+* 2 ...
+* project status: :skull: aborted
+* in heaven or hell with all the rest of the ideas, maybe for the best but you'll never know
+
+This is how 99% of side projects die out there. To prevent this one solution is to think as small as possible first, not overshoot (while keeping an eye on the big picture, ez), make something out of it before it fades away, iterate, iterate, iterate. Bridging the idea with reality will yield more data than a few lightyears of smart people thinking about stuff. It really is not worth spending your time polishing something that is deemed conceptually not so relevant imho, you'd probably be better off taking some fresh air instead. Also I think the best 'todo' list application out there is a simple calendar: enter your tasks in a timeslot so as to make sure it gets done (with a notification), in my experience dedicated TODO apps are great to build but tend to become procrastination cesspools for the users. I do like post-its though but I think it's because they live outside the computer.
+
+>“Make it work, make it fast, then make it pretty… and it isn’t finished until it is pretty!” __-SQL MVP Jeff Moden (RedGate’s 2011 Exceptional DBA of the Year)__
+
+## Are code linters necessary?
+Writing code is a very tedious activity ([programming sucks](https://www.stilldrinking.org/programming-sucks)) and an awkward thing to do, software that monitors what you write and gives you hints on the proper syntax is highly beneficial. For example in the Ruby ecosystem one good linter is [Rubocop](https://github.com/bbatsov/rubocop) which enforces a few style rules.
+
+## Tests are (sometimes) awesome
+Any change (even the smallest) to your codebase as the potential to wreck the whole thing. Having a test suite will save you a lot of time if you plan to make gradual improvements to the project. If it's a one shot don't even bother writing one single test until you get to know the problem but if this thing you do is used by other people or machines do not even think about deploying without a green CI :tada: ya bloody fool.
+
+## Prioritizing is the biggest :key:
+To be somewhat efficient at what you're doing you have to prioritize some items over others. It sounds really stupid but it's easier said than done for some people including me and it still reigns supreme in the realm of productivity tips.
+
+## Conclusion
+Use `VIM` if you want to dedicate your life to file editing. Use whatever makes you comfortable if not. If you're a total noob: use ~~Atom~~ Visual Studio Code. Don't lose yourself in project planning which is just cruft in most cases and/or the trademark of FAANG. Do something, don't overthink, all code is essentially bad by design. The best tools are the ones you're comfortable with. What matters is what's there and how much of it actually does something useful. :hammer:
+
+<img class='post-image' src="https://pascal.cc/assets/gifs/cat_business.gif">
