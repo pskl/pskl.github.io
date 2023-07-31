@@ -45,6 +45,7 @@ There are, of course, numerous downsides to such an undertaking.
 - Firstly it is a financial burden: organizing an event will most likely result in a loss of money so I have to budget the event very tightly to not go overboard.
 - It's a complete timesink. Organizing the whole event takes an incredible amount of time and requires help and planning from all sides.
 - It can obviously be interpreted as reinforced narcissism which is not a good look but being honest about the reasons for its existence feels honest. Grappling with existential issues with a open heart and transparency is the most genuine thing I can do about it.
+- Organizing such an event on your birthday can be a double edge sword: for some people it could be experienced as a favor and for some other it could be seen as malignant/exploitative
 - Lastly it is sometimes hard to stay focused on enjoying the event and have quality conversations with attendees because you always have to take care or anticipate some detail of organization.
 
 ## Conclusion
