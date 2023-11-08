@@ -9,10 +9,11 @@ published: true
 listed: false
 categories: blog exhibition
 ---
-
 _Since a very young age a dreadful fear of Death makes me anticipate the passing of each year._
 
 In 2019, after years of dissapointing birthdays, I vowed to do each year a small art exhibition right at the junction between August and September for a few days as an experiment to replace my birthday with a different type of celebration that would move the light away from the anticipated increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
+
+<img class='post-image' src="/assets/pictures/turning23.webp">
 
 ## Highlight time as the medium of my practice
 
@@ -55,7 +56,8 @@ Having a recurring deadline based on a chronological marker has been of the most
 If you are interested in participating in those events or just want to send me feedback shoot me an email at **[hello[at]pascal.cc](mailto:hello@pascal.cc)**.
 
 ## Link to past exhibition press releases
-* [Dopamine Harvest](/dopamine-harvest)
-* [Serotonin Depletion](/serotonin-depletion)
-* [Endorphin Delusion](/endorphin-delusion)
-* [Zapzarap](/zapzarap)
+* [Dopamine Harvest (2019)](/dopamine-harvest)
+* [Serotonin Depletion (2020)](/serotonin-depletion)
+* [Endorphin Delusion (2021)](/endorphin-delusion)
+* [Zapzarap (2022)](/zapzarap)
+* [Quatsch (2023)](/quatsch)
