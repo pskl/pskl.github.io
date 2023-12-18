@@ -163,13 +163,13 @@
     }
 
     .post-image {
-        max-width: 50%;
+        max-width: 70%;
         margin: 0 auto;
         display: block;
         padding: 10px;
 
         @include media-query($on-palm) {
-          max-width: 80%;
+          max-width: 55%;
         }
     }
 
