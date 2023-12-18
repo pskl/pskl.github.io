@@ -177,7 +177,13 @@
         display: block;
         margin: 0 auto;
         padding-top: 10px;
-        padding-bottom: 10px;
+        padding-bottom: 20px;
+        width: 80%;
+        height: 280px;
+
+        @include media-query($on-palm) {
+          height: 200px;
+        }
     }
 
     .post-content {
@@ -192,6 +198,8 @@
           box-shadow: .25em 0 0 $highlighter-color, -.25em 0 0 $highlighter-color;
           background: $highlighter-color;
           color: $text-color;
+          text-decoration: underline;
+          text-decoration-style: dashed;
         }
 
         p {
