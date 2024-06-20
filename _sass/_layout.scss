@@ -186,6 +186,51 @@
         }
     }
 
+    .post-video-reel {
+      display: block;
+      margin: 0 auto;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      height:560px;
+      width: 315px;
+    }
+
+    .rsvp {
+      text-decoration: none !important;
+      font-size: 24px !important;
+      padding: 15px 30px !important;
+      border: none;
+      cursor: pointer !important;
+      animation: blink 0.5s infinite;
+      font-weight: bold !important;
+      box-shadow: none !important;
+      display: flex;
+      justify-content: center;
+    }
+
+    @keyframes blink {
+        0% {
+            background-color: #ff0000;
+            color: white;
+        }
+        25% {
+            background-color: #00ff00;
+            color: black;
+        }
+        50% {
+            background-color: #0000ff;
+            color: white;
+        }
+        75% {
+            background-color: #ffff00;
+            color: black;
+        }
+        100% {
+            background-color: #ff00ff;
+            color: white;
+        }
+    }
+
     .post-content {
         margin-bottom: $spacing-unit;
 
