@@ -4,8 +4,8 @@ title: "Why do most birthdays suck?"
 permalink: /blog/why-birthdays-suck
 date: 2024-12-29
 image: /assets/pictures/ikigai.jpg
-published: false
-listed: true
+published: true
+listed: false
 categories: blog exhibition art
 ---
 > Birthday or NYE parties rarely live up to the expectations, you're expected to have fun, it's expected to be a special moment which is exactly what turns it into a mostly underwhelming experience. Growing up I never had a lot of friends and most of my birthdays would not be very enjoyable. Birthdays can also be very sad because they are a special moment to reflect on one's own mortality.
