@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Why do most birthdays suck?"
+description: "Benchmarking a new way to celebrate years passing by and avoid lame birthday parties by focusing on what truly matters."
 permalink: /blog/why-birthdays-suck
 date: 2024-12-29
 image: /assets/pictures/ikigai.jpg
@@ -10,7 +11,7 @@ categories: blog exhibition art
 ---
 > Birthday or NYE parties rarely live up to the expectations, you're expected to have fun, it's expected to be a special moment which is exactly what turns it into a mostly underwhelming experience. Growing up I never had a lot of friends and most of my birthdays would not be very enjoyable. Birthdays can also be very sad because they are a special moment to reflect on one's own mortality.
 
-After years of underwhelming birthdays I vowed to do each year a small art exhibition right at the junction between August and September for a few days as an experiment to fully **replace my birthday with a different type of celebration** that would move the light away from the anticipated increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. There are a lot of DIY exhibitions and pop-up spaces which gave me the impression that this could be done fairly easily. I also knew friends whose work I wanted to showcase and this piled up as additional motivation. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice but as time passed I became interested in also exploring mediums and formats that I was less familiar with. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
+After years of underwhelming birthday parties I decide to try something new: do each year a small art exhibition as an experiment to fully **replace my birthday with a different type of celebration** that would move the light away from the anticipated increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. There are a lot of DIY exhibitions and pop-up spaces which gave me the impression that this could be done fairly easily. I also knew friends whose work I wanted to showcase and this piled up as additional motivation. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice but as time passed I became interested in also exploring mediums and formats that I was less familiar with. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
 
 <img class='post-image' src="/assets/pictures/turning23.webp">
 
@@ -49,7 +50,7 @@ I'm interested in way too many things and I have very little attention to dive f
 - Online marketing
 - Budgeting
 - Installation software
-- Exhibion Layout and Building
+- Exhibition Layout/Building
 
 ## Related concepts
 
@@ -57,7 +58,7 @@ Everyone is searching for meaning in different ways and I can find at least 2 co
 
 ### Ikigai
 
-You're probably familiar with the japanese concept of Ikigai in which one seeks to intersect categories to find a new occupation that's worth doing.
+You're probably familiar with the japanese concept of Ikigai in which one seeks to intersect categories to find a new occupation that's worth doing. This intersectional approach is very convenient for finding areas in which upsides start to stack up significantly.
 
 <img class='post-image' src="/assets/pictures/ikigai.jpg">
 
@@ -87,6 +88,7 @@ There are, of course, numerous downsides to such an undertaking.
 - Number of editions bootstrapped to date: 5
 - Total number of artists showcased: 25
 - Total amount of beers purchased/sold: 3211
+- Artworks sold: 12
 
 ## Conclusion
 
