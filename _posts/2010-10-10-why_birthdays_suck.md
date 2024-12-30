@@ -4,7 +4,7 @@ title: "Why do most birthdays suck?"
 description: "Benchmarking a new way to celebrate years passing by and avoid lame birthday parties by focusing on what truly matters."
 permalink: /blog/why-birthdays-suck
 date: 2024-12-29
-image: /assets/pictures/ikigai.jpg
+image: /assets/pictures/sucks.jpg
 published: true
 listed: false
 categories: blog exhibition art
@@ -13,8 +13,6 @@ categories: blog exhibition art
 
 After years of underwhelming birthday parties I decided to try something new: to hold each year a small art exhibition as an experiment to fully _replace my birthday with a different type of celebration_ that would move the light away from the anticipated age increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. There are a lot of DIY exhibitions and pop-up spaces which gave me the impression that this could be done fairly easily. I also knew friends whose work I wanted to showcase and this piled up as additional motivation. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice but as time passed I became interested in also exploring mediums and formats that I was less familiar with. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
 
-<img class='post-image' src="/assets/pictures/turning23.webp">
-
 ## A recurring deadline
 
 The ability for me to focus on things is something I practice everyday. By showcasing some of my art each year it also creates a hard deadline to have something to show which has proven great to overcome creative blocks and artistic paralysis. Using my birthday date as an anchor makes it both personally significant and absolutely immutable, it has to be around that time which turns out to be a great time for showcasing new works because it's right at the end of the summer madness and everyone is metaphorically or literally going back to school. There is a soothing zen or stoic aspect to things that cannot change, they don't require you to think about them at all because they cannot be modified anyways but only appreciated, feared or even celebrated.
@@ -22,6 +20,8 @@ The ability for me to focus on things is something I practice everyday. By showc
 ## Replace a seemingly meaningless event by something more personal and savory
 
 I hate birthdays, birthdays are always stressful to me and subjectively rather pointless. To me age increments seem like the most shallow reason to gather your friends. It feels bland and impersonal. With no clear enthusiasm about the process I have always struggled to enjoy those moments. On the other hand sharing a yearly creative produce with close friends is much more satisfying and creates a more interesting dialogue, the focus shifts away from Time to Space: the place, the venue becomes a second home for a few days, a secluded island of experimentation with no expectations.
+
+<img class='post-image' src="/assets/pictures/turning23.webp">
 
 ## Connect with the local "scene" and exchange ideas 🧩
 
