@@ -11,7 +11,7 @@ categories: blog exhibition art
 ---
 > Birthday or NYE parties rarely live up to the expectations, you're expected to have fun, it's expected to be a special moment which is exactly what turns it into a mostly underwhelming experience. Growing up I never had a lot of friends and most of my birthdays would not be very enjoyable. Birthdays can also be very sad because they are a special moment to reflect on one's own mortality.
 
-After years of underwhelming birthday parties I decided to try something new: to hold each year a small art exhibition as an experiment to fully **replace my birthday with a different type of celebration** that would move the light away from the anticipated age increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. There are a lot of DIY exhibitions and pop-up spaces which gave me the impression that this could be done fairly easily. I also knew friends whose work I wanted to showcase and this piled up as additional motivation. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice but as time passed I became interested in also exploring mediums and formats that I was less familiar with. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
+After years of underwhelming birthday parties I decided to try something new: to hold each year a small art exhibition as an experiment to fully _replace my birthday with a different type of celebration_ that would move the light away from the anticipated age increment. The idea stems from my rather modest side art practice and the bustling new media creative scene that attracted me to the city of Berlin. There are a lot of DIY exhibitions and pop-up spaces which gave me the impression that this could be done fairly easily. I also knew friends whose work I wanted to showcase and this piled up as additional motivation. The initial emphasis was laid on art made with the assistance of technology which coincides with the bulk of my practice but as time passed I became interested in also exploring mediums and formats that I was less familiar with. In doing so I explored the positive sides and the negative sides of such an endeavour which I will try to subsequently highlight.
 
 <img class='post-image' src="/assets/pictures/turning23.webp">
 
@@ -23,11 +23,11 @@ The ability for me to focus on things is something I practice everyday. By showc
 
 I hate birthdays, birthdays are always stressful to me and subjectively rather pointless. To me age increments seem like the most shallow reason to gather your friends. It feels bland and impersonal. With no clear enthusiasm about the process I have always struggled to enjoy those moments. On the other hand sharing a yearly creative produce with close friends is much more satisfying and creates a more interesting dialogue, the focus shifts away from Time to Space: the place, the venue becomes a second home for a few days, a secluded island of experimentation with no expectations.
 
-## Connect with the local "scene" and exchange ideas
+## Connect with the local "scene" and exchange ideas 🧩
 
 So as to not exhibit alone and seem even more vain/narcissistic than I am each year I try to invite and showcase one or two artists in the creative scene that I really admire. It is for me the opportunity to connect and interact with people I admire and understand a bit better how they work and maybe even become friends. I also really want to showcase people that I think deserve more attention and more appreciation for their work. There is so much talent in Berlin that goes unnoticed that doing my small part to change that feels right.
 
-## Highlight time as the medium of my practice
+## Highlight time as the medium of my practice 🕑
 
 Time anguish somehow lead me to instigate time at the core of my practice. It's the reason I started [cloudofboobs.com](https://cloudofboobs.com) and the reason I still work on it daily since 2017. Everyday the bot relentlessly tracks my personal data and recycles external data into new content that gets archived, analyzed, published and self-referenced. It somehow gives consistency to the passing of time and emulates a sense of compound morale "benefits" for the practice itself. It allows me to find comfort in things that are regularly spaced in time and repetitive: I enjoy the archival aspect of it, it enables me to put down my thoughts, to witness the evolution of my psyche throughout the years but also to track the current state-of-the-art of image manipulation techniques as I implement new filters every year, it represents a very subjective POV on the evolution of the digital world and by extension the real world. As a bonus this way I have new material to exhibit every year because I (we) keep making new ones all year round no matter what. The only remaining challenge becomes good curation and mediation.
 
@@ -39,7 +39,7 @@ Furthermore by making the event public you add a tiny drop of serendipity becaus
 
 Serendipity is at the core of my art practice: I try to leverage mass productions methods ("creative" bots) and randomness to increase odds to find gems. I believe this also works with people and for life in general: the more people you meet the higher the chances are to meet interesting people.
 
-## Try different hats
+## Try different hats 👷‍♂️
 
 I'm interested in way too many things and I have very little attention to dive fully into anything in general. I'm a jack of all trades and master of none and this has always been a thing I've had to accept. These exhibitions are also fun for me because they allow to play pretend at different activities from what I usually do. Here is a small list of things I have to do for the event that I know almost nothing about but totally enjoy doing:
 
@@ -56,19 +56,17 @@ I'm interested in way too many things and I have very little attention to dive f
 
 Everyone is searching for meaning in different ways and I can find at least 2 concepts from what I've read about that seem to resonate a bit with what I tried to achieve.
 
-### Ikigai
-
-You're probably familiar with the Japanese concept of Ikigai in which one seeks to intersect categories to find a new occupation that's worth doing. This intersectional approach is very convenient for finding areas in which upsides start to stack up significantly.
+### Ikigai 📌
 
 <img class='post-image' src="/assets/pictures/ikigai.jpg">
 
-### Skin in the game
+You're probably familiar with the Japanese concept of [Ikigai](https://en.wikipedia.org/wiki/Ikigai) in which one seeks to intersect categories to find a new occupation that's worth doing. This intersectional approach is very convenient for finding areas in which upsides start to stack up significantly.
 
-Skin in the game is an ages old public wisdom reformulated by Nassim Nicholas Taleb which boils down to stating that it's easier to trust the outcome of an event if the people involved might face negative consequences in case of failure.
+### Skin in the game 🫵
 
-Creating, developing, molding a concept and then take part in it and attend the final representation is an interesting exercise whereby one gets a fuller more palatable appreciation of the whole process, its weaknesses, its strengths.
+[Skin in the game](https://en.wikipedia.org/wiki/Skin_in_the_game) is an ages old public wisdom which boils down to stating that it's easier to trust the outcome of an event if the people involved might face negative (monetary or else) consequences in case of failure. Creating, developing, molding a concept and then take part in it and attend the final representation is an interesting exercise whereby one gets a fuller more palatable appreciation of the whole process, its weaknesses, its strengths.
 
-## Rather obvious but significant downsides
+## Rather obvious but significant downsides 🎭
 
 There are, of course, numerous downsides to such an undertaking:
 
@@ -76,12 +74,12 @@ There are, of course, numerous downsides to such an undertaking:
 - It's a complete time sink. Organizing the whole event takes an incredible amount of time and requires help and planning from all sides. I usually start working on it at the beginning of Spring.
 - It can obviously be interpreted as reinforced narcissism which is not a good look but being honest about the reasons for its existence feels honest. Grappling with existential issues with an open heart and transparency is the most genuine thing I can do about it.
 - Organizing such an event on your birthday can be a double edge sword: for some people it could be experienced as a favor and for some others it could be seen as malignant/exploitative.
-- Lastly, it is sometimes hard to stay focused on enjoying the event and have quality conversations with attendees because you always have to take care or anticipate some detail of organization and those can get pretty gnarly depending on the venue and the type of artworks.
 - In the age of complete life over-optimization and performance driven attitude towards everything this seems to pile on top in a rather gross fashion.
+- Lastly, it is sometimes hard to stay focused on enjoying the event and have quality conversations with attendees because you always have to take care or anticipate some detail of organization and those can get pretty gnarly depending on the venue and the type of artworks.
 
 <img class='post-image' src="/assets/pictures/sucks.jpg">
 
-## Some numbers
+## Some numbers 📈
 
 Here are some key statistics from past events:
 - Average edition cost: approximately 1500 euros
@@ -95,7 +93,7 @@ Here are some key statistics from past events:
 
 Having a recurring deadline based on a chronological marker has been one of the most productive and satisfying changes I have ever implemented in my own life. I think more people could benefit from approaching the issue in the same way with activities like sports, cooking, dancing, or DJing. Like most things though, it could become dull over time and one always needs to reinvent the idea from scratch here and there.
 
-If you are interested in participating in these events or just want to send me feedback, please email me at **[hello[at]pascal.cc](mailto:hello@pascal.cc)**. Or just let me know if this reaches unprecedented levels of autism.
+If you are interested in participating in these events or just want to send me feedback, please email me at [hello[at]pascal.cc](mailto:hello@pascal.cc). Or just let me know if this reaches unprecedented levels of autism and I should be sent to superjail.
 
 ## Links to past exhibition press releases and invitations
 
