@@ -56,7 +56,7 @@ I'm interested in way too many things and I have very little attention to dive f
 
 Everyone is searching for meaning in different ways and I can find at least 2 concepts from what I've read about that seem to resonate a bit with what I tried to achieve.
 
-### Ikigai 📌
+### Ikigai いきがい 📌
 
 <img class='post-image' src="/assets/pictures/ikigai.jpg">
 

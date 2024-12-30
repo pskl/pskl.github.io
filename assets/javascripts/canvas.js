@@ -9,7 +9,7 @@ header = document.getElementsByClassName('site-header')[0];
 header.appendChild(container);
 container.addEventListener('click', start, false);
 canvasHeight = parseInt(window.getComputedStyle(header).getPropertyValue('min-height'), 10);
-var renderer = new THREE.WebGLRenderer( {preserveDrawingBuffer: true, alpha : true} );
+var renderer = new THREE.WebGLRenderer({ preserveDrawingBuffer: true, alpha: true });
 renderer.setPixelRatio(window.devicePixelRatio);
 renderer.setSize(window.innerWidth, canvasHeight);
 renderer.autoClearColor = false;
@@ -21,46 +21,42 @@ animate();
 function start() {
   renderer.clear();
   scene = new THREE.Scene();
-  camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 1000);
-  camera.position.set(rand_offset(50), rand_offset(50), rand_offset(50));
+  camera = new THREE.PerspectiveCamera(70, window.innerWidth / window.innerHeight, 1, 2000);
+  camera.position.set(rand_offset(100), rand_offset(100), rand_offset(100));
 
-  var geometry_black = new THREE.Geometry();
-  var geometry_grey = new THREE.Geometry();
+  var geometries = Array(3).fill().map(() => new THREE.Geometry());
+  var materials = [
+    new THREE.LineBasicMaterial({ color: '#808080', linewidth: 3 }),
+    new THREE.LineBasicMaterial({ color: '#000000', linewidth: 3 }),
+    new THREE.LineBasicMaterial({ color: '#404040', linewidth: 3 })
+  ];
 
-  var material_black = new THREE.LineBasicMaterial({ color: '#000000', linewidth: 5});
-  var material_grey = new THREE.LineBasicMaterial({ color: '#808080', linewidth: 3});
-
-  for ( var i = 0; i < Math.random()*300; i ++ ) {
+  for (var i = 0; i < Math.random() * 200; i++) {
     var vertex = new THREE.Vector3();
     vertex.x = rand_offset();
     vertex.y = rand_offset();
     vertex.z = rand_offset();
-    if (Math.round(Math.random()) == 1) {
-      geometry_grey.vertices.push(vertex);
-    } else {
-      geometry_black.vertices.push(vertex);
-    }
+    geometries[Math.floor(Math.random() * 3)].vertices.push(vertex);
   }
 
-  var mesh_black = new THREE.Line(geometry_black, material_black);
-  var mesh_grey = new THREE.Line(geometry_grey, material_grey);
-
-  mesh_black.name = 'mesh_black';
-  mesh_grey.name = 'mesh_grey'
-  scene.add(mesh_black);
-  scene.add(mesh_grey);
+  geometries.map((geo, i) => {
+      var line = new THREE.Line(geo, materials[i]);
+      line.name = `mesh_${i}`;
+      scene.add(line);
+      return line;
+  });
 
   document.addEventListener('mousemove', onDocumentMouseMove, false);
   window.addEventListener('resize', onWindowResize, false);
 }
 
 function onWindowResize() {
-  windowHalfX = window.innerWidth/2;
-  windowHalfY = window.innerHeight/2;
+  windowHalfX = window.innerWidth / 2;
+  windowHalfY = window.innerHeight / 2;
   camera.aspect = window.innerWidth / window.innerHeight;
   camera.updateProjectionMatrix();
-  renderer.setSize( window.innerWidth, canvasHeight );
-  camera.lookAt(scene.getObjectByName("mesh_black").position);
+  renderer.setSize(window.innerWidth, canvasHeight);
+  camera.lookAt(scene.position);
 }
 
 function onDocumentMouseMove(event) {
@@ -69,13 +65,13 @@ function onDocumentMouseMove(event) {
 }
 
 function render() {
-  camera.position.x += (mouseX - camera.position.x) * .01;
-  camera.position.y += (- mouseY - camera.position.y ) * .04;
-  camera.lookAt(scene.getObjectByName("mesh_black").position);
-  renderer.render( scene, camera );
+  camera.position.x += (mouseX - camera.position.x) * 0.015;
+  camera.position.y += (-mouseY - camera.position.y) * 0.045;
+  camera.lookAt(scene.position);
+  renderer.render(scene, camera);
 }
 
-function animate(){
+function animate() {
   requestAnimationFrame(animate);
   render();
 }
