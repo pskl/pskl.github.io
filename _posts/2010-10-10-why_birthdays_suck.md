@@ -89,6 +89,10 @@ Here are some key statistics from past events:
 - Total amount of beers purchased/sold: 3211
 - Number of artworks sold: 12
 
+## The blueprint
+
+I made a [flowchart summarizing the yearly steps leading to a sucessful event](/exhibition_blueprint.html).
+
 ## Conclusion
 
 Having a recurring deadline based on a chronological marker has been one of the most productive and satisfying changes I have ever implemented in my own life. I think more people could benefit from approaching the issue in the same way with activities like sports, cooking, dancing, or DJing. Like most things though, it could become dull over time and one always needs to reinvent the idea from scratch here and there.

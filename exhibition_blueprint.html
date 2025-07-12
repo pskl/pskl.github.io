@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Exhibition Blueprint</title>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <style>
+    body { margin: 0; font-family: Helvetica, Arial, sans-serif; }
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 40px;
+      background: white;
+      border-bottom: 2px solid black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1000;
+    }
+    .title {
+      font-size: 35px;
+      font-weight: bold;
+      text-transform: lowercase;
+      margin: 0;
+    }
+    svg {
+      width: 100vw;
+      height: calc(100vh - 81px);
+      margin-top: 81px;
+    }
+    text { font: 12px Helvetica, Arial, sans-serif; fill: black; pointer-events: none; user-select: none; text-transform: lowercase; }
+    .main-node rect, .main-node ellipse, .main-node path {
+      stroke-width: 1;
+      stroke: #333;
+    }
+    .main-node .outer-stroke {
+      stroke-width: 1;
+      stroke: #333;
+      fill: none;
+    }
+    .main-node text {
+      font-weight: bold;
+      font-size: 16px;
+    }
+    .node {
+      cursor: move;
+    }
+    .main-node {
+      cursor: default;
+    }
+    .port {
+      fill: black;
+      stroke: none;
+    }
+  </style>
+</head>
+<body>
+<div class="header">
+  <h1 class="title">exhibition blueprint</h1>
+</div>
+<svg></svg>
+<script>
+d3.json("/assets/exhibition_blueprint_data.json").then(data => {
+  const nodes = data.nodes;
+  const links = data.links;
+
+  const svg = d3.select("svg");
+  const width = window.innerWidth;
+  const height = window.innerHeight - 81;
+
+  const margin = 100;
+  const mainNodes = nodes.filter(n => n.main).map(n => n.id);
+  const mainNodeSpacing = (width - 2 * margin) / (mainNodes.length + 1);
+
+  nodes.forEach((node, i) => {
+    if (node.main) {
+      const mainIndex = mainNodes.indexOf(node.id);
+      node.x = margin + mainNodeSpacing * (mainIndex + 1);
+      node.y = height / 2;
+      node.fx = node.x;
+      node.fy = node.y;
+    } else {
+      const levelX = margin + (node.level / 5) * (width - 2 * margin);
+      node.x = levelX + (Math.random() - 0.5) * 50;
+      node.y = height / 2 + (Math.random() - 0.5) * 300;
+    }
+    node.connectedPorts = new Set();
+  });
+
+  const simulation = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(120).strength(0.5))
+    .force("charge", d3.forceManyBody().strength(-500))
+    .force("collide", d3.forceCollide().radius(100).strength(1))
+    .force("x", d3.forceX(d => d.fx || (margin + (d.level / 5) * (width - 2 * margin))).strength(0.2))
+    .force("y", d3.forceY(height / 2).strength(0.1));
+
+  const g = svg.append("g");
+
+  const link = g.append("g")
+    .selectAll("g")
+    .data(links)
+    .join("g");
+
+  link.append("path")
+    .attr("stroke", "black")
+    .attr("stroke-width", 1.5)
+    .attr("fill", "none");
+
+  link.append("path")
+    .attr("stroke", "black")
+    .attr("stroke-width", 2)
+    .attr("fill", "none");
+
+  const node = g.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .attr("class", d => `node ${d.main ? 'main-node' : ''}`)
+    .call(d3.drag()
+      .on("start", dragstarted)
+      .on("drag", dragged)
+      .on("end", dragended));
+
+  node.each(function(d) {
+    const group = d3.select(this);
+    const paddingX = d.main ? 40 : 20;
+    const paddingY = d.main ? 20 : 10;
+    const fontSize = d.main ? 16 : 12;
+
+    const text = group.append("text")
+      .text(d.id)
+      .attr("text-anchor", "middle")
+      .attr("dy", 4)
+      .style("font-size", fontSize + "px");
+
+    const bbox = text.node().getBBox();
+    const w = bbox.width + paddingX * 2;
+    const h = bbox.height + paddingY * 2;
+
+    d.width = w;
+    d.height = h;
+
+    if (d.type === "rect") {
+      group.insert("rect", "text")
+        .attr("x", -w / 2)
+        .attr("y", -h / 2)
+        .attr("width", w)
+        .attr("height", h)
+        .attr("fill", "white")
+        .attr("stroke", "black")
+        .attr("stroke-width", 1);
+      if (d.main) {
+        group.insert("rect", "text")
+          .attr("class", "outer-stroke")
+          .attr("x", -w / 2 - 4)
+          .attr("y", -h / 2 - 4)
+          .attr("width", w + 8)
+          .attr("height", h + 8);
+      }
+    } else if (d.type === "ellipse") {
+      group.insert("ellipse", "text")
+        .attr("rx", w / 2)
+        .attr("ry", h / 2)
+        .attr("fill", "white")
+        .attr("stroke", "black")
+        .attr("stroke-width", 1);
+      if (d.main) {
+        group.insert("ellipse", "text")
+          .attr("class", "outer-stroke")
+          .attr("rx", w / 2 + 4)
+          .attr("ry", h / 2 + 4);
+      }
+    } else if (d.type === "diamond") {
+      group.insert("path", "text")
+        .attr("d", `M 0 ${-h/2} L ${w/2} 0 L 0 ${h/2} L ${-w/2} 0 Z`)
+        .attr("fill", "white")
+        .attr("stroke", "black")
+        .attr("stroke-width", 1);
+      if (d.main) {
+        group.insert("path", "text")
+          .attr("class", "outer-stroke")
+          .attr("d", `M 0 ${-h/2-4} L ${w/2+4} 0 L 0 ${h/2+4} L ${-w/2-4} 0 Z`);
+      }
+    }
+
+    group.append("circle")
+      .attr("class", "port port-north")
+      .attr("cx", 0)
+      .attr("cy", -h / 2)
+      .attr("r", 4)
+      .style("display", "none");
+
+    group.append("circle")
+      .attr("class", "port port-east")
+      .attr("cx", w / 2)
+      .attr("cy", 0)
+      .attr("r", 4)
+      .style("display", "none");
+
+    group.append("circle")
+      .attr("class", "port port-south")
+      .attr("cx", 0)
+      .attr("cy", h / 2)
+      .attr("r", 4)
+      .style("display", "none");
+
+    group.append("circle")
+      .attr("class", "port port-west")
+      .attr("cx", -w / 2)
+      .attr("cy", 0)
+      .attr("r", 4)
+      .style("display", "none");
+  });
+
+  function getNodePort(node, direction) {
+    switch(direction) {
+      case 'north': return { x: node.x, y: node.y - node.height / 2 };
+      case 'south': return { x: node.x, y: node.y + node.height / 2 };
+      case 'east': return { x: node.x + node.width / 2, y: node.y };
+      case 'west': return { x: node.x - node.width / 2, y: node.y };
+    }
+  }
+
+  function getBestPorts(source, target) {
+    const dx = target.x - source.x;
+    const dy = target.y - source.y;
+
+    let sourcePort, targetPort;
+
+    if (Math.abs(dx) > Math.abs(dy)) {
+      sourcePort = dx > 0 ? 'east' : 'west';
+      targetPort = dx > 0 ? 'west' : 'east';
+    } else {
+      sourcePort = dy > 0 ? 'south' : 'north';
+      targetPort = dy > 0 ? 'north' : 'south';
+    }
+
+    return { sourcePort, targetPort };
+  }
+
+  function isNodeIntersectingLine(node, x1, y1, x2, y2, excludeNodes) {
+    if (excludeNodes.includes(node)) return false;
+
+    const buffer = 20;
+    const nodeLeft = node.x - node.width / 2 - buffer;
+    const nodeRight = node.x + node.width / 2 + buffer;
+    const nodeTop = node.y - node.height / 2 - buffer;
+    const nodeBottom = node.y + node.height / 2 + buffer;
+
+    const minX = Math.min(x1, x2);
+    const maxX = Math.max(x1, x2);
+    const minY = Math.min(y1, y2);
+    const maxY = Math.max(y1, y2);
+
+    if (maxX < nodeLeft || minX > nodeRight || maxY < nodeTop || minY > nodeBottom) {
+      return false;
+    }
+
+    if (x1 === x2) {
+      return x1 >= nodeLeft && x1 <= nodeRight && minY <= nodeBottom && maxY >= nodeTop;
+    }
+    if (y1 === y2) {
+      return y1 >= nodeTop && y1 <= nodeBottom && minX <= nodeRight && maxX >= nodeLeft;
+    }
+
+    const m = (y2 - y1) / (x2 - x1);
+    const b = y1 - m * x1;
+
+    const corners = [
+      [nodeLeft, nodeTop],
+      [nodeRight, nodeTop],
+      [nodeRight, nodeBottom],
+      [nodeLeft, nodeBottom]
+    ];
+
+    for (let i = 0; i < corners.length; i++) {
+      const [x0, y0] = corners[i];
+      const [x1, y1] = corners[(i + 1) % 4];
+
+      if (x0 === x1) {
+        const y = m * x0 + b;
+        if (y >= Math.min(y0, y1) && y <= Math.max(y0, y1) &&
+            x0 >= minX && x0 <= maxX) {
+          return true;
+        }
+      } else {
+        const x = (y0 - b) / m;
+        if (x >= Math.min(x0, x1) && x <= Math.max(x0, x1) &&
+            y0 >= minY && y0 <= maxY) {
+          return true;
+        }
+      }
+    }
+
+    return false;
+  }
+
+  function findPathAroundObstacles(source, target, obstacles) {
+    const { sourcePort, targetPort } = getBestPorts(source, target);
+    const start = getNodePort(source, sourcePort);
+    const end = getNodePort(target, targetPort);
+
+    const buffer = 30;
+    const cornerRadius = 15;
+
+    const obstaclesToAvoid = obstacles.filter(n =>
+      isNodeIntersectingLine(n, start.x, start.y, end.x, end.y, [source, target])
+    );
+
+    if (obstaclesToAvoid.length === 0) {
+      const midX = (start.x + end.x) / 2;
+
+      if (sourcePort === 'east' || sourcePort === 'west') {
+        return {
+          path: `M ${start.x} ${start.y} L ${midX} ${start.y} L ${midX} ${end.y} L ${end.x} ${end.y}`,
+          sourcePort,
+          targetPort
+        };
+      } else {
+        const midY = (start.y + end.y) / 2;
+        return {
+          path: `M ${start.x} ${start.y} L ${start.x} ${midY} L ${end.x} ${midY} L ${end.x} ${end.y}`,
+          sourcePort,
+          targetPort
+        };
+      }
+    }
+
+    const obstacle = obstaclesToAvoid[0];
+    const obstacleLeft = obstacle.x - obstacle.width / 2 - buffer;
+    const obstacleRight = obstacle.x + obstacle.width / 2 + buffer;
+    const obstacleTop = obstacle.y - obstacle.height / 2 - buffer;
+    const obstacleBottom = obstacle.y + obstacle.height / 2 + buffer;
+
+    let waypoints = [];
+
+    if (sourcePort === 'east' || sourcePort === 'west') {
+      const extendX = sourcePort === 'east' ? start.x + buffer : start.x - buffer;
+
+      if (start.y < obstacle.y) {
+        waypoints = [
+          { x: start.x, y: start.y },
+          { x: extendX, y: start.y },
+          { x: extendX, y: obstacleTop - cornerRadius },
+          { x: end.x, y: obstacleTop - cornerRadius },
+          { x: end.x, y: end.y }
+        ];
+      } else {
+        waypoints = [
+          { x: start.x, y: start.y },
+          { x: extendX, y: start.y },
+          { x: extendX, y: obstacleBottom + cornerRadius },
+          { x: end.x, y: obstacleBottom + cornerRadius },
+          { x: end.x, y: end.y }
+        ];
+      }
+    } else {
+      const extendY = sourcePort === 'south' ? start.y + buffer : start.y - buffer;
+
+      if (start.x < obstacle.x) {
+        waypoints = [
+          { x: start.x, y: start.y },
+          { x: start.x, y: extendY },
+          { x: obstacleLeft - cornerRadius, y: extendY },
+          { x: obstacleLeft - cornerRadius, y: end.y },
+          { x: end.x, y: end.y }
+        ];
+      } else {
+        waypoints = [
+          { x: start.x, y: start.y },
+          { x: start.x, y: extendY },
+          { x: obstacleRight + cornerRadius, y: extendY },
+          { x: obstacleRight + cornerRadius, y: end.y },
+          { x: end.x, y: end.y }
+        ];
+      }
+    }
+
+    let pathData = `M ${waypoints[0].x} ${waypoints[0].y}`;
+    for (let i = 1; i < waypoints.length; i++) {
+      const prev = waypoints[i - 1];
+      const curr = waypoints[i];
+      const next = waypoints[i + 1];
+
+      if (next && i < waypoints.length - 1) {
+        const dx1 = curr.x - prev.x;
+        const dy1 = curr.y - prev.y;
+        const dx2 = next.x - curr.x;
+        const dy2 = next.y - curr.y;
+
+        if ((dx1 === 0 && dy2 === 0) || (dy1 === 0 && dx2 === 0)) {
+          const cornerX = curr.x - Math.sign(dx1) * cornerRadius;
+          const cornerY = curr.y - Math.sign(dy1) * cornerRadius;
+          const endX = curr.x + Math.sign(dx2) * cornerRadius;
+          const endY = curr.y + Math.sign(dy2) * cornerRadius;
+
+          pathData += ` L ${cornerX} ${cornerY}`;
+          pathData += ` Q ${curr.x} ${curr.y} ${endX} ${endY}`;
+        } else {
+          pathData += ` L ${curr.x} ${curr.y}`;
+        }
+      } else {
+        pathData += ` L ${curr.x} ${curr.y}`;
+      }
+    }
+
+    return { path: pathData, sourcePort, targetPort };
+  }
+
+  simulation.on("tick", () => {
+    nodes.forEach(n => n.connectedPorts.clear());
+
+    link.each(function(d) {
+      const source = d.source;
+      const target = d.target;
+
+      const result = findPathAroundObstacles(source, target, nodes);
+
+      source.connectedPorts.add(result.sourcePort);
+      target.connectedPorts.add(result.targetPort);
+
+      const path = d3.select(this).select("path:first-child");
+      path.attr("d", result.path);
+
+      if (source.type !== target.type) {
+        path.attr("stroke-dasharray", "5,5");
+      } else {
+        path.attr("stroke-dasharray", null);
+      }
+
+      const pathNode = path.node();
+      const pathLength = pathNode.getTotalLength();
+      const midPoint = pathNode.getPointAtLength(pathLength / 2);
+      const beforePoint = pathNode.getPointAtLength(pathLength / 2 - 10);
+      const afterPoint = pathNode.getPointAtLength(pathLength / 2 + 10);
+
+      const angle = Math.atan2(afterPoint.y - beforePoint.y, afterPoint.x - beforePoint.x) * 180 / Math.PI;
+
+      d3.select(this).select("path:last-child")
+        .attr("d", `M ${midPoint.x - 8} ${midPoint.y - 4} L ${midPoint.x} ${midPoint.y} L ${midPoint.x - 8} ${midPoint.y + 4}`)
+        .attr("transform", `rotate(${angle} ${midPoint.x} ${midPoint.y})`);
+    });
+
+    node.each(function(d) {
+      const group = d3.select(this);
+      group.select(".port-north").style("display", d.connectedPorts.has("north") ? "block" : "none");
+      group.select(".port-east").style("display", d.connectedPorts.has("east") ? "block" : "none");
+      group.select(".port-south").style("display", d.connectedPorts.has("south") ? "block" : "none");
+      group.select(".port-west").style("display", d.connectedPorts.has("west") ? "block" : "none");
+    });
+
+    node.attr("transform", d => `translate(${d.x},${d.y})`);
+  });
+
+  function dragstarted(event, d) {
+    if (d.main) return;
+    if (!event.active) simulation.alphaTarget(0.3).restart();
+    d.fx = d.x;
+    d.fy = d.y;
+  }
+
+  function dragged(event, d) {
+    if (d.main) return;
+    d.fx = event.x;
+    d.fy = event.y;
+  }
+
+  function dragended(event, d) {
+    if (d.main) return;
+    if (!event.active) simulation.alphaTarget(0);
+    d.fx = null;
+    d.fy = null;
+  }
+
+  simulation.on("end", () => {
+    const bounds = g.node().getBBox();
+    const fullWidth = bounds.width;
+    const fullHeight = bounds.height;
+    const midX = bounds.x + bounds.width / 2;
+    const midY = bounds.y + bounds.height / 2;
+
+    const scale = Math.min(width / fullWidth, height / fullHeight) * 0.9;
+    const translateX = width / 2 - midX * scale;
+    const translateY = height / 2 - midY * scale;
+
+    g.transition()
+      .duration(750)
+      .attr("transform", `translate(${translateX},${translateY}) scale(${scale})`);
+
+    svg.call(
+      d3.zoom()
+        .scaleExtent([0.1, 2])
+        .on("zoom", event => {
+          g.attr("transform", event.transform);
+        })
+    );
+  });
+}).catch(error => {
+  console.error("Error loading data:", error);
+});
+</script>
+</body>
+</html>

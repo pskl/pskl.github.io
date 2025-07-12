@@ -39,4 +39,3 @@ is a Berlin-based artist focused on the mutations caused by automation of the cr
 
 - [Helth (2024)](/helth)
 - [Quatsch (2023)](/quatsch)
-- [Zapzarap (2022)](/zapzarap)
