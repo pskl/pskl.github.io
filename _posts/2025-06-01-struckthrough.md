@@ -9,14 +9,16 @@ image: /assets/pictures/helth/draft.jpg
 categories: art berlin ai
 ---
 
-## groupshow on view 03/09/2025 - 06/09/2025
+## groupshow on view 04/09/2025 - 05/09/2025
 {: .strikethrough}
 
 :round_pushpin: [Flutgraben](https://flutgraben.org/en/), Am Flutgraben 3
 12435 Berlin
 {: .strikethrough}
 
-<a href="https://forms.gle/2P5tKXJrkY6dEoga8" target="_blank" rel="noopener noreferrer" class="rsvp"><span class="strikethrough">RSVP ! (free 4 u)</span></a>
+<a href="https://forms.gle/BU68DnJmf5wmhkfb9" target="_blank" rel="noopener noreferrer" class="rsvp"><span class="strikethrough">RSVP !</span></a>
+
+ [**OPEN CALL**](https://www.instagram.com/p/DMPyqtrosYv) | [**Catalog**](https://docs.google.com/spreadsheets/d/10ejSApGRveK2mZqAyAj5IoAW1rSmfkLXBppE9wMfbAc/edit?usp=sharing)
 
 ## Abstract
 {: .strikethrough}
@@ -42,9 +44,9 @@ is a Berlin-based artist focused on the mutations caused by automation of the cr
 #### Curation
 {: .strikethrough}
 
-- Susana Stanton
+- pskl
 
-#### Head of Logistics
+#### Technique
 {: .strikethrough}
 
 - Pierre Van De Velde
