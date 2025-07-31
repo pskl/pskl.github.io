@@ -5,7 +5,7 @@ permalink: /struckthrough
 listed: false
 published: true
 description: Exhibition Press Release
-image: /assets/pictures/helth/draft.jpg
+image: /assets/pictures/struckthrough/cob164658.jpeg
 categories: art berlin ai
 ---
 
@@ -33,28 +33,27 @@ Through works bearing visible traces of their own undoing, the exhibition positi
 ## Artists
 {: .strikethrough}
 
-### pskl
+### [pskl](https://nft.pascal.cc)
+{: .typing}
 
 is a Berlin-based artist focused on the mutations caused by automation of the creative process. By encoding art direction into autonomous virtual machines, their output passively repurposes internet material into new results. Striving to summon a subjective soul into the machine realm, they also explore new methods of production that have inherent properties of scalability. The modular aspects of their practice enable us to gaze into an imminent future where the notion of art production is constantly redefined: a scaled body of work striving to embrace noise, reconsidering every single error and side effect as a fundamental benefit.
 {: .strikethrough}
 
 ## Credits
-{: .strikethrough}
 
 #### Curation
-{: .strikethrough}
 
 - pskl
 
 #### Technique
-{: .strikethrough}
+{: .typing}
 
 - Pierre Van De Velde
 
 ## Past shows
-{: .strikethrough}
 
 - [Helth (2024)](/helth)
 - [Quatsch (2023)](/quatsch)
 
 <script src="/assets/javascripts/strikethrough.js"></script>
+<script src="/assets/javascripts/typing.js"></script>
