@@ -22,29 +22,47 @@ document.addEventListener('DOMContentLoaded', function() {
     element.textContent = '';
     element.style.position = 'relative';
 
-    text.split('').forEach((char, index) => {
-      const span = document.createElement('span');
-      span.textContent = char;
-      span.style.position = 'relative';
-      span.style.display = 'inline';
+    const words = text.split(' ');
+    let charIndex = 0;
 
-      const strike = document.createElement('span');
-      strike.style.position = 'absolute';
-      strike.style.left = '0';
-      strike.style.top = '50%';
-      strike.style.width = '0';
-      strike.style.height = '2px';
-      strike.style.backgroundColor = 'currentColor';
-      strike.style.transform = 'translateY(-50%)';
-      strike.style.transition = 'width 0.3s ease-in-out';
-      strike.style.pointerEvents = 'none';
+    words.forEach((word, wordIndex) => {
+      const wordSpeed = 30 + Math.random() * 40;
+      const strikeHeight = 1 + Math.random() * 3;
+      const verticalOffset = -10 + Math.random() * 20;
 
-      span.appendChild(strike);
-      element.appendChild(span);
+      word.split('').forEach((char) => {
+        const span = document.createElement('span');
+        span.textContent = char;
+        span.style.position = 'relative';
+        span.style.display = 'inline';
 
-      setTimeout(() => {
-        strike.style.width = '100%';
-      }, initialDelay + (index * 50));
+        const strike = document.createElement('span');
+        strike.style.position = 'absolute';
+        strike.style.left = '0';
+        strike.style.top = `${50 + verticalOffset}%`;
+        strike.style.width = '0';
+        strike.style.height = `${strikeHeight}px`;
+        strike.style.backgroundColor = 'currentColor';
+        strike.style.transform = 'translateY(-50%)';
+        strike.style.transition = 'width 0.3s ease-in-out';
+        strike.style.pointerEvents = 'none';
+
+        span.appendChild(strike);
+        element.appendChild(span);
+
+        setTimeout(() => {
+          strike.style.width = '100%';
+        }, initialDelay + (charIndex * wordSpeed));
+
+        charIndex++;
+      });
+
+      if (wordIndex < words.length - 1) {
+        const spaceSpan = document.createElement('span');
+        spaceSpan.textContent = ' ';
+        element.appendChild(spaceSpan);
+        charIndex++;
+      }
     });
   }
 });
