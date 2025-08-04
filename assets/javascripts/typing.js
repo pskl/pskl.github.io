@@ -62,6 +62,9 @@ document.addEventListener('DOMContentLoaded', function() {
         } else {
           currentText += finalText[targetIndex++];
         }
+      } else if (targetIndex >= finalText.length && currentText !== finalText) {
+        currentText = finalText;
+        targetIndex = finalText.length;
       } else if (isDeleting) {
         currentText = currentText.slice(0, Math.random() < 0.2 && currentText.length > 1 ? -2 : -1);
         if (currentText.length <= targetIndex && currentText === finalText.substring(0, currentText.length)) {
@@ -72,7 +75,7 @@ document.addEventListener('DOMContentLoaded', function() {
       element.textContent = currentText;
       element.appendChild(cursor);
 
-      if (targetIndex < finalText.length || isDeleting || isPausing) {
+      if (targetIndex < finalText.length || isDeleting || isPausing || currentText !== finalText) {
         let delay = isPausing ? 800 + Math.random() * 1200 :
                    isDeleting ? 40 + Math.random() * 80 :
                    (() => {

@@ -1,22 +1,32 @@
 ---
 layout: page
-title: 'struckthrough: changed my mind'
+title: 'struckthrough: i changed my mind'
 permalink: /struckthrough
 listed: false
 published: true
 description: Exhibition Press Release
-image: /assets/pictures/struckthrough/cob164658.jpeg
+image: /assets/pictures/struckthrough/visual.png
 categories: art berlin ai
 ---
 
-## groupshow on view 04/09/2025 - 05/09/2025
+## groupshow on view 03/09/2025 - 05/09/2025
 {: .strikethrough}
 
 :round_pushpin: [Flutgraben](https://flutgraben.org/en/), Am Flutgraben 3
 12435 Berlin
 {: .strikethrough}
 
+| vernissage | finissage |
+|----------|:--------:|
+|  **03/09/25** | **05/09/25**  |
+| 5 → 10 pm  | 5 → 10 pm  |
+
+3 → 7 pm the rest of the days
+{: .strikethrough}
+
 <a href="https://forms.gle/BU68DnJmf5wmhkfb9" target="_blank" rel="noopener noreferrer" class="rsvp"><span class="strikethrough">RSVP !</span></a>
+
+<img class='post-image' src="/assets/pictures/struckthrough/visual.png">
 
  [**OPEN CALL**](https://www.instagram.com/p/DMPyqtrosYv) | [**Catalog**](https://docs.google.com/spreadsheets/d/10ejSApGRveK2mZqAyAj5IoAW1rSmfkLXBppE9wMfbAc/edit?usp=sharing)
 

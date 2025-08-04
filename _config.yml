@@ -1,9 +1,9 @@
 # Site settings
-title: "pskl"
-description: "."
+title: "ᕼYᑭEᖇᔕᒪOᑭ"
+description: "Ramblings of a software engineer"
 baseurl: ""
 url: "https://pascal.cc"
-github_username:  pskl
+github_username: pskl
 
 # Build settings
 markdown: kramdown
