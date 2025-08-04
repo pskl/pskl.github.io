@@ -9,12 +9,19 @@ image: /assets/pictures/struckthrough/cob164658.jpeg
 categories: art berlin ai
 ---
 
-## groupshow on view 04/09/2025 - 05/09/2025
+## groupshow on view 03/09/2025 - 05/09/2025
 {: .strikethrough}
 
 :round_pushpin: [Flutgraben](https://flutgraben.org/en/), Am Flutgraben 3
 12435 Berlin
 {: .strikethrough}
+
+| vernissage | finissage |
+|----------|:--------:|
+|  **03/09/25** | **05/09/25**  |
+| 5 → 10 pm  | 5 → 10 pm  |
+
+3 → 7 pm the rest of the days
 
 <a href="https://forms.gle/BU68DnJmf5wmhkfb9" target="_blank" rel="noopener noreferrer" class="rsvp"><span class="strikethrough">RSVP !</span></a>
 
@@ -32,6 +39,10 @@ Through works bearing visible traces of their own undoing, the exhibition positi
 
 ## Artists
 {: .strikethrough}
+
+### [Studio Mattulia](https://github.com/studio-matulia)
+
+is a Berlin-based studio
 
 ### [pskl](https://nft.pascal.cc)
 {: .typing}
