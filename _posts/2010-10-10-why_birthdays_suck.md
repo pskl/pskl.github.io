@@ -107,3 +107,5 @@ If you are interested in participating in these events or just want to send me f
 - [Zapzarap (2022)](/zapzarap)
 - [Quatsch (2023)](/quatsch)
 - [Helth (2024)](/helth)
+
+<img class='post-image' src="/assets/pictures/bday_cat.webp">
