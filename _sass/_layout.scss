@@ -231,6 +231,43 @@
         }
     }
 
+    .rsvp-overlays {
+      animation: blink-overlays 0.6s infinite;
+    }
+
+    @keyframes blink-overlays {
+        0%   { background-color: var(--pastel-red);   color: white; }
+        25%  { background-color: var(--pastel-yellow); color: black; }
+        50%  { background-color: var(--pastel-pink);   color: white; }
+        75%  { background-color: var(--pastel-green);  color: black; }
+        100% { background-color: var(--pastel-red);   color: white; }
+    }
+
+    @property --pastel-angle {
+        syntax: '<angle>';
+        initial-value: 0deg;
+        inherits: false;
+    }
+
+    .pastel-border {
+      padding: 0;
+      border: 8px solid transparent;
+      border-image-slice: 1;
+      border-image-source: conic-gradient(
+        from var(--pastel-angle),
+        var(--pastel-red),
+        var(--pastel-yellow),
+        var(--pastel-pink),
+        var(--pastel-green),
+        var(--pastel-red)
+      );
+      animation: pastel-border-flow 8s linear infinite;
+    }
+
+    @keyframes pastel-border-flow {
+        to { --pastel-angle: 360deg; }
+    }
+
     .post-content {
         margin-bottom: $spacing-unit;
 
