@@ -61,6 +61,14 @@ $title-text-color: #FFF;
 $brand-color:      #000000;
 $highlighter-color: rgba(255, 255, 133, 0.65);
 
+:root {
+  --pastel-red:    #ff9999;
+  --pastel-yellow: rgb(255, 255, 133);
+  --pastel-pink:   #ffd9f3;
+  --pastel-green:  #b0f5b3;
+  --pastel-dark:   #{$text-color};
+}
+
 // Width of the content area
 $content-width:    700px;
 $on-palm:          700px;
