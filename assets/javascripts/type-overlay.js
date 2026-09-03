@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const MAX_PASSES = 14;
   const CHAR_DELAY = 70;
   const PASS_PAUSE = 450;
+  const FONTS = ['"HelveticaNeue"', '"Roboto Condensed"'];
 
   const palette = getComputedStyle(document.documentElement);
   const cssVar = name => palette.getPropertyValue(name).trim();
@@ -29,18 +30,25 @@ document.addEventListener('DOMContentLoaded', function() {
     const offset = { x: step.x, y: step.y };
     let layers = [];
     let accentIndex = 0;
+    let fontIndex = 0;
     let prevAccent = false;
 
-    function nextColor() {
+    function nextAppearance() {
       if (prevAccent) {
         prevAccent = false;
-        return DARK;
+        return {
+          color: DARK,
+          fontFamily: FONTS[fontIndex % FONTS.length]
+        };
       }
       prevAccent = true;
-      return ACCENTS[accentIndex++ % ACCENTS.length];
+      return {
+        color: ACCENTS[accentIndex++ % ACCENTS.length],
+        fontFamily: FONTS[fontIndex++ % FONTS.length]
+      };
     }
 
-    function makeLayer(color) {
+    function makeLayer(appearance) {
       const layer = document.createElement('span');
       layer.setAttribute('aria-hidden', 'true');
       layer.style.position = 'absolute';
@@ -49,7 +57,8 @@ document.addEventListener('DOMContentLoaded', function() {
       layer.style.boxSizing = 'border-box';
       layer.style.paddingTop = cs.paddingTop;
       layer.style.paddingLeft = cs.paddingLeft;
-      layer.style.color = color;
+      layer.style.color = appearance.color;
+      layer.style.fontFamily = appearance.fontFamily;
       layer.style.pointerEvents = 'none';
       layer.style.whiteSpace = 'pre';
       layer.style.willChange = 'transform';
@@ -59,7 +68,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function typePass() {
-      const layer = makeLayer(nextColor());
+      const layer = makeLayer(nextAppearance());
       layers.push(layer);
       let i = 0;
 
